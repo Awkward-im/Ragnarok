@@ -1,0 +1,448 @@
+object ROHelpCardMobForm: TROHelpCardMobForm
+  Left = 414
+  Height = 260
+  Top = 131
+  Width = 580
+  ClientHeight = 260
+  ClientWidth = 580
+  Constraints.MinHeight = 260
+  Constraints.MinWidth = 580
+  OnClose = FormClose
+  LCLVersion = '1.9.0.0'
+  object ImgMobSprite: TImage
+    Left = 8
+    Height = 128
+    Top = 32
+    Width = 128
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Center = True
+    Proportional = True
+  end
+  object lblName: TLabel
+    Left = 177
+    Height = 15
+    Top = 12
+    Width = 32
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    Caption = 'Name'
+    ParentColor = False
+  end
+  object edName: TEdit
+    Left = 218
+    Height = 23
+    Top = 8
+    Width = 352
+    Anchors = [akTop, akRight]
+    ReadOnly = True
+    TabOrder = 0
+    Text = 'Monster not found'
+  end
+  object edLevel: TEdit
+    Left = 218
+    Height = 23
+    Top = 36
+    Width = 96
+    Alignment = taCenter
+    Anchors = [akTop, akRight]
+    Enabled = False
+    TabOrder = 1
+  end
+  object lblLevel: TLabel
+    Left = 182
+    Height = 15
+    Top = 40
+    Width = 27
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    Caption = 'Level'
+    ParentColor = False
+  end
+  object edBaseEXP: TEdit
+    Left = 414
+    Height = 23
+    Top = 94
+    Width = 96
+    Alignment = taCenter
+    Anchors = [akTop, akRight]
+    Enabled = False
+    TabOrder = 8
+  end
+  object lblBaseEXP: TLabel
+    Left = 364
+    Height = 15
+    Top = 98
+    Width = 45
+    Anchors = [akTop, akRight]
+    Caption = 'Base Exp'
+    ParentColor = False
+  end
+  object edBaseJEXP: TEdit
+    Left = 414
+    Height = 23
+    Top = 122
+    Width = 96
+    Alignment = taCenter
+    Anchors = [akTop, akRight]
+    Enabled = False
+    TabOrder = 9
+  end
+  object lblBaseJEXP: TLabel
+    Left = 370
+    Height = 15
+    Top = 126
+    Width = 39
+    Anchors = [akTop, akRight]
+    Caption = 'Job Exp'
+    ParentColor = False
+  end
+  object edScale: TEdit
+    Left = 218
+    Height = 23
+    Top = 66
+    Width = 96
+    Alignment = taCenter
+    Anchors = [akTop, akRight]
+    Enabled = False
+    TabOrder = 3
+  end
+  object lblScale: TLabel
+    Left = 189
+    Height = 15
+    Top = 70
+    Width = 20
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    Caption = 'Size'
+    ParentColor = False
+  end
+  object edRace: TEdit
+    Left = 414
+    Height = 23
+    Top = 36
+    Width = 156
+    Alignment = taCenter
+    Anchors = [akTop, akRight]
+    Enabled = False
+    TabOrder = 2
+  end
+  object lblRace: TLabel
+    Left = 384
+    Height = 15
+    Top = 40
+    Width = 25
+    Anchors = [akTop, akRight]
+    Caption = 'Race'
+    ParentColor = False
+  end
+  object edElement: TEdit
+    Left = 414
+    Height = 23
+    Top = 66
+    Width = 116
+    Alignment = taCenter
+    Anchors = [akTop, akRight]
+    Enabled = False
+    TabOrder = 4
+  end
+  object lblElement: TLabel
+    Left = 366
+    Height = 15
+    Top = 70
+    Width = 43
+    Anchors = [akTop, akRight]
+    Caption = 'Element'
+    ParentColor = False
+  end
+  object edElementLevel: TEdit
+    Left = 538
+    Height = 23
+    Top = 66
+    Width = 32
+    Alignment = taCenter
+    Anchors = [akTop, akRight]
+    Enabled = False
+    TabOrder = 5
+  end
+  object gbStats: TGroupBox
+    Left = 162
+    Height = 112
+    Top = 146
+    Width = 200
+    Anchors = [akRight, akBottom]
+    ClientHeight = 92
+    ClientWidth = 196
+    TabOrder = 11
+    object edSTR: TEdit
+      Left = 40
+      Height = 23
+      Top = 0
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      TabOrder = 0
+    end
+    object lblSTR: TLabel
+      Left = 8
+      Height = 15
+      Top = 4
+      Width = 20
+      Caption = 'STR'
+      ParentColor = False
+    end
+    object edAGI: TEdit
+      Left = 40
+      Height = 23
+      Top = 32
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      TabOrder = 1
+    end
+    object lblAGI: TLabel
+      Left = 9
+      Height = 15
+      Top = 36
+      Width = 19
+      Caption = 'AGI'
+      ParentColor = False
+    end
+    object edVIT: TEdit
+      Left = 40
+      Height = 23
+      Top = 64
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      TabOrder = 2
+    end
+    object lblVIT: TLabel
+      Left = 11
+      Height = 15
+      Top = 68
+      Width = 17
+      Caption = 'VIT'
+      ParentColor = False
+    end
+    object edINT: TEdit
+      Left = 136
+      Height = 23
+      Top = 0
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      TabOrder = 3
+    end
+    object lblINT: TLabel
+      Left = 106
+      Height = 15
+      Top = 4
+      Width = 19
+      Caption = 'INT'
+      ParentColor = False
+    end
+    object edDEX: TEdit
+      Left = 136
+      Height = 23
+      Top = 32
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      TabOrder = 4
+    end
+    object lblDEX: TLabel
+      Left = 104
+      Height = 15
+      Top = 36
+      Width = 21
+      Caption = 'DEX'
+      ParentColor = False
+    end
+    object edLUK: TEdit
+      Left = 136
+      Height = 23
+      Top = 64
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      TabOrder = 5
+    end
+    object lblLUK: TLabel
+      Left = 104
+      Height = 15
+      Top = 68
+      Width = 21
+      Caption = 'LUK'
+      ParentColor = False
+    end
+  end
+  object gbDEFATK: TGroupBox
+    Left = 370
+    Height = 112
+    Top = 146
+    Width = 200
+    Anchors = [akRight, akBottom]
+    ClientHeight = 92
+    ClientWidth = 196
+    TabOrder = 12
+    object edATK1: TEdit
+      Left = 56
+      Height = 23
+      Top = 8
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      TabOrder = 0
+    end
+    object lblATK1: TLabel
+      Left = 8
+      Height = 15
+      Top = 12
+      Width = 42
+      Caption = 'Min Atk'
+      ParentColor = False
+    end
+    object edATK2: TEdit
+      Left = 56
+      Height = 23
+      Top = 56
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      TabOrder = 1
+    end
+    object lblATK2: TLabel
+      Left = 7
+      Height = 15
+      Top = 60
+      Width = 43
+      Caption = 'Max Atk'
+      ParentColor = False
+    end
+    object edDEF: TEdit
+      Left = 144
+      Height = 23
+      Top = 8
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      TabOrder = 2
+    end
+    object lblDEF: TLabel
+      Left = 123
+      Height = 15
+      Top = 12
+      Width = 18
+      Caption = 'Def'
+      ParentColor = False
+    end
+    object edMDEF: TEdit
+      Left = 144
+      Height = 23
+      Top = 56
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      TabOrder = 3
+    end
+    object lblMDEF: TLabel
+      Left = 112
+      Height = 15
+      Top = 60
+      Width = 29
+      Caption = 'MDef'
+      ParentColor = False
+    end
+  end
+  object cbStretch: TCheckBox
+    Left = 8
+    Height = 19
+    Top = 8
+    Width = 90
+    Caption = 'Stretch Sprite'
+    OnClick = cbStretchChange
+    TabOrder = 16
+  end
+  object lblHP: TLabel
+    Left = 193
+    Height = 15
+    Top = 98
+    Width = 16
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    Caption = 'HP'
+    ParentColor = False
+  end
+  object edHP: TEdit
+    Left = 218
+    Height = 23
+    Top = 94
+    Width = 96
+    Alignment = taCenter
+    Anchors = [akTop, akRight]
+    Enabled = False
+    TabOrder = 6
+  end
+  object lblSP: TLabel
+    Left = 196
+    Height = 15
+    Top = 126
+    Width = 13
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    Caption = 'SP'
+    ParentColor = False
+  end
+  object edSP: TEdit
+    Left = 218
+    Height = 23
+    Top = 122
+    Width = 96
+    Alignment = taCenter
+    Anchors = [akTop, akRight]
+    Enabled = False
+    TabOrder = 7
+  end
+  object btnFullInfo: TButton
+    Left = 88
+    Height = 25
+    Top = 233
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Full Info'
+    OnClick = btnFullInfoClick
+    TabOrder = 14
+  end
+  object tbOFF: TToggleBox
+    Left = 522
+    Height = 25
+    Top = 94
+    Width = 48
+    Anchors = [akTop, akRight]
+    Caption = 'OFF'
+    Enabled = False
+    TabOrder = 15
+  end
+  object bbOk: TBitBtn
+    Left = 8
+    Height = 25
+    Top = 233
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = bbOkClick
+    TabOrder = 13
+  end
+  object btnMap: TButton
+    Left = 522
+    Height = 25
+    Top = 122
+    Width = 48
+    Caption = 'Map'
+    OnClick = btnMapClick
+    TabOrder = 10
+  end
+end

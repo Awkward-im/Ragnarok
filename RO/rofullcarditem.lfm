@@ -1,0 +1,705 @@
+object ROFullCardItemForm: TROFullCardItemForm
+  Left = 656
+  Height = 434
+  Top = 151
+  Width = 622
+  ClientHeight = 434
+  ClientWidth = 622
+  Constraints.MinHeight = 434
+  Constraints.MinWidth = 622
+  OnClose = FormClose
+  LCLVersion = '1.9.0.0'
+  object imgItemSprite: TImage
+    Left = 8
+    Height = 128
+    Top = 8
+    Width = 128
+    Center = True
+    Proportional = True
+    Stretch = True
+  end
+  object lblName: TLabel
+    AnchorSideRight.Control = edName
+    Left = 146
+    Height = 15
+    Top = 12
+    Width = 74
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    AutoSize = False
+    BorderSpacing.Right = 4
+    Caption = 'Name'
+    ParentColor = False
+  end
+  object edName: TEdit
+    Left = 224
+    Height = 23
+    Top = 8
+    Width = 392
+    Anchors = [akTop, akLeft, akRight]
+    OnChange = SomethingChanged
+    TabOrder = 0
+    Text = 'Item not found'
+  end
+  object lblAEName: TLabel
+    AnchorSideRight.Control = edAEName
+    Left = 312
+    Height = 15
+    Top = 38
+    Width = 108
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    AutoSize = False
+    BorderSpacing.Right = 4
+    Caption = 'AE Name'
+    ParentColor = False
+  end
+  object edAEName: TEdit
+    Left = 424
+    Height = 23
+    Top = 34
+    Width = 192
+    Anchors = [akTop, akLeft, akRight]
+    OnChange = SomethingChanged
+    TabOrder = 2
+  end
+  object lblID: TLabel
+    AnchorSideRight.Control = edID
+    Left = 184
+    Height = 15
+    Top = 38
+    Width = 36
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    AutoSize = False
+    BorderSpacing.Right = 4
+    Caption = 'ID'
+    ParentColor = False
+  end
+  object edID: TEdit
+    Left = 224
+    Height = 23
+    Top = 34
+    Width = 80
+    Alignment = taCenter
+    NumbersOnly = True
+    OnChange = SomethingChanged
+    TabOrder = 1
+  end
+  object lblType: TLabel
+    AnchorSideRight.Control = cbItemType
+    Left = 6
+    Height = 15
+    Top = 136
+    Width = 132
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Type'
+    ParentColor = False
+  end
+  object lblDEF: TLabel
+    Left = 340
+    Height = 15
+    Top = 264
+    Width = 84
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'DEF'
+    ParentColor = False
+  end
+  object edDEF: TEdit
+    Left = 340
+    Height = 23
+    Top = 280
+    Width = 84
+    Alignment = taCenter
+    NumbersOnly = True
+    OnChange = SomethingChanged
+    TabOrder = 20
+  end
+  object lblSlots: TLabel
+    Left = 146
+    Height = 15
+    Top = 308
+    Width = 92
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Slots'
+    ParentColor = False
+  end
+  object lblJob: TLabel
+    Left = 6
+    Height = 15
+    Top = 176
+    Width = 132
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Job'
+    ParentColor = False
+  end
+  object edJob: TEdit
+    Left = 6
+    Height = 23
+    Top = 192
+    Width = 112
+    Alignment = taCenter
+    OnChange = SomethingChanged
+    TabOrder = 7
+  end
+  object lblUpper: TLabel
+    Left = 6
+    Height = 15
+    Top = 216
+    Width = 132
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Class'
+    ParentColor = False
+  end
+  object lblGender: TLabel
+    Left = 6
+    Height = 15
+    Top = 256
+    Width = 132
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Gender'
+    ParentColor = False
+  end
+  object lblLocation: TLabel
+    Left = 146
+    Height = 15
+    Top = 274
+    Width = 92
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Location'
+    ParentColor = False
+  end
+  object lblView: TLabel
+    Left = 6
+    Height = 15
+    Top = 296
+    Width = 132
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'View'
+    ParentColor = False
+  end
+  object lblScript: TLabel
+    Left = 146
+    Height = 15
+    Top = 244
+    Width = 92
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Script'
+    ParentColor = False
+  end
+  object lblScriptEquip: TLabel
+    Left = 146
+    Height = 15
+    Top = 374
+    Width = 92
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Equip'
+    ParentColor = False
+  end
+  object lblScriptUnequip: TLabel
+    Left = 146
+    Height = 15
+    Top = 404
+    Width = 92
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Unequip'
+    ParentColor = False
+  end
+  object cbRefineable: TCheckBox
+    AnchorSideRight.Control = cbSlots
+    AnchorSideRight.Side = asrBottom
+    Left = 261
+    Height = 19
+    Top = 340
+    Width = 75
+    Alignment = taLeftJustify
+    Anchors = [akTop, akRight]
+    Caption = 'Refineable'
+    OnChange = SomethingChanged
+    TabOrder = 19
+    TabStop = False
+  end
+  object lblDroppedBy: TLabel
+    Left = 340
+    Height = 15
+    Top = 72
+    Width = 62
+    Caption = 'Dropped by'
+    ParentColor = False
+  end
+  object sgDrop: TStringGrid
+    Left = 340
+    Height = 147
+    Top = 88
+    Width = 276
+    Anchors = [akTop, akLeft, akRight]
+    AutoEdit = False
+    AutoFillColumns = True
+    ColCount = 4
+    Columns = <    
+      item
+        ReadOnly = True
+        SizePriority = 0
+        Title.Alignment = taCenter
+        Title.Caption = 'ID'
+        Width = 64
+      end    
+      item
+        ReadOnly = True
+        Title.Alignment = taCenter
+        Title.Caption = 'Name'
+        Width = 160
+      end    
+      item
+        ReadOnly = True
+        SizePriority = 0
+        Title.Caption = 'Rate'
+        Width = 48
+      end    
+      item
+        Title.Caption = ''
+        Width = 0
+        Visible = False
+      end>
+    FixedCols = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goThumbTracking, goSmoothScroll]
+    RowCount = 1
+    TabOrder = 22
+    OnDblClick = sgDropDblClick
+    ColWidths = (
+      64
+      160
+      48
+      0
+    )
+  end
+  object cbItemType: TComboBox
+    Left = 6
+    Height = 23
+    Top = 152
+    Width = 132
+    ItemHeight = 15
+    OnChange = cbItemTypeChange
+    Style = csDropDownList
+    TabOrder = 6
+  end
+  object cbGender: TComboBox
+    Left = 6
+    Height = 23
+    Top = 272
+    Width = 132
+    ItemHeight = 15
+    OnChange = SomethingChanged
+    Style = csDropDownList
+    TabOrder = 11
+  end
+  object cbSlots: TComboBox
+    Left = 244
+    Height = 23
+    Top = 304
+    Width = 92
+    ItemHeight = 15
+    OnChange = SomethingChanged
+    Style = csDropDownList
+    TabOrder = 18
+  end
+  object edClass: TEdit
+    Left = 6
+    Height = 23
+    Top = 232
+    Width = 112
+    Alignment = taCenter
+    OnChange = SomethingChanged
+    TabOrder = 9
+  end
+  object edLocation: TEdit
+    Left = 244
+    Height = 23
+    Top = 270
+    Width = 72
+    Alignment = taCenter
+    OnChange = SomethingChanged
+    TabOrder = 16
+  end
+  object cbView: TComboBox
+    Left = 6
+    Height = 23
+    Top = 312
+    Width = 132
+    ItemHeight = 15
+    OnChange = SomethingChanged
+    TabOrder = 12
+  end
+  object edScript: TEdit
+    Left = 244
+    Height = 23
+    Top = 240
+    Width = 372
+    Anchors = [akTop, akLeft, akRight]
+    OnChange = SomethingChanged
+    TabOrder = 15
+  end
+  object gbLevel: TGroupBox
+    Left = 146
+    Height = 64
+    Top = 144
+    Width = 190
+    Caption = 'Level'
+    ClientHeight = 44
+    ClientWidth = 186
+    TabOrder = 4
+    object lbleLevel: TLabel
+      AnchorSideRight.Control = edeLevel
+      Left = 6
+      Height = 15
+      Top = 0
+      Width = 84
+      Alignment = taCenter
+      AutoSize = False
+      BorderSpacing.Right = 4
+      Caption = 'Min'
+      ParentColor = False
+    end
+    object lblMaxLevel: TLabel
+      AnchorSideRight.Control = edMaxLevel
+      Left = 96
+      Height = 15
+      Top = 0
+      Width = 84
+      Alignment = taCenter
+      AutoSize = False
+      BorderSpacing.Right = 4
+      Caption = 'Max'
+      ParentColor = False
+    end
+    object edeLevel: TEdit
+      Left = 6
+      Height = 23
+      Top = 16
+      Width = 84
+      Alignment = taCenter
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 0
+    end
+    object edMaxLevel: TEdit
+      Left = 96
+      Height = 23
+      Top = 16
+      Width = 84
+      Alignment = taCenter
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 1
+    end
+  end
+  object gbPrice: TGroupBox
+    Left = 146
+    Height = 63
+    Top = 72
+    Width = 190
+    Caption = 'Price'
+    ClientHeight = 43
+    ClientWidth = 186
+    TabOrder = 3
+    object lblBuy: TLabel
+      AnchorSideRight.Control = edBuy
+      Left = 6
+      Height = 15
+      Top = 0
+      Width = 84
+      Alignment = taCenter
+      AutoSize = False
+      BorderSpacing.Right = 4
+      Caption = 'Buy'
+      ParentColor = False
+    end
+    object edBuy: TEdit
+      Left = 6
+      Height = 23
+      Top = 16
+      Width = 84
+      Alignment = taCenter
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 0
+    end
+    object lblSell: TLabel
+      AnchorSideRight.Control = edSell
+      Left = 96
+      Height = 15
+      Top = 0
+      Width = 84
+      Alignment = taCenter
+      AutoSize = False
+      BorderSpacing.Right = 4
+      Caption = 'Sell'
+      ParentColor = False
+    end
+    object edSell: TEdit
+      Left = 96
+      Height = 23
+      Top = 16
+      Width = 84
+      Alignment = taCenter
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 1
+    end
+  end
+  object lblWeight: TLabel
+    Left = 146
+    Height = 15
+    Top = 216
+    Width = 92
+    Alignment = taRightJustify
+    AutoSize = False
+    BorderSpacing.Right = 4
+    Caption = 'Weight'
+    ParentColor = False
+  end
+  object edWeight: TEdit
+    Left = 244
+    Height = 23
+    Top = 212
+    Width = 92
+    Alignment = taCenter
+    NumbersOnly = True
+    TabOrder = 5
+  end
+  object gbWeapon: TGroupBox
+    Left = 340
+    Height = 104
+    Top = 264
+    Width = 276
+    Caption = 'Weapon'
+    ClientHeight = 84
+    ClientWidth = 272
+    TabOrder = 21
+    object lblATK: TLabel
+      Left = 8
+      Height = 15
+      Top = 0
+      Width = 84
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'ATK'
+      ParentColor = False
+    end
+    object edATK: TEdit
+      Left = 8
+      Height = 23
+      Top = 16
+      Width = 84
+      Alignment = taCenter
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 0
+    end
+    object lblMATK: TLabel
+      Left = 179
+      Height = 15
+      Top = 0
+      Width = 84
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'MATK'
+      ParentColor = False
+    end
+    object edMATK: TEdit
+      Left = 176
+      Height = 23
+      Top = 16
+      Width = 84
+      Alignment = taCenter
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 1
+    end
+    object lblRange: TLabel
+      Left = 8
+      Height = 15
+      Top = 40
+      Width = 84
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'Range'
+      ParentColor = False
+    end
+    object edRange: TEdit
+      Left = 8
+      Height = 23
+      Top = 56
+      Width = 84
+      Alignment = taCenter
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 2
+    end
+    object lblwLevel: TLabel
+      Left = 176
+      Height = 15
+      Top = 40
+      Width = 84
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'wLevel'
+      ParentColor = False
+    end
+    object edwLevel: TEdit
+      Left = 176
+      Height = 23
+      Top = 56
+      Width = 84
+      Alignment = taCenter
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 3
+    end
+  end
+  object edScriptEquip: TEdit
+    Left = 244
+    Height = 23
+    Top = 370
+    Width = 372
+    Anchors = [akTop, akLeft, akRight]
+    OnChange = SomethingChanged
+    TabOrder = 23
+  end
+  object edScriptUnequip: TEdit
+    Left = 244
+    Height = 23
+    Top = 400
+    Width = 372
+    Anchors = [akTop, akLeft, akRight]
+    OnChange = SomethingChanged
+    TabOrder = 24
+  end
+  object btnJobMode: TButton
+    AnchorSideLeft.Control = edJob
+    AnchorSideLeft.Side = asrBottom
+    Left = 120
+    Height = 23
+    Top = 192
+    Width = 18
+    BorderSpacing.Left = 2
+    Caption = '...'
+    OnClick = btnJobModeClick
+    TabOrder = 8
+  end
+  object btnClassMode: TButton
+    AnchorSideLeft.Control = edClass
+    AnchorSideLeft.Side = asrBottom
+    Left = 120
+    Height = 23
+    Top = 232
+    Width = 18
+    BorderSpacing.Left = 2
+    Caption = '...'
+    OnClick = btnClassModeClick
+    TabOrder = 10
+  end
+  object btnLocMode: TButton
+    AnchorSideLeft.Control = edLocation
+    AnchorSideLeft.Side = asrBottom
+    Left = 318
+    Height = 23
+    Top = 270
+    Width = 18
+    BorderSpacing.Left = 2
+    Caption = '...'
+    OnClick = btnLocModeClick
+    TabOrder = 17
+  end
+  object tbReadOnly: TToggleBox
+    Left = 464
+    Height = 25
+    Top = 60
+    Width = 96
+    Anchors = [akTop, akRight]
+    Caption = 'Read Only'
+    OnClick = tbReadOnlyClick
+    TabOrder = 25
+  end
+  object bbClose: TBitBtn
+    Left = 8
+    Height = 28
+    Top = 375
+    Width = 96
+    Anchors = [akLeft, akBottom]
+    Caption = '&Close'
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 26
+  end
+  object bbOK: TBitBtn
+    Left = 8
+    Height = 28
+    Top = 404
+    Width = 96
+    Anchors = [akLeft, akBottom]
+    Caption = '&Save'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = bbOKClick
+    TabOrder = 27
+  end
+  object tbOFF: TToggleBox
+    Left = 568
+    Height = 25
+    Top = 60
+    Width = 48
+    Anchors = [akTop, akRight]
+    Caption = 'OFF'
+    TabOrder = 28
+  end
+  object btnTradeMode: TButton
+    AnchorSideLeft.Control = edTrade
+    AnchorSideLeft.Side = asrBottom
+    Left = 120
+    Height = 23
+    Top = 350
+    Width = 18
+    BorderSpacing.Left = 2
+    Caption = '...'
+    OnClick = btnTradeModeClick
+    TabOrder = 14
+  end
+  object edTrade: TEdit
+    Left = 6
+    Height = 23
+    Top = 350
+    Width = 112
+    Alignment = taCenter
+    OnChange = edTradeChange
+    TabOrder = 13
+  end
+  object lblTrade: TLabel
+    Left = 6
+    Height = 15
+    Top = 336
+    Width = 132
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Trade'
+    ParentColor = False
+  end
+  object imgSubItemSprite: TImage
+    Left = 146
+    Height = 28
+    Top = 34
+    Width = 28
+  end
+end

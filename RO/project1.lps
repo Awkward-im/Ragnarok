@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Count="1" Active="Debug">
+      <Item1 Name="Debug">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="project1"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="..\utils"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <IncludeAssertionCode Value="True"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <OverflowChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+            <VerifyObjMethodCallValidity Value="True"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <UseHeaptrc Value="True"/>
+              <TrashVariables Value="True"/>
+              <UseValgrind Value="True"/>
+              <UseExternalDbgSyms Value="True"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <Verbosity>
+              <ShowHintsForUnusedUnitsInMainSrc Value="True"/>
+            </Verbosity>
+          </Other>
+        </CompilerOptions>
+      </Item1>
+    </BuildModes>
+    <Units Count="32">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="17"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="rowiznpcbase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="NPCBase"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROWizNPCBase"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="151"/>
+        <CursorPos X="75" Y="171"/>
+        <UsageCount Value="200"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="rohelpsprites.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROHelpSpritesForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROHelpSprites"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="237"/>
+        <CursorPos X="37" Y="267"/>
+        <FoldState Value=" T0jg4e142 T3lH04013 T6lU0101111Z"/>
+        <UsageCount Value="200"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="rowizshop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="NPCShopForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROWizShop"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="79"/>
+        <CursorPos X="55" Y="141"/>
+        <FoldState Value=" T46031 T7FHP T8X24]D3iZ08212 T6iH023 T1ic05[I50jO945 TMl5418"/>
+        <UsageCount Value="202"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="rodatatypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="416"/>
+        <CursorPos Y="431"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="rowizcreatequest.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="NPCCreateForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROWizCreateQuest"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="365"/>
+        <CursorPos X="57" Y="390"/>
+        <UsageCount Value="200"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="mainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROMainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainForm"/>
+        <TopLine Value="276"/>
+        <CursorPos Y="294"/>
+        <UsageCount Value="206"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="rowizquestdbline.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="QuestDBLineForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROWizQuestDBLine"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="341"/>
+        <CursorPos X="40" Y="359"/>
+        <FoldState Value=" T46021 T7ELi T3iU0K2 T1jM0A6"/>
+        <UsageCount Value="203"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="rohelpdoc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROHelpDocForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROHelpDoc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <CursorPos Y="113"/>
+        <FoldState Value=" T7EJL T3i40R7/"/>
+        <UsageCount Value="206"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\utils\simplelist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="200"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="rohelpconst.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="RODictConstForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROHelpConst"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="46" Y="8"/>
+        <FoldState Value=" T3c092E"/>
+        <UsageCount Value="202"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="rodoc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="149"/>
+        <FoldState Value=" T44021 T79Gg T8A2K]DCiKC5]83iX03C piZjL0C1 pkYl70I T1iY02E pm9nS0H T6jd012 T0k12A4]eGjB4{l7 pj4eAB2]80RA96 TDpQ27W"/>
+        <UsageCount Value="201"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="synhighlighterro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SynHighlighterRO"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="793"/>
+        <CursorPos X="3" Y="812"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="rodatalocal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="57"/>
+        <CursorPos Y="72"/>
+        <UsageCount Value="200"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="rohelptable.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROHelpTableForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROHelpTable"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="153"/>
+        <CursorPos X="39" Y="186"/>
+        <FoldState Value=" T4602 T3kP0H0155"/>
+        <UsageCount Value="202"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="rodatagui.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="672"/>
+        <CursorPos X="40" Y="689"/>
+        <FoldState Value=" T44037"/>
+        <UsageCount Value="200"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="rohelpcardmob.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROHelpCardMobForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROHelpCardMob"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="126"/>
+        <CursorPos X="3" Y="157"/>
+        <UsageCount Value="205"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="rodataio.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="1046"/>
+        <CursorPos Y="1066"/>
+        <UsageCount Value="208"/>
+        <Loaded Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="rofilesettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROSettingsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROFileSettings"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="76"/>
+        <CursorPos Y="128"/>
+        <FoldState Value=" T3iC0E012!"/>
+        <UsageCount Value="208"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="rofullcardmob.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROFullCardMobForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROFullCardMob"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="494"/>
+        <CursorPos X="37" Y="511"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="rofullcarditem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROFullCardItemForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROFullCardItem"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="241"/>
+        <CursorPos X="59" Y="258"/>
+        <FoldState Value=" T46031 T7FO{9 T8j528]F3je0301123 T1jf02[C4]O6kP012 T0kg24]Kw"/>
+        <UsageCount Value="200"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="rodata.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="125"/>
+        <CursorPos X="3" Y="141"/>
+        <UsageCount Value="203"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="rosearchitem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROSearchItemForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROSearchItem"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="393"/>
+        <CursorPos Y="420"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="rosearchmob.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROSearchMobForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROSearchMob"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="293"/>
+        <CursorPos X="5" Y="326"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="roresplist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="RORespListForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="RORespList"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="65"/>
+        <CursorPos Y="82"/>
+        <UsageCount Value="208"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="roedit.pas"/>
+        <ComponentName Value="ROEditForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROEdit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="32"/>
+        <CursorPos X="5" Y="120"/>
+        <FoldState Value=" T3iD062g"/>
+        <UsageCount Value="40"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="romonstermode.pas"/>
+        <ComponentName Value="ROMonsterModeForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROMonsterMode"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="98"/>
+        <CursorPos X="17" Y="56"/>
+        <UsageCount Value="35"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\utils\common.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1381"/>
+        <CursorPos Y="1397"/>
+        <UsageCount Value="2"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="D:\SVN\LazSVN\lcl\inipropstorage.pas"/>
+        <UnitName Value="IniPropStorage"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="79"/>
+        <CursorPos X="103" Y="96"/>
+        <UsageCount Value="9"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="D:\SVN\LazSVN\lcl\interfaces\win32\win32winapi.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1296"/>
+        <CursorPos X="51" Y="1314"/>
+        <UsageCount Value="9"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\utils\common\strconv.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="181"/>
+        <CursorPos X="68" Y="199"/>
+        <UsageCount Value="9"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\utils\memini\section.inc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="387"/>
+        <CursorPos X="33" Y="414"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit31>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="roresplist.pas"/>
+        <Caret Line="82" TopLine="65"/>
+      </Position1>
+      <Position2>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="750" Column="44" TopLine="731"/>
+      </Position2>
+      <Position3>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="751" Column="44" TopLine="732"/>
+      </Position3>
+      <Position4>
+        <Filename Value="rosearchmob.pas"/>
+        <Caret Line="305" Column="37" TopLine="281"/>
+      </Position4>
+      <Position5>
+        <Filename Value="rosearchmob.pas"/>
+        <Caret Line="307" Column="37" TopLine="283"/>
+      </Position5>
+      <Position6>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="752" Column="44" TopLine="733"/>
+      </Position6>
+      <Position7>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="301" TopLine="286"/>
+      </Position7>
+      <Position8>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="309" Column="16" TopLine="292"/>
+      </Position8>
+      <Position9>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="262" TopLine="255"/>
+      </Position9>
+      <Position10>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="263" TopLine="255"/>
+      </Position10>
+      <Position11>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="268" TopLine="255"/>
+      </Position11>
+      <Position12>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="269" TopLine="255"/>
+      </Position12>
+      <Position13>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="270" TopLine="255"/>
+      </Position13>
+      <Position14>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="271" TopLine="255"/>
+      </Position14>
+      <Position15>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="273" TopLine="255"/>
+      </Position15>
+      <Position16>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="295" TopLine="278"/>
+      </Position16>
+      <Position17>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="297" TopLine="278"/>
+      </Position17>
+      <Position18>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="272" Column="22" TopLine="254"/>
+      </Position18>
+      <Position19>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="295" TopLine="278"/>
+      </Position19>
+      <Position20>
+        <Filename Value="rosearchitem.pas"/>
+        <Caret Line="297" TopLine="278"/>
+      </Position20>
+      <Position21>
+        <Filename Value="rosearchmob.pas"/>
+        <Caret Line="326" Column="5" TopLine="293"/>
+      </Position21>
+      <Position22>
+        <Filename Value="rodatatypes.pas"/>
+        <Caret Line="430" Column="43" TopLine="399"/>
+      </Position22>
+      <Position23>
+        <Filename Value="rodatatypes.pas"/>
+        <Caret Line="451" Column="27" TopLine="416"/>
+      </Position23>
+      <Position24>
+        <Filename Value="synhighlighterro.pas"/>
+        <Caret Line="774" Column="28" TopLine="760"/>
+      </Position24>
+      <Position25>
+        <Filename Value="synhighlighterro.pas"/>
+        <Caret Line="771" Column="3" TopLine="753"/>
+      </Position25>
+      <Position26>
+        <Filename Value="synhighlighterro.pas"/>
+        <Caret Line="812" Column="3" TopLine="793"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="1358" TopLine="1354"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="1367" Column="46" TopLine="1357"/>
+      </Position28>
+      <Position29>
+        <Filename Value="..\utils\memini\section.inc"/>
+        <Caret Line="414" Column="33" TopLine="387"/>
+      </Position29>
+      <Position30>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="294" TopLine="276"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="D:\SVN\LazSVN\lcl\include\picture.inc"/>
+        <Line Value="575"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="rosearchitem.pas"/>
+        <Line Value="297"/>
+      </Item>
+    </BreakPoints>
+    <Watches>
+      <Item>
+        <Expression Value="cnt"/>
+      </Item>
+      <Item>
+        <Expression Value="line"/>
+      </Item>
+      <Item>
+        <Expression Value="sline"/>
+      </Item>
+      <Item>
+        <Expression Value="s"/>
+      </Item>
+      <Item>
+        <Expression Value="spos"/>
+      </Item>
+      <Item>
+        <Expression Value="pc"/>
+      </Item>
+      <Item>
+        <Expression Value="s[spos]"/>
+      </Item>
+      <Item>
+        <Expression Value="lid"/>
+      </Item>
+      <Item>
+        <Expression Value="strcache.fbuffer+strcache.fptrs[ROMapData[i].name]"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>

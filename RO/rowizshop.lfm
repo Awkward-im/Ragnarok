@@ -1,0 +1,159 @@
+object NPCShopForm: TNPCShopForm
+  Left = 689
+  Height = 220
+  Top = 188
+  Width = 570
+  ClientHeight = 220
+  ClientWidth = 570
+  Constraints.MinHeight = 220
+  Constraints.MinWidth = 570
+  OnCreate = FormCreate
+  LCLVersion = '1.9.0.0'
+  object edShopPrice: TEdit
+    Left = 8
+    Height = 23
+    Top = 88
+    Width = 120
+    Anchors = [akLeft, akBottom]
+    NumbersOnly = True
+    TabOrder = 1
+  end
+  object lShopPrice: TLabel
+    Left = 8
+    Height = 15
+    Top = 72
+    Width = 120
+    Alignment = taCenter
+    Anchors = [akLeft, akBottom]
+    AutoSize = False
+    Caption = 'Price'
+    ParentColor = False
+  end
+  object lItemID: TLabel
+    Left = 8
+    Height = 15
+    Top = 8
+    Width = 232
+    Alignment = taCenter
+    Anchors = [akLeft, akBottom]
+    AutoSize = False
+    Caption = 'Item ID'
+    ParentColor = False
+  end
+  object cbItemName: TComboBox
+    Left = 8
+    Height = 23
+    Top = 24
+    Width = 232
+    Anchors = [akLeft, akBottom]
+    ItemHeight = 15
+    TabOrder = 0
+  end
+  object lvShopItemList: TListView
+    Left = 248
+    Height = 180
+    Top = 8
+    Width = 314
+    Anchors = [akLeft, akRight, akBottom]
+    Columns = <    
+      item
+        Caption = 'Item'
+        MinWidth = 150
+        Width = 150
+      end    
+      item
+        Alignment = taRightJustify
+        Caption = 'Price'
+        MinWidth = 96
+        Width = 96
+      end    
+      item
+        Alignment = taRightJustify
+        Caption = 'Quantity'
+        MinWidth = 60
+        Visible = False
+        Width = 60
+      end>
+    ReadOnly = True
+    RowSelect = True
+    SortType = stBoth
+    TabOrder = 4
+    ViewStyle = vsReport
+  end
+  object btnDelete: TButton
+    Left = 327
+    Height = 25
+    Top = 192
+    Width = 158
+    Anchors = [akRight, akBottom]
+    Caption = 'Delete'
+    Enabled = False
+    OnClick = btnDeleteClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object btnAdd: TButton
+    Left = 152
+    Height = 25
+    Top = 86
+    Width = 88
+    Anchors = [akLeft, akBottom]
+    Caption = 'Add'
+    OnClick = btnAddClick
+    TabOrder = 3
+  end
+  object btnInsert: TButton
+    Left = 8
+    Height = 25
+    Top = 192
+    Width = 144
+    Anchors = [akLeft, akBottom]
+    Caption = 'Insert'
+    Enabled = False
+    OnClick = btnInsertClick
+    TabOrder = 7
+  end
+  object cbShopType: TComboBox
+    Left = 140
+    Height = 23
+    Top = 128
+    Width = 100
+    Anchors = [akLeft, akBottom]
+    ItemHeight = 15
+    OnChange = cbShopTypeChange
+    Style = csDropDownList
+    TabOrder = 6
+  end
+  object lShopType: TLabel
+    Left = 140
+    Height = 13
+    Top = 112
+    Width = 100
+    Alignment = taCenter
+    Anchors = [akLeft, akBottom]
+    AutoSize = False
+    Caption = 'Shop type'
+    ParentColor = False
+  end
+  object lQuantity: TLabel
+    Left = 8
+    Height = 15
+    Top = 112
+    Width = 120
+    Alignment = taCenter
+    Anchors = [akLeft, akBottom]
+    AutoSize = False
+    Caption = 'Quantity'
+    ParentColor = False
+    Visible = False
+  end
+  object edQuantity: TEdit
+    Left = 8
+    Height = 23
+    Top = 128
+    Width = 120
+    Anchors = [akLeft, akBottom]
+    TabOrder = 2
+    Visible = False
+  end
+end

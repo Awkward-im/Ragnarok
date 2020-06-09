@@ -1,0 +1,13 @@
+{"version":1,"strings":[
+{"hash":201836292,"name":"tnpccreateform.lresultitem.caption","sourcebytes":[82,101,115,117,108,116,32,73,116,101,109,32,73,68],"value":"Result Item ID"},
+{"hash":780500,"name":"tnpccreateform.lingredient.caption","sourcebytes":[73,110,103,114,101,100,105,101,110,116,32,73,68],"value":"Ingredient ID"},
+{"hash":174395085,"name":"tnpccreateform.btnaddresult.caption","sourcebytes":[65,100,100,32,73,116,101,109],"value":"Add Item"},
+{"hash":18340,"name":"tnpccreateform.btnaddingredient.caption","sourcebytes":[65,100,100],"value":"Add"},
+{"hash":171952253,"name":"tnpccreateform.btndeleteresult.caption","sourcebytes":[68,101,108,101,116,101,32,73,116,101,109],"value":"Delete Item"},
+{"hash":78392485,"name":"tnpccreateform.btndeleteingredient.caption","sourcebytes":[68,101,108,101,116,101],"value":"Delete"},
+{"hash":193312057,"name":"tnpccreateform.lvitemlist.columns[0].caption","sourcebytes":[81,117,97,110,116,105,116,121],"value":"Quantity"},
+{"hash":346165,"name":"tnpccreateform.lvitemlist.columns[1].caption","sourcebytes":[78,97,109,101],"value":"Name"},
+{"hash":193312057,"name":"tnpccreateform.lquantity.caption","sourcebytes":[81,117,97,110,116,105,116,121],"value":"Quantity"},
+{"hash":154590309,"name":"tnpccreateform.btninsert.caption","sourcebytes":[73,110,115,101,114,116,32,99,111,100,101],"value":"Insert code"},
+{"hash":122961747,"name":"tnpccreateform.cbusenames.caption","sourcebytes":[85,115,101,32,78,97,109,101,115],"value":"Use Names"}
+]}

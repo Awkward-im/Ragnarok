@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <CompatibilityMode Value="True"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="project1"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+    </General>
+    <i18n>
+      <EnableI18N Value="True"/>
+    </i18n>
+    <BuildModes Count="1">
+      <Item1 Name="Release" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default"/>
+      </Modes>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="SynEdit"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="25">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="rowiznpcbase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="NPCBase"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROWizNPCBase"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="rohelpsprites.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROHelpSpritesForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROHelpSprites"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="rowizshop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="NPCShopForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROWizShop"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="rodatatypes.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="rowizcreatequest.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="NPCCreateForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROWizCreateQuest"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="mainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROMainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainForm"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="rowizquestdbline.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="QuestDBLineForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROWizQuestDBLine"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="rohelpdoc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROHelpDocForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROHelpDoc"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\utils\simplelist.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="rohelpconst.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="RODictConstForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROHelpConst"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="rodoc.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="synhighlighterro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SynHighlighterRO"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="rodatalocal.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="rohelptable.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROHelpTableForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROHelpTable"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="rodatagui.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="rohelpcardmob.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROHelpCardMobForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROHelpCardMob"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="rodataio.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="rofilesettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROSettingsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROFileSettings"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="rofullcardmob.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROFullCardMobForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROFullCardMob"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="rofullcarditem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROFullCardItemForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROFullCardItem"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="rodata.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="rosearchitem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROSearchItemForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROSearchItem"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="rosearchmob.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ROSearchMobForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ROSearchMob"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="roresplist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="RORespListForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="RORespList"/>
+      </Unit24>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="project1"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\utils"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <Optimizations>
+        <OptimizationLevel Value="3"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <DebugInfoType Value="dsDwarf2Set"/>
+        <StripSymbols Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowHintsForUnusedUnitsInMainSrc Value="True"/>
+      </Verbosity>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

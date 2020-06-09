@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":4294967295,"name":"troresplistform.sgresplist.columns[0].title.caption","sourcebytes":[],"value":""},
+{"hash":75787348,"name":"troresplistform.sgresplist.columns[1].title.caption","sourcebytes":[65,109,111,117,110,116],"value":"Amount"},
+{"hash":266077747,"name":"troresplistform.sgresplist.columns[2].title.caption","sourcebytes":[82,101,115,112,32,116,105,109,101,44,32,115,101,99],"value":"Resp time, sec"},
+{"hash":4294967295,"name":"troresplistform.sgresplist.columns[3].title.caption","sourcebytes":[],"value":""}
+]}

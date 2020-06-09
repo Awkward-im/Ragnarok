@@ -1,0 +1,2497 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: mainform.scardlabelatcmd
+msgid "AT Commands"
+msgstr ""
+
+#: mainform.scardlabelcommand
+msgid "Commands / Keywords"
+msgstr ""
+
+#: mainform.scardlabelmapflag
+msgctxt "mainform.scardlabelmapflag"
+msgid "Map flags"
+msgstr ""
+
+#: mainform.sdataorderchanged
+msgid ""
+"Settings related to load Item and monster data was changed.\n"
+"Reload Item and Monster data right now?"
+msgstr ""
+
+#: mainform.sfoundsaved
+msgid "Found and saved records - "
+msgstr ""
+
+#: mainform.sfoundunsaved
+msgid "Found but not saved records - "
+msgstr ""
+
+#: mainform.sinsertmode
+msgid "INS"
+msgstr ""
+
+#: mainform.sitemsaving
+msgid "Saving Item info"
+msgstr ""
+
+#: mainform.sitemtradesaving
+msgid "Saving Item trade info"
+msgstr ""
+
+#: mainform.smobsaving
+msgid "Saving Monster info"
+msgstr ""
+
+#: mainform.smodified
+msgid "Modified"
+msgstr ""
+
+#: mainform.snewfile
+msgid "New file"
+msgstr ""
+
+#: mainform.snotfoundsaved
+msgid "Nothing found to save"
+msgstr ""
+
+#: mainform.sopenscheme
+msgid "Open editor settings"
+msgstr ""
+
+#: mainform.sopenscript
+msgid "Open script file"
+msgstr ""
+
+#: mainform.soverwritemode
+msgid "OVR"
+msgstr ""
+
+#: mainform.squesthelpsaving
+msgid "Saving Quest help info"
+msgstr ""
+
+#: mainform.squestsaving
+msgid "Saving Quest info"
+msgstr ""
+
+#: mainform.ssaveonclose
+msgid "Modified file not saved. Save?"
+msgstr ""
+
+#: mainform.ssavescript
+msgid "Save Script file as"
+msgstr ""
+
+#: rodata.saccess
+msgid "Accessory"
+msgstr ""
+
+#: rodata.sammoarrows
+msgid "Arrows"
+msgstr ""
+
+#: rodata.sammobullets
+msgid "Bullets"
+msgstr ""
+
+#: rodata.sammocannonballs
+msgid "Cannonballs"
+msgstr ""
+
+#: rodata.sammogrenades
+msgid "Grenades"
+msgstr ""
+
+#: rodata.sammokunai
+msgid "Kunai"
+msgstr ""
+
+#: rodata.sammoshells
+msgid "Shells"
+msgstr ""
+
+#: rodata.sammoshurikens
+msgid "Shuriken"
+msgstr ""
+
+#: rodata.sammothrowabledagers
+msgid "Throwable daggers"
+msgstr ""
+
+#: rodata.sammothrowableitems
+msgid "Throwable Items"
+msgstr ""
+
+#: rodata.sangel
+msgid "Angel"
+msgstr ""
+
+#: rodata.sboth
+msgid "Both"
+msgstr ""
+
+#: rodata.sbrute
+msgid "Brute"
+msgstr ""
+
+#: rodata.sclassbaby
+msgid "Baby"
+msgstr ""
+
+#: rodata.sclassnormal
+msgid "Normal"
+msgstr ""
+
+#: rodata.sclassthird
+msgid "Third"
+msgstr ""
+
+#: rodata.sclassthirdbaby
+msgid "Third-Baby"
+msgstr ""
+
+#: rodata.sclasstrans
+msgid "Transcedent"
+msgstr ""
+
+#: rodata.sclasstransthird
+msgid "Transcedent-Third"
+msgstr ""
+
+#: rodata.sdemihuman
+msgid "Demi-Human"
+msgstr ""
+
+#: rodata.sdemon
+msgid "Demon"
+msgstr ""
+
+#: rodata.sdragon
+msgid "Dragon"
+msgstr ""
+
+#: rodata.searth
+msgid "Earth"
+msgstr ""
+
+#: rodata.sfemale
+msgid "Female"
+msgstr ""
+
+#: rodata.sfire
+msgid "Fire"
+msgstr ""
+
+#: rodata.sfish
+msgid "Fish"
+msgstr ""
+
+#: rodata.sformless
+msgid "Formless"
+msgstr ""
+
+#: rodata.sghost
+msgid "Ghost"
+msgstr ""
+
+#: rodata.sheadgear
+msgid "Headgear"
+msgstr ""
+
+#: rodata.sholy
+msgid "Holy"
+msgstr ""
+
+#: rodata.sinsect
+msgid "Insect"
+msgstr ""
+
+#: rodata.sitemammo
+msgctxt "rodata.sitemammo"
+msgid "Ammo"
+msgstr ""
+
+#: rodata.sitemcard
+msgid "Card"
+msgstr ""
+
+#: rodata.sitemdelayed
+msgid "Delayed"
+msgstr ""
+
+#: rodata.sitemequipment
+msgid "Equipment"
+msgstr ""
+
+#: rodata.sitemetc
+msgid "Misc"
+msgstr ""
+
+#: rodata.sitemhealing
+msgid "Healing"
+msgstr ""
+
+#: rodata.sitempetegg
+msgid "Pet egg"
+msgstr ""
+
+#: rodata.sitempetequip
+msgid "Pet equipment"
+msgstr ""
+
+#: rodata.sitemshadowequip
+msgid "Shadow equipment"
+msgstr ""
+
+#: rodata.sitemskillitem
+msgid "Skill item"
+msgstr ""
+
+#: rodata.sitemusable
+msgid "Usable"
+msgstr ""
+
+#: rodata.sitemweapon
+msgctxt "rodata.sitemweapon"
+msgid "Weapon"
+msgstr ""
+
+#: rodata.sjobacolyte
+msgid "Acolyte"
+msgstr ""
+
+#: rodata.sjobalchemist
+msgid "Alchemist"
+msgstr ""
+
+#: rodata.sjobarcher
+msgid "Archer"
+msgstr ""
+
+#: rodata.sjobassassin
+msgid "Assassin"
+msgstr ""
+
+#: rodata.sjobbarddancer
+msgid "Bard/Dancer"
+msgstr ""
+
+#: rodata.sjobblacksmith
+msgid "Blacksmith"
+msgstr ""
+
+#: rodata.sjobcrusader
+msgid "Crusader"
+msgstr ""
+
+#: rodata.sjobdarkcollector
+msgid "Dark Collector"
+msgstr ""
+
+#: rodata.sjobdeathknight
+msgid "Death Knight"
+msgstr ""
+
+#: rodata.sjobgangsi
+msgid "Gangsi"
+msgstr ""
+
+#: rodata.sjobgunslinger
+msgid "Gunslinger"
+msgstr ""
+
+#: rodata.sjobhunter
+msgid "Hunter"
+msgstr ""
+
+#: rodata.sjobkagerouoboro
+msgid "Kagerou/Oboro"
+msgstr ""
+
+#: rodata.sjobknight
+msgid "Knight"
+msgstr ""
+
+#: rodata.sjobmagician
+msgid "Magician"
+msgstr ""
+
+#: rodata.sjobmerchant
+msgid "Merchant"
+msgstr ""
+
+#: rodata.sjobmonk
+msgid "Monk"
+msgstr ""
+
+#: rodata.sjobninja
+msgid "Ninja"
+msgstr ""
+
+#: rodata.sjobnovice
+msgid "(S.) Novice"
+msgstr ""
+
+#: rodata.sjobpriest
+msgid "Priest"
+msgstr ""
+
+#: rodata.sjobrebellion
+msgid "Rebellion"
+msgstr ""
+
+#: rodata.sjobrogue
+msgid "Rogue"
+msgstr ""
+
+#: rodata.sjobsage
+msgid "Sage"
+msgstr ""
+
+#: rodata.sjobsoullinker
+msgid "Soul Linker"
+msgstr ""
+
+#: rodata.sjobstargladiator
+msgid "Star Gladiator"
+msgstr ""
+
+#: rodata.sjobsummoner
+msgid "Summoner"
+msgstr ""
+
+#: rodata.sjobswordman
+msgid "Swordman"
+msgstr ""
+
+#: rodata.sjobtaekwon
+msgid "Taekwon"
+msgstr ""
+
+#: rodata.sjobthief
+msgid "Thief"
+msgstr ""
+
+#: rodata.sjobwizard
+msgid "Wizard"
+msgstr ""
+
+#: rodata.slarge
+msgid "Large"
+msgstr ""
+
+#: rodata.slocaccessleft
+msgid "Accessory Left"
+msgstr ""
+
+#: rodata.slocaccessright
+msgid "Accessory Right"
+msgstr ""
+
+#: rodata.slocammo
+msgctxt "rodata.slocammo"
+msgid "Ammo"
+msgstr ""
+
+#: rodata.slocarmor
+msgid "Armor"
+msgstr ""
+
+#: rodata.sloccostumegarment
+msgid "Costume Garment/Robe"
+msgstr ""
+
+#: rodata.sloccostumelow
+msgid "Costume Low Headgear"
+msgstr ""
+
+#: rodata.sloccostumemid
+msgid "Costume Mid Headgear"
+msgstr ""
+
+#: rodata.sloccostumetop
+msgid "Costume Top Headgear"
+msgstr ""
+
+#: rodata.slocfootgear
+msgid "Footgear"
+msgstr ""
+
+#: rodata.slocgarment
+msgid "Garment"
+msgstr ""
+
+#: rodata.sloclower
+msgid "Lower Headgear"
+msgstr ""
+
+#: rodata.slocmiddle
+msgid "Middle Headgear"
+msgstr ""
+
+#: rodata.slocshadowaccleft
+msgid "Shadow Acc.Left (Pendant)"
+msgstr ""
+
+#: rodata.slocshadowaccright
+msgid "Shadow Acc.Right (Earring)"
+msgstr ""
+
+#: rodata.slocshadowarmor
+msgid "Shadow Armor"
+msgstr ""
+
+#: rodata.slocshadowshield
+msgid "Shadow Shield"
+msgstr ""
+
+#: rodata.slocshadowshoes
+msgid "Shadow Shoes"
+msgstr ""
+
+#: rodata.slocshadowweapon
+msgid "Shadow Weapon"
+msgstr ""
+
+#: rodata.slocshield
+msgid "Shield"
+msgstr ""
+
+#: rodata.slocupper
+msgid "Upper Headgear"
+msgstr ""
+
+#: rodata.slocweapon
+msgctxt "rodata.slocweapon"
+msgid "Weapon"
+msgstr ""
+
+#: rodata.slower
+msgid "Lower"
+msgstr ""
+
+#: rodata.smale
+msgid "Male"
+msgstr ""
+
+#: rodata.smedium
+msgid "Medium"
+msgstr ""
+
+#: rodata.smelee
+msgid "(melee)"
+msgstr ""
+
+#: rodata.smiddle
+msgid "Middle"
+msgstr ""
+
+#: rodata.smmagressive
+msgid "Agressive"
+msgstr ""
+
+#: rodata.smmagressivehint
+msgid "Normal aggressive mob, will look for a close-by player to attack."
+msgstr ""
+
+#: rodata.smmangry
+msgid "Angry"
+msgstr ""
+
+#: rodata.smmangryhint
+msgid ""
+"These mobs are \"hyper-active\". Apart from \"chase\"/\"attack\", they have\n"
+"the states \"follow\"/\"angry\". Once hit, they stop using these states and use\n"
+"the normal ones. The new states are used to determine a different skill-set\n"
+"for their \"before attacked\" and \"after attacked\" states. Also, when\n"
+"\"following\", they automatically switch to whoever character is closest."
+msgstr ""
+
+#: rodata.smmassist
+msgid "Assist"
+msgstr ""
+
+#: rodata.smmassisthint
+msgid "When a nearby mob of the same class attacks, assist types will join them."
+msgstr ""
+
+#: rodata.smmcanattack
+msgid "Can attack"
+msgstr ""
+
+#: rodata.smmcanattackhint
+msgid ""
+"Enables the mob to attack/retaliate when you are within attack\n"
+"range. Note that this only enables them to use normal attacks, skills are\n"
+"always allowed."
+msgstr ""
+
+#: rodata.smmcanmove
+msgid "Can move"
+msgstr ""
+
+#: rodata.smmcanmovehint
+msgid "Enables the mob to move/chase characters."
+msgstr ""
+
+#: rodata.smmcastsensorchase
+msgid "Castsensor chase"
+msgstr ""
+
+#: rodata.smmcastsensorchasehint
+msgid ""
+"Will go after characters who start casting on them if idle\n"
+"or chasing other players (they switch chase targets)"
+msgstr ""
+
+#: rodata.smmcastsensoridle
+msgid "Castsensor idle"
+msgstr ""
+
+#: rodata.smmcastsensoridlehint
+msgid ""
+"Will go after characters who start casting on them if idle\n"
+"or walking (without a target)"
+msgstr ""
+
+#: rodata.smmchangechase
+msgid "Change chase"
+msgstr ""
+
+#: rodata.smmchangechasehint
+msgid ""
+"Allows chasing mobs to switch targets if another player happens\n"
+"to be within attack range (handy on ranged attackers, for example)"
+msgstr ""
+
+#: rodata.smmchangetargetchase
+msgid "Change target chase"
+msgstr ""
+
+#: rodata.smmchangetargetchasehint
+msgid ""
+"Enables a mob to switch targets when hit by any attack\n"
+"while chasing another character."
+msgstr ""
+
+#: rodata.smmchangetargetmelee
+msgid "Change target melee"
+msgstr ""
+
+#: rodata.smmchangetargetmeleehint
+msgid ""
+"Enables a mob to switch targets when hit by a normal attack\n"
+"while attacking someone else."
+msgstr ""
+
+#: rodata.smmdetector
+msgid "Detector"
+msgstr ""
+
+#: rodata.smmdetectorhint
+msgid "Enables mob to detect and attack characters who are in hiding/cloak."
+msgstr ""
+
+#: rodata.smmfixeditemdrop
+msgid "Fixed item drop"
+msgstr ""
+
+#: rodata.smmfixeditemdrophint
+msgid "The mob's drops are not affected by item drop modifiers."
+msgstr ""
+
+#: rodata.smmignoremagic
+msgid "Ignore magic"
+msgstr ""
+
+#: rodata.smmignoremagichint
+msgid "The mob will take 1 HP damage from magic attacks."
+msgstr ""
+
+#: rodata.smmignoremelee
+msgid "Ignore melee"
+msgstr ""
+
+#: rodata.smmignoremeleehint
+msgid "The mob will take 1 HP damage from physical attacks."
+msgstr ""
+
+#: rodata.smmignoremisc
+msgid "Ignore misc"
+msgstr ""
+
+#: rodata.smmignoremischint
+msgid "The mob will take 1 HP damage from \"none\" attack type."
+msgstr ""
+
+#: rodata.smmignoreranged
+msgid "Ignore ranged"
+msgstr ""
+
+#: rodata.smmignorerangedhint
+msgid "The mob will take 1 HP damage from ranged attacks."
+msgstr ""
+
+#: rodata.smmknockbackimmune
+msgid "Knockback immune"
+msgstr ""
+
+#: rodata.smmknockbackimmunehint
+msgid "The mob will be unable to be knocked back."
+msgstr ""
+
+#: rodata.smmlooter
+msgid "Looter"
+msgstr ""
+
+#: rodata.smmlooterhint
+msgid "The mob will loot up nearby items on the ground when it's on idle state."
+msgstr ""
+
+#: rodata.smmmvp
+msgid "MVP"
+msgstr ""
+
+#: rodata.smmmvphint
+msgid ""
+"Flagged as MVP which makes mobs resistant to Coma. Also displays the\n"
+"MVP sign and gives players MVP EXP or MVP items."
+msgstr ""
+
+#: rodata.smmnocastskill
+msgid "No cast skill"
+msgstr ""
+
+#: rodata.smmnocastskillhint
+msgid "The mob will be unable to cast skills."
+msgstr ""
+
+#: rodata.smmnorandomwalk
+msgid "No random walk"
+msgstr ""
+
+#: rodata.smmnorandomwalkhint
+msgid "The mob will not randomly walk around while in the idle state."
+msgstr ""
+
+#: rodata.smmrandomtarget
+msgid "Random target"
+msgstr ""
+
+#: rodata.smmrandomtargethint
+msgid "Picks a new random target in range on each attack / skill."
+msgstr ""
+
+#: rodata.smmskillimmune
+msgid "Skill immune"
+msgstr ""
+
+#: rodata.smmskillimmunehint
+msgid "Immune to being affected by skills."
+msgstr ""
+
+#: rodata.smmstatusimmune
+msgid "Status immune"
+msgstr ""
+
+#: rodata.smmstatusimmunehint
+msgid "Immune to being affected by statuses."
+msgstr ""
+
+#: rodata.smmtargetweak
+msgid "Target weak"
+msgstr ""
+
+#: rodata.smmtargetweakhint
+msgid ""
+"Allows aggressive monsters to only be aggressive against \n"
+"characters that are five levels below it's own level.\n"
+"For example, a monster of level 104 will not pick fights with a level 99."
+msgstr ""
+
+#: rodata.smmteleportblock
+msgid "Teleport block"
+msgstr ""
+
+#: rodata.smmteleportblockhint
+msgid "Not implemented yet."
+msgstr ""
+
+#: rodata.sneutral
+msgid "Neutral"
+msgstr ""
+
+#: rodata.splant
+msgid "Plant"
+msgstr ""
+
+#: rodata.splayer
+msgid "Player"
+msgstr ""
+
+#: rodata.spoison
+msgid "Poison"
+msgstr ""
+
+#: rodata.sranged
+msgid "(ranged)"
+msgstr ""
+
+#: rodata.sshadow
+msgid "Shadow"
+msgstr ""
+
+#: rodata.ssmall
+msgid "Small"
+msgstr ""
+
+#: rodata.stradenoauction
+msgid "No Auction"
+msgstr ""
+
+#: rodata.stradenocart
+msgid "No Cart"
+msgstr ""
+
+#: rodata.stradenodrop
+msgid "No drop"
+msgstr ""
+
+#: rodata.stradenoguild
+msgid "No Guild Storage"
+msgstr ""
+
+#: rodata.stradenomail
+msgid "No Mail"
+msgstr ""
+
+#: rodata.stradenosold
+msgid "No NPC Sold"
+msgstr ""
+
+#: rodata.stradenostorage
+msgid "No Storage"
+msgstr ""
+
+#: rodata.stradenovend
+msgid "No vending"
+msgstr ""
+
+#: rodata.stradewedding
+msgid "Wedding trade"
+msgstr ""
+
+#: rodata.sundead
+msgid "Undead"
+msgstr ""
+
+#: rodata.sunknown
+msgid "Unknown"
+msgstr ""
+
+#: rodata.sunused
+msgid "Unused"
+msgstr ""
+
+#: rodata.supper
+msgid "Upper"
+msgstr ""
+
+#: rodata.swater
+msgid "Water"
+msgstr ""
+
+#: rodata.sweaponbarefist
+msgid "bare fist"
+msgstr ""
+
+#: rodata.sweaponbooks
+msgid "Books"
+msgstr ""
+
+#: rodata.sweaponbows
+msgid "Bows"
+msgstr ""
+
+#: rodata.sweapondaggeraxe
+msgid "Dagger + Axe"
+msgstr ""
+
+#: rodata.sweapondaggers
+msgid "Daggers"
+msgstr ""
+
+#: rodata.sweapondaggersword
+msgid "Dagger + sword"
+msgstr ""
+
+#: rodata.sweapondualwieldaxes
+msgid "Dual-wield Axes"
+msgstr ""
+
+#: rodata.sweapondualwielddaggers
+msgid "Dual-wield Daggers"
+msgstr ""
+
+#: rodata.sweapondualwieldswords
+msgid "Dual-wield swords"
+msgstr ""
+
+#: rodata.sweaponfuumashurikens
+msgid "Fuuma shurikens"
+msgstr ""
+
+#: rodata.sweapongatlingguns
+msgid "Gatling guns"
+msgstr ""
+
+#: rodata.sweapongrenadelaunchers
+msgid "Grenade launchers"
+msgstr ""
+
+#: rodata.sweaponinstruments
+msgid "Musical Instruments"
+msgstr ""
+
+#: rodata.sweaponkatars
+msgid "Katars"
+msgstr ""
+
+#: rodata.sweaponknuckles
+msgid "Knuckles"
+msgstr ""
+
+#: rodata.sweaponmaces
+msgid "Maces"
+msgstr ""
+
+#: rodata.sweaponmaxtype
+msgid "Max Type"
+msgstr ""
+
+#: rodata.sweapononehandedaxes
+msgid "One-handed axes"
+msgstr ""
+
+#: rodata.sweapononehandedspears
+msgid "One-handed spears"
+msgstr ""
+
+#: rodata.sweapononehandedswords
+msgid "One-handed swords"
+msgstr ""
+
+#: rodata.sweaponrevolvers
+msgid "Revolvers"
+msgstr ""
+
+#: rodata.sweaponrifles
+msgid "Rifles"
+msgstr ""
+
+#: rodata.sweaponshotguns
+msgid "Shotguns"
+msgstr ""
+
+#: rodata.sweaponstaves
+msgid "Staves"
+msgstr ""
+
+#: rodata.sweaponswordaxe
+msgid "Sword + Axe"
+msgstr ""
+
+#: rodata.sweapontwohandedaxes
+msgid "Two-handed axes"
+msgstr ""
+
+#: rodata.sweapontwohandedspears
+msgid "Two-handed spears"
+msgstr ""
+
+#: rodata.sweapontwohandedstaves
+msgid "Two-handed staves"
+msgstr ""
+
+#: rodata.sweapontwohandedswords
+msgid "Two-handed swords"
+msgstr ""
+
+#: rodata.sweaponwhips
+msgid "Whips"
+msgstr ""
+
+#: rodata.swind
+msgid "Wind"
+msgstr ""
+
+#: rodatatypes.saename
+msgid "AE name"
+msgstr ""
+
+#: rodatatypes.sall
+msgctxt "rodatatypes.sall"
+msgid "All"
+msgstr ""
+
+#: rodatatypes.sboss
+msgid "Boss"
+msgstr ""
+
+#: rodatatypes.sdescr
+msgid "Description"
+msgstr ""
+
+#: rodatatypes.seffect
+msgid "Effects"
+msgstr ""
+
+#: rodatatypes.selement
+msgctxt "rodatatypes.selement"
+msgid "Element"
+msgstr ""
+
+#: rodatatypes.sitem
+msgctxt "rodatatypes.sitem"
+msgid "Items"
+msgstr ""
+
+#: rodatatypes.slocal
+msgctxt "rodatatypes.slocal"
+msgid "Local"
+msgstr ""
+
+#: rodatatypes.smap
+msgid "Maps"
+msgstr ""
+
+#: rodatatypes.smonster
+msgid "Monsters"
+msgstr ""
+
+#: rodatatypes.sname
+msgctxt "rodatatypes.sname"
+msgid "Name"
+msgstr ""
+
+#: rodatatypes.snumber
+msgid "Number"
+msgstr ""
+
+#: rodatatypes.squest
+msgid "Quest"
+msgstr ""
+
+#: rodatatypes.srace
+msgctxt "rodatatypes.srace"
+msgid "Race"
+msgstr ""
+
+#: rodatatypes.ssize
+msgctxt "rodatatypes.ssize"
+msgid "Size"
+msgstr ""
+
+#: rodatatypes.sskill
+msgid "Skills"
+msgstr ""
+
+#: rodatatypes.stabsprites
+msgid "Sprites: "
+msgstr ""
+
+#: rodatatypes.stabtable
+msgid "Table: "
+msgstr ""
+
+#: rofullcarditem.sclass
+msgid "Classes"
+msgstr ""
+
+#: rofullcarditem.sjob
+msgid "Jobs"
+msgstr ""
+
+#: rofullcarditem.slocation
+msgid "Equipment location"
+msgstr ""
+
+#: rofullcarditem.strade
+msgid "Trade mode"
+msgstr ""
+
+#: rofullcardmob.smobmode
+msgid "Monster mode"
+msgstr ""
+
+#: roresplist.smapresp
+msgid "Monsters on map"
+msgstr ""
+
+#: roresplist.smobresp
+msgid "Maps with monster"
+msgstr ""
+
+#: rosearchitem.sall
+msgctxt "rosearchitem.sall"
+msgid "All"
+msgstr ""
+
+#: rosearchitem.sallitemtypes
+msgid "All Item types"
+msgstr ""
+
+#: rosearchitem.satk
+msgctxt "rosearchitem.satk"
+msgid "Atk"
+msgstr ""
+
+#: rosearchitem.sbuyprice
+msgid "Buy Price"
+msgstr ""
+
+#: rosearchitem.sdef
+msgctxt "rosearchitem.sdef"
+msgid "Def"
+msgstr ""
+
+#: rosearchitem.sfound
+msgid "Search: found items = "
+msgstr ""
+
+#: rosearchitem.slevel
+msgctxt "rosearchitem.slevel"
+msgid "Level"
+msgstr ""
+
+#: rosearchitem.smatk
+msgid "MAtk"
+msgstr ""
+
+#: rosearchitem.smdef
+msgctxt "rosearchitem.smdef"
+msgid "MDef"
+msgstr ""
+
+#: rosearchitem.ssellprice
+msgid "Sell Price"
+msgstr ""
+
+#: rosearchitem.sseparate
+msgid "Separate"
+msgstr ""
+
+#: rosearchitem.sslots
+msgctxt "rosearchitem.sslots"
+msgid "Slots"
+msgstr ""
+
+#: rosearchitem.ssome
+msgid "Some"
+msgstr ""
+
+#: rosearchitem.stitle
+msgctxt "rosearchitem.stitle"
+msgid "Title"
+msgstr ""
+
+#: rosearchitem.sweaponlevel
+msgid "Weapon Level"
+msgstr ""
+
+#: rosearchitem.sweight
+msgctxt "rosearchitem.sweight"
+msgid "Weight"
+msgstr ""
+
+#: rosearchmob.satk
+msgctxt "rosearchmob.satk"
+msgid "Atk"
+msgstr ""
+
+#: rosearchmob.sdef
+msgctxt "rosearchmob.sdef"
+msgid "Def"
+msgstr ""
+
+#: rosearchmob.sexp
+msgid "Exp"
+msgstr ""
+
+#: rosearchmob.sfound
+msgid "Search: found monsters = "
+msgstr ""
+
+#: rosearchmob.shp
+msgctxt "rosearchmob.shp"
+msgid "HP"
+msgstr ""
+
+#: rosearchmob.sjexp
+msgid "JExp"
+msgstr ""
+
+#: rosearchmob.slevel
+msgctxt "rosearchmob.slevel"
+msgid "Level"
+msgstr ""
+
+#: rosearchmob.smdef
+msgctxt "rosearchmob.smdef"
+msgid "MDef"
+msgstr ""
+
+#: rosearchmob.stitle
+msgctxt "rosearchmob.stitle"
+msgid "Title"
+msgstr ""
+
+#: rowizshop.sdiscount
+msgid "Discount"
+msgstr ""
+
+#: rowizshop.squantity
+msgctxt "rowizshop.squantity"
+msgid "Quantity"
+msgstr ""
+
+#: tnpcbase.btninsert.caption
+msgctxt "tnpcbase.btninsert.caption"
+msgid "Insert"
+msgstr ""
+
+#: tnpcbase.cbnpcnames.caption
+msgctxt "tnpcbase.cbnpcnames.caption"
+msgid "Use Names"
+msgstr ""
+
+#: tnpcbase.gbnpccoord.caption
+msgid "NPC Coordinates"
+msgstr ""
+
+#: tnpcbase.groupbox1.caption
+msgid "NPC facing"
+msgstr ""
+
+#: tnpcbase.lnpcmap.caption
+msgid "Map  - NPC placement"
+msgstr ""
+
+#: tnpcbase.lnpcname.caption
+msgid "NPC Name"
+msgstr ""
+
+#: tnpcbase.lnpcsprite.caption
+msgid "NPC Sprite"
+msgstr ""
+
+#: tnpcbase.lrb0.caption
+msgid "0"
+msgstr ""
+
+#: tnpcbase.lrb4.caption
+msgid "4"
+msgstr ""
+
+#: tnpcbase.lxpos.caption
+msgid "X Pos"
+msgstr ""
+
+#: tnpcbase.lypos.caption
+msgid "Y Pos"
+msgstr ""
+
+#: tnpcbase.rb1.caption
+msgctxt "tnpcbase.rb1.caption"
+msgid "1"
+msgstr ""
+
+#: tnpcbase.rb2.caption
+msgctxt "tnpcbase.rb2.caption"
+msgid "2"
+msgstr ""
+
+#: tnpcbase.rb3.caption
+msgctxt "tnpcbase.rb3.caption"
+msgid "3"
+msgstr ""
+
+#: tnpcbase.rb5.caption
+msgid "5"
+msgstr ""
+
+#: tnpcbase.rb6.caption
+msgid "6"
+msgstr ""
+
+#: tnpcbase.rb7.caption
+msgid "7"
+msgstr ""
+
+#: tnpccreateform.btnaddingredient.caption
+msgctxt "tnpccreateform.btnaddingredient.caption"
+msgid "Add"
+msgstr ""
+
+#: tnpccreateform.btnaddresult.caption
+msgid "Add Item"
+msgstr ""
+
+#: tnpccreateform.btndeleteingredient.caption
+msgctxt "tnpccreateform.btndeleteingredient.caption"
+msgid "Delete"
+msgstr ""
+
+#: tnpccreateform.btndeleteresult.caption
+msgid "Delete Item"
+msgstr ""
+
+#: tnpccreateform.btninsert.caption
+msgid "Insert code"
+msgstr ""
+
+#: tnpccreateform.cbusenames.caption
+msgctxt "tnpccreateform.cbusenames.caption"
+msgid "Use Names"
+msgstr ""
+
+#: tnpccreateform.lingredient.caption
+msgid "Ingredient ID"
+msgstr ""
+
+#: tnpccreateform.lquantity.caption
+msgctxt "tnpccreateform.lquantity.caption"
+msgid "Quantity"
+msgstr ""
+
+#: tnpccreateform.lresultitem.caption
+msgid "Result Item ID"
+msgstr ""
+
+#: tnpccreateform.lvitemlist.columns[0].caption
+msgctxt "tnpccreateform.lvitemlist.columns[0].caption"
+msgid "Quantity"
+msgstr ""
+
+#: tnpccreateform.lvitemlist.columns[1].caption
+msgctxt "tnpccreateform.lvitemlist.columns[1].caption"
+msgid "Name"
+msgstr ""
+
+#: tnpcshopform.btnadd.caption
+msgctxt "tnpcshopform.btnadd.caption"
+msgid "Add"
+msgstr ""
+
+#: tnpcshopform.btndelete.caption
+msgctxt "tnpcshopform.btndelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tnpcshopform.btninsert.caption
+msgctxt "tnpcshopform.btninsert.caption"
+msgid "Insert"
+msgstr ""
+
+#: tnpcshopform.litemid.caption
+msgctxt "tnpcshopform.litemid.caption"
+msgid "Item ID"
+msgstr ""
+
+#: tnpcshopform.lquantity.caption
+msgctxt "tnpcshopform.lquantity.caption"
+msgid "Quantity"
+msgstr ""
+
+#: tnpcshopform.lshopprice.caption
+msgctxt "tnpcshopform.lshopprice.caption"
+msgid "Price"
+msgstr ""
+
+#: tnpcshopform.lshoptype.caption
+msgid "Shop type"
+msgstr ""
+
+#: tnpcshopform.lvshopitemlist.columns[0].caption
+msgid "Item"
+msgstr ""
+
+#: tnpcshopform.lvshopitemlist.columns[1].caption
+msgctxt "tnpcshopform.lvshopitemlist.columns[1].caption"
+msgid "Price"
+msgstr ""
+
+#: tnpcshopform.lvshopitemlist.columns[2].caption
+msgctxt "tnpcshopform.lvshopitemlist.columns[2].caption"
+msgid "Quantity"
+msgstr ""
+
+#: tquestdblineform.btngetcode.caption
+msgid "Get code"
+msgstr ""
+
+#: tquestdblineform.btnhelp.caption
+msgid "?"
+msgstr ""
+
+#: tquestdblineform.btnsave.caption
+msgid "Save"
+msgstr ""
+
+#: tquestdblineform.gbtarget.caption
+msgid "Targets"
+msgstr ""
+
+#: tquestdblineform.groupbox1.caption
+msgctxt "tquestdblineform.groupbox1.caption"
+msgid "Items"
+msgstr ""
+
+#: tquestdblineform.lmobid1.caption
+msgid "Mob ID"
+msgstr ""
+
+#: tquestdblineform.lmobid2.caption
+msgctxt "tquestdblineform.lmobid2.caption"
+msgid "Item ID"
+msgstr ""
+
+#: tquestdblineform.lmobid3.caption
+msgctxt "tquestdblineform.lmobid3.caption"
+msgid "Rate"
+msgstr ""
+
+#: tquestdblineform.lquestid.caption
+msgid "Quest ID"
+msgstr ""
+
+#: tquestdblineform.lquesttitle.caption
+msgid "Quest title"
+msgstr ""
+
+#: tquestdblineform.ltarget1.caption
+msgid "Target"
+msgstr ""
+
+#: tquestdblineform.ltarget2.caption
+msgctxt "tquestdblineform.ltarget2.caption"
+msgid "Amount"
+msgstr ""
+
+#: tquestdblineform.ltimelimit.caption
+msgid "Time Limit"
+msgstr ""
+
+#: trodictconstform.caption
+msgid "Constants list"
+msgstr ""
+
+#: trodictconstform.lblconstlist.caption
+msgid "Constant list"
+msgstr ""
+
+#: trodictconstform.lblconstpart.caption
+msgid "Constant Part"
+msgstr ""
+
+#: trofullcarditemform.bbclose.caption
+msgctxt "trofullcarditemform.bbclose.caption"
+msgid "&Close"
+msgstr ""
+
+#: trofullcarditemform.bbok.caption
+msgctxt "trofullcarditemform.bbok.caption"
+msgid "&Save"
+msgstr ""
+
+#: trofullcarditemform.btnclassmode.caption
+msgctxt "trofullcarditemform.btnclassmode.caption"
+msgid "..."
+msgstr ""
+
+#: trofullcarditemform.btnjobmode.caption
+msgctxt "trofullcarditemform.btnjobmode.caption"
+msgid "..."
+msgstr ""
+
+#: trofullcarditemform.btnlocmode.caption
+msgctxt "trofullcarditemform.btnlocmode.caption"
+msgid "..."
+msgstr ""
+
+#: trofullcarditemform.btntrademode.caption
+msgctxt "trofullcarditemform.btntrademode.caption"
+msgid "..."
+msgstr ""
+
+#: trofullcarditemform.cbrefineable.caption
+msgid "Refineable"
+msgstr ""
+
+#: trofullcarditemform.edname.text
+msgid "Item not found"
+msgstr ""
+
+#: trofullcarditemform.gblevel.caption
+msgctxt "trofullcarditemform.gblevel.caption"
+msgid "Level"
+msgstr ""
+
+#: trofullcarditemform.gbprice.caption
+msgctxt "trofullcarditemform.gbprice.caption"
+msgid "Price"
+msgstr ""
+
+#: trofullcarditemform.gbweapon.caption
+msgctxt "trofullcarditemform.gbweapon.caption"
+msgid "Weapon"
+msgstr ""
+
+#: trofullcarditemform.lblaename.caption
+msgctxt "trofullcarditemform.lblaename.caption"
+msgid "AE Name"
+msgstr ""
+
+#: trofullcarditemform.lblatk.caption
+msgid "ATK"
+msgstr ""
+
+#: trofullcarditemform.lblbuy.caption
+msgid "Buy"
+msgstr ""
+
+#: trofullcarditemform.lbldef.caption
+msgid "DEF"
+msgstr ""
+
+#: trofullcarditemform.lbldroppedby.caption
+msgid "Dropped by"
+msgstr ""
+
+#: trofullcarditemform.lblelevel.caption
+msgid "Min"
+msgstr ""
+
+#: trofullcarditemform.lblgender.caption
+msgid "Gender"
+msgstr ""
+
+#: trofullcarditemform.lblid.caption
+msgctxt "trofullcarditemform.lblid.caption"
+msgid "ID"
+msgstr ""
+
+#: trofullcarditemform.lbljob.caption
+msgid "Job"
+msgstr ""
+
+#: trofullcarditemform.lbllocation.caption
+msgid "Location"
+msgstr ""
+
+#: trofullcarditemform.lblmatk.caption
+msgid "MATK"
+msgstr ""
+
+#: trofullcarditemform.lblmaxlevel.caption
+msgid "Max"
+msgstr ""
+
+#: trofullcarditemform.lblname.caption
+msgctxt "trofullcarditemform.lblname.caption"
+msgid "Name"
+msgstr ""
+
+#: trofullcarditemform.lblrange.caption
+msgctxt "trofullcarditemform.lblrange.caption"
+msgid "Range"
+msgstr ""
+
+#: trofullcarditemform.lblscript.caption
+msgctxt "trofullcarditemform.lblscript.caption"
+msgid "Script"
+msgstr ""
+
+#: trofullcarditemform.lblscriptequip.caption
+msgid "Equip"
+msgstr ""
+
+#: trofullcarditemform.lblscriptunequip.caption
+msgid "Unequip"
+msgstr ""
+
+#: trofullcarditemform.lblsell.caption
+msgid "Sell"
+msgstr ""
+
+#: trofullcarditemform.lblslots.caption
+msgctxt "trofullcarditemform.lblslots.caption"
+msgid "Slots"
+msgstr ""
+
+#: trofullcarditemform.lbltrade.caption
+msgid "Trade"
+msgstr ""
+
+#: trofullcarditemform.lbltype.caption
+msgid "Type"
+msgstr ""
+
+#: trofullcarditemform.lblupper.caption
+msgid "Class"
+msgstr ""
+
+#: trofullcarditemform.lblview.caption
+msgid "View"
+msgstr ""
+
+#: trofullcarditemform.lblweight.caption
+msgctxt "trofullcarditemform.lblweight.caption"
+msgid "Weight"
+msgstr ""
+
+#: trofullcarditemform.lblwlevel.caption
+msgid "wLevel"
+msgstr ""
+
+#: trofullcarditemform.sgdrop.columns[0].title.caption
+msgctxt "trofullcarditemform.sgdrop.columns[0].title.caption"
+msgid "ID"
+msgstr ""
+
+#: trofullcarditemform.sgdrop.columns[1].title.caption
+msgctxt "trofullcarditemform.sgdrop.columns[1].title.caption"
+msgid "Name"
+msgstr ""
+
+#: trofullcarditemform.sgdrop.columns[2].title.caption
+msgctxt "trofullcarditemform.sgdrop.columns[2].title.caption"
+msgid "Rate"
+msgstr ""
+
+#: trofullcarditemform.tboff.caption
+msgctxt "trofullcarditemform.tboff.caption"
+msgid "OFF"
+msgstr ""
+
+#: trofullcarditemform.tbreadonly.caption
+msgctxt "trofullcarditemform.tbreadonly.caption"
+msgid "Read Only"
+msgstr ""
+
+#: trofullcardmobform.bbclose.caption
+msgctxt "trofullcardmobform.bbclose.caption"
+msgid "&Close"
+msgstr ""
+
+#: trofullcardmobform.bbok.caption
+msgctxt "trofullcardmobform.bbok.caption"
+msgid "&Save"
+msgstr ""
+
+#: trofullcardmobform.btnjobmode.caption
+msgctxt "trofullcardmobform.btnjobmode.caption"
+msgid "..."
+msgstr ""
+
+#: trofullcardmobform.btnmap.caption
+msgctxt "trofullcardmobform.btnmap.caption"
+msgid "Map"
+msgstr ""
+
+#: trofullcardmobform.edadelay.hint
+msgid ""
+"Attack Delay of the monster, also known as ASPD.\n"
+"Low value means faster attack speed, but don't make it too low or\n"
+"it will lag when a player got mobbed by several of these mobs."
+msgstr ""
+
+#: trofullcardmobform.edamotion.hint
+msgid ""
+"Attack animation motion.\n"
+"Low value means monster's attack will be displayed in higher fps\n"
+"(making it shorter, too)"
+msgstr ""
+
+#: trofullcardmobform.eddmotion.hint
+msgid ""
+"Damage animation motion,\n"
+"same as aMotion but used to display the \"I am hit\" animation.\n"
+"Coincidentally, this same value is used to determine how long\n"
+"it is before the monster/player can move again.\n"
+"Endure is dMotion = 0, obviously."
+msgstr ""
+
+#: trofullcardmobform.edironame.text
+msgctxt "trofullcardmobform.edironame.text"
+msgid "Monster not found"
+msgstr ""
+
+#: trofullcardmobform.edkroname.text
+msgctxt "trofullcardmobform.edkroname.text"
+msgid "Monster not found"
+msgstr ""
+
+#: trofullcardmobform.edrange1.hint
+msgid ""
+"Range of the monster attack. If set to 1 or 2, it will be set to melee attack.\n"
+"If set to 3 or more, it will be set to ranged attack."
+msgstr ""
+
+#: trofullcardmobform.edrange2.hint
+msgid "Maximum Skill Range."
+msgstr ""
+
+#: trofullcardmobform.edrange3.hint
+msgid ""
+"Sight limit of the monster. If set to 1000 or beyond,\n"
+"the monster will follow you all over the map."
+msgstr ""
+
+#: trofullcardmobform.edspeed.hint
+msgid ""
+"Walk speed of the monster\n"
+"1 = Fastest\n"
+"100 = Normal\n"
+"1000 = Slowest"
+msgstr ""
+
+#: trofullcardmobform.gbrange.caption
+msgctxt "trofullcardmobform.gbrange.caption"
+msgid "Range"
+msgstr ""
+
+#: trofullcardmobform.lbladelay.caption
+msgid "aDelay"
+msgstr ""
+
+#: trofullcardmobform.lblagi.caption
+msgctxt "trofullcardmobform.lblagi.caption"
+msgid "AGI"
+msgstr ""
+
+#: trofullcardmobform.lblamotion.caption
+msgid "aMotion"
+msgstr ""
+
+#: trofullcardmobform.lblatk1.caption
+msgctxt "trofullcardmobform.lblatk1.caption"
+msgid "Min Atk"
+msgstr ""
+
+#: trofullcardmobform.lblatk2.caption
+msgctxt "trofullcardmobform.lblatk2.caption"
+msgid "Max Atk"
+msgstr ""
+
+#: trofullcardmobform.lblbaseexp.caption
+msgctxt "trofullcardmobform.lblbaseexp.caption"
+msgid "Base Exp"
+msgstr ""
+
+#: trofullcardmobform.lblbasejexp.caption
+msgctxt "trofullcardmobform.lblbasejexp.caption"
+msgid "Job Exp"
+msgstr ""
+
+#: trofullcardmobform.lbldef.caption
+msgctxt "trofullcardmobform.lbldef.caption"
+msgid "Def"
+msgstr ""
+
+#: trofullcardmobform.lbldex.caption
+msgctxt "trofullcardmobform.lbldex.caption"
+msgid "DEX"
+msgstr ""
+
+#: trofullcardmobform.lbldmotion.caption
+msgid "dMotion"
+msgstr ""
+
+#: trofullcardmobform.lblelement.caption
+msgctxt "trofullcardmobform.lblelement.caption"
+msgid "Element"
+msgstr ""
+
+#: trofullcardmobform.lblhp.caption
+msgctxt "trofullcardmobform.lblhp.caption"
+msgid "HP"
+msgstr ""
+
+#: trofullcardmobform.lblid.caption
+msgctxt "trofullcardmobform.lblid.caption"
+msgid "ID"
+msgstr ""
+
+#: trofullcardmobform.lblint.caption
+msgctxt "trofullcardmobform.lblint.caption"
+msgid "INT"
+msgstr ""
+
+#: trofullcardmobform.lblironame.caption
+msgid "iRO Name"
+msgstr ""
+
+#: trofullcardmobform.lblkroname.caption
+msgid "kRO Name"
+msgstr ""
+
+#: trofullcardmobform.lblkroname1.caption
+msgctxt "trofullcardmobform.lblkroname1.caption"
+msgid "AE Name"
+msgstr ""
+
+#: trofullcardmobform.lbllevel.caption
+msgctxt "trofullcardmobform.lbllevel.caption"
+msgid "Level"
+msgstr ""
+
+#: trofullcardmobform.lblluk.caption
+msgctxt "trofullcardmobform.lblluk.caption"
+msgid "LUK"
+msgstr ""
+
+#: trofullcardmobform.lblmdef.caption
+msgctxt "trofullcardmobform.lblmdef.caption"
+msgid "MDef"
+msgstr ""
+
+#: trofullcardmobform.lblmode.caption
+msgid "Mode"
+msgstr ""
+
+#: trofullcardmobform.lblrace.caption
+msgctxt "trofullcardmobform.lblrace.caption"
+msgid "Race"
+msgstr ""
+
+#: trofullcardmobform.lblrange1.caption
+msgctxt "trofullcardmobform.lblrange1.caption"
+msgid "1"
+msgstr ""
+
+#: trofullcardmobform.lblrange2.caption
+msgctxt "trofullcardmobform.lblrange2.caption"
+msgid "2"
+msgstr ""
+
+#: trofullcardmobform.lblrange3.caption
+msgctxt "trofullcardmobform.lblrange3.caption"
+msgid "3"
+msgstr ""
+
+#: trofullcardmobform.lblscale.caption
+msgctxt "trofullcardmobform.lblscale.caption"
+msgid "Size"
+msgstr ""
+
+#: trofullcardmobform.lblsp.caption
+msgctxt "trofullcardmobform.lblsp.caption"
+msgid "SP"
+msgstr ""
+
+#: trofullcardmobform.lblspeed.caption
+msgid "Speed"
+msgstr ""
+
+#: trofullcardmobform.lblstr.caption
+msgctxt "trofullcardmobform.lblstr.caption"
+msgid "STR"
+msgstr ""
+
+#: trofullcardmobform.lblvit.caption
+msgctxt "trofullcardmobform.lblvit.caption"
+msgid "VIT"
+msgstr ""
+
+#: trofullcardmobform.lvlmvpexp.caption
+msgid "MVP Exp"
+msgstr ""
+
+#: trofullcardmobform.sgdrop.columns[0].title.caption
+msgctxt "trofullcardmobform.sgdrop.columns[0].title.caption"
+msgid "ID"
+msgstr ""
+
+#: trofullcardmobform.sgdrop.columns[1].title.caption
+msgctxt "trofullcardmobform.sgdrop.columns[1].title.caption"
+msgid "Name"
+msgstr ""
+
+#: trofullcardmobform.sgdrop.columns[2].title.caption
+msgctxt "trofullcardmobform.sgdrop.columns[2].title.caption"
+msgid "Rate"
+msgstr ""
+
+#: trofullcardmobform.tboff.caption
+msgctxt "trofullcardmobform.tboff.caption"
+msgid "OFF"
+msgstr ""
+
+#: trofullcardmobform.tbreadonly.caption
+msgctxt "trofullcardmobform.tbreadonly.caption"
+msgid "Read Only"
+msgstr ""
+
+#: trohelpcardmobform.btnfullinfo.caption
+msgid "Full Info"
+msgstr ""
+
+#: trohelpcardmobform.btnmap.caption
+msgctxt "trohelpcardmobform.btnmap.caption"
+msgid "Map"
+msgstr ""
+
+#: trohelpcardmobform.cbstretch.caption
+msgid "Stretch Sprite"
+msgstr ""
+
+#: trohelpcardmobform.edname.text
+msgctxt "trohelpcardmobform.edname.text"
+msgid "Monster not found"
+msgstr ""
+
+#: trohelpcardmobform.lblagi.caption
+msgctxt "trohelpcardmobform.lblagi.caption"
+msgid "AGI"
+msgstr ""
+
+#: trohelpcardmobform.lblatk1.caption
+msgctxt "trohelpcardmobform.lblatk1.caption"
+msgid "Min Atk"
+msgstr ""
+
+#: trohelpcardmobform.lblatk2.caption
+msgctxt "trohelpcardmobform.lblatk2.caption"
+msgid "Max Atk"
+msgstr ""
+
+#: trohelpcardmobform.lblbaseexp.caption
+msgctxt "trohelpcardmobform.lblbaseexp.caption"
+msgid "Base Exp"
+msgstr ""
+
+#: trohelpcardmobform.lblbasejexp.caption
+msgctxt "trohelpcardmobform.lblbasejexp.caption"
+msgid "Job Exp"
+msgstr ""
+
+#: trohelpcardmobform.lbldef.caption
+msgctxt "trohelpcardmobform.lbldef.caption"
+msgid "Def"
+msgstr ""
+
+#: trohelpcardmobform.lbldex.caption
+msgctxt "trohelpcardmobform.lbldex.caption"
+msgid "DEX"
+msgstr ""
+
+#: trohelpcardmobform.lblelement.caption
+msgctxt "trohelpcardmobform.lblelement.caption"
+msgid "Element"
+msgstr ""
+
+#: trohelpcardmobform.lblhp.caption
+msgctxt "trohelpcardmobform.lblhp.caption"
+msgid "HP"
+msgstr ""
+
+#: trohelpcardmobform.lblint.caption
+msgctxt "trohelpcardmobform.lblint.caption"
+msgid "INT"
+msgstr ""
+
+#: trohelpcardmobform.lbllevel.caption
+msgctxt "trohelpcardmobform.lbllevel.caption"
+msgid "Level"
+msgstr ""
+
+#: trohelpcardmobform.lblluk.caption
+msgctxt "trohelpcardmobform.lblluk.caption"
+msgid "LUK"
+msgstr ""
+
+#: trohelpcardmobform.lblmdef.caption
+msgctxt "trohelpcardmobform.lblmdef.caption"
+msgid "MDef"
+msgstr ""
+
+#: trohelpcardmobform.lblname.caption
+msgctxt "trohelpcardmobform.lblname.caption"
+msgid "Name"
+msgstr ""
+
+#: trohelpcardmobform.lblrace.caption
+msgctxt "trohelpcardmobform.lblrace.caption"
+msgid "Race"
+msgstr ""
+
+#: trohelpcardmobform.lblscale.caption
+msgctxt "trohelpcardmobform.lblscale.caption"
+msgid "Size"
+msgstr ""
+
+#: trohelpcardmobform.lblsp.caption
+msgctxt "trohelpcardmobform.lblsp.caption"
+msgid "SP"
+msgstr ""
+
+#: trohelpcardmobform.lblstr.caption
+msgctxt "trohelpcardmobform.lblstr.caption"
+msgid "STR"
+msgstr ""
+
+#: trohelpcardmobform.lblvit.caption
+msgctxt "trohelpcardmobform.lblvit.caption"
+msgid "VIT"
+msgstr ""
+
+#: trohelpcardmobform.tboff.caption
+msgctxt "trohelpcardmobform.tboff.caption"
+msgid "OFF"
+msgstr ""
+
+#: trohelpdocform.lpart.caption
+msgid "Part"
+msgstr ""
+
+#: trohelpspritesform.cbshownames.caption
+msgid "Show names"
+msgstr ""
+
+#: trohelpspritesform.cbstretch.caption
+msgid "Stretch sprites"
+msgstr ""
+
+#: tromainform.mieditfind.caption
+msgctxt "tromainform.mieditfind.caption"
+msgid "&Find"
+msgstr ""
+
+#: tromainform.mieditfindnext.caption
+msgid "Find &Next"
+msgstr ""
+
+#: tromainform.mieditfoldall.caption
+msgctxt "tromainform.mieditfoldall.caption"
+msgid "Fold &All"
+msgstr ""
+
+#: tromainform.mieditreplace.caption
+msgctxt "tromainform.mieditreplace.caption"
+msgid "&Replace"
+msgstr ""
+
+#: tromainform.mieditunfoldall.caption
+msgctxt "tromainform.mieditunfoldall.caption"
+msgid "&Unfold All"
+msgstr ""
+
+#: tromainform.mifileclose.caption
+msgid "&Close window"
+msgstr ""
+
+#: tromainform.mifilecloseall.caption
+msgid "Close All"
+msgstr ""
+
+#: tromainform.mifileexit.caption
+msgid "E&xit"
+msgstr ""
+
+#: tromainform.mifileexpertsaveitems.caption
+msgid "Save Items"
+msgstr ""
+
+#: tromainform.mifileexpertsavemobs.caption
+msgid "Save Monsters"
+msgstr ""
+
+#: tromainform.mifileexpertsavequest.caption
+msgid "Save Quests"
+msgstr ""
+
+#: tromainform.mifilelocalitem.caption
+msgid "Item Localization"
+msgstr ""
+
+#: tromainform.mifilelocalmap.caption
+msgid "Map Localization"
+msgstr ""
+
+#: tromainform.mifilelocalmob.caption
+msgid "Mob Localization"
+msgstr ""
+
+#: tromainform.mifilenew.caption
+msgctxt "tromainform.mifilenew.caption"
+msgid "&New"
+msgstr ""
+
+#: tromainform.mifileopen.caption
+msgctxt "tromainform.mifileopen.caption"
+msgid "&Open"
+msgstr ""
+
+#: tromainform.mifilereloadcolor.caption
+msgid "Load Color scheme"
+msgstr ""
+
+#: tromainform.mifilesave.caption
+msgctxt "tromainform.mifilesave.caption"
+msgid "&Save"
+msgstr ""
+
+#: tromainform.mifilesaveall.caption
+msgid "Save A&ll"
+msgstr ""
+
+#: tromainform.mifilesaveas.caption
+msgid "Save &as ..."
+msgstr ""
+
+#: tromainform.mifilesettings.caption
+msgctxt "tromainform.mifilesettings.caption"
+msgid "Settings"
+msgstr ""
+
+#: tromainform.migobookmark0.caption
+msgctxt "tromainform.migobookmark0.caption"
+msgid "Bookmark 0"
+msgstr ""
+
+#: tromainform.migobookmark1.caption
+msgctxt "tromainform.migobookmark1.caption"
+msgid "Bookmark 1"
+msgstr ""
+
+#: tromainform.migobookmark2.caption
+msgctxt "tromainform.migobookmark2.caption"
+msgid "Bookmark 2"
+msgstr ""
+
+#: tromainform.migobookmark3.caption
+msgctxt "tromainform.migobookmark3.caption"
+msgid "Bookmark 3"
+msgstr ""
+
+#: tromainform.migobookmark4.caption
+msgctxt "tromainform.migobookmark4.caption"
+msgid "Bookmark 4"
+msgstr ""
+
+#: tromainform.migobookmark5.caption
+msgctxt "tromainform.migobookmark5.caption"
+msgid "Bookmark 5"
+msgstr ""
+
+#: tromainform.migobookmark6.caption
+msgctxt "tromainform.migobookmark6.caption"
+msgid "Bookmark 6"
+msgstr ""
+
+#: tromainform.migobookmark7.caption
+msgctxt "tromainform.migobookmark7.caption"
+msgid "Bookmark 7"
+msgstr ""
+
+#: tromainform.migobookmark8.caption
+msgctxt "tromainform.migobookmark8.caption"
+msgid "Bookmark 8"
+msgstr ""
+
+#: tromainform.migobookmark9.caption
+msgctxt "tromainform.migobookmark9.caption"
+msgid "Bookmark 9"
+msgstr ""
+
+#: tromainform.mihelpabout.caption
+msgid "&About"
+msgstr ""
+
+#: tromainform.mihelpatcommands.caption
+msgid "AT @ commands"
+msgstr ""
+
+#: tromainform.mihelpcommands.caption
+msgctxt "tromainform.mihelpcommands.caption"
+msgid "&Commands"
+msgstr ""
+
+#: tromainform.mihelpconstant.caption
+msgid "Constants"
+msgstr ""
+
+#: tromainform.mihelpdictitemsprites.caption
+msgid "Item Sprites"
+msgstr ""
+
+#: tromainform.mihelpdictitemtable.caption
+msgid "Item Table"
+msgstr ""
+
+#: tromainform.mihelpdictmapsprites.caption
+msgid "Map Sprites"
+msgstr ""
+
+#: tromainform.mihelpdictmaptable.caption
+msgid "Map Table"
+msgstr ""
+
+#: tromainform.mihelpdictmobsprites.caption
+msgid "Monster sprites"
+msgstr ""
+
+#: tromainform.mihelpdictmobtable.caption
+msgid "Monster Table"
+msgstr ""
+
+#: tromainform.mihelpdictnpcsprites.caption
+msgid "NPC Sprites"
+msgstr ""
+
+#: tromainform.mihelpdictquest.caption
+msgid "&Quest list"
+msgstr ""
+
+#: tromainform.mihelpeffects.caption
+msgid "Effect list"
+msgstr ""
+
+#: tromainform.mihelpitemsearch.caption
+msgid "Item Search"
+msgstr ""
+
+#: tromainform.mihelpmapflags.caption
+msgctxt "tromainform.mihelpmapflags.caption"
+msgid "Map flags"
+msgstr ""
+
+#: tromainform.mihelpmobsearch.caption
+msgid "Monster Search"
+msgstr ""
+
+#: tromainform.mihelpskills.caption
+msgid "Skill constants"
+msgstr ""
+
+#: tromainform.mipopupquestdb.caption
+msgid "Quest DB line"
+msgstr ""
+
+#: tromainform.mipopupshowitemcard.caption
+msgid "Show Item card"
+msgstr ""
+
+#: tromainform.mipopupshowmapsprite.caption
+msgid "Show Map Sprite"
+msgstr ""
+
+#: tromainform.mipopupshowmobcard.caption
+msgid "Show Monster card"
+msgstr ""
+
+#: tromainform.mipopupshownpcsprite.caption
+msgid "Show NPC Sprite"
+msgstr ""
+
+#: tromainform.mipopupwordhelp.caption
+msgid "Word help"
+msgstr ""
+
+#: tromainform.misetbookmark0.caption
+msgctxt "tromainform.misetbookmark0.caption"
+msgid "Bookmark 0"
+msgstr ""
+
+#: tromainform.misetbookmark1.caption
+msgctxt "tromainform.misetbookmark1.caption"
+msgid "Bookmark 1"
+msgstr ""
+
+#: tromainform.misetbookmark2.caption
+msgctxt "tromainform.misetbookmark2.caption"
+msgid "Bookmark 2"
+msgstr ""
+
+#: tromainform.misetbookmark3.caption
+msgctxt "tromainform.misetbookmark3.caption"
+msgid "Bookmark 3"
+msgstr ""
+
+#: tromainform.misetbookmark4.caption
+msgctxt "tromainform.misetbookmark4.caption"
+msgid "Bookmark 4"
+msgstr ""
+
+#: tromainform.misetbookmark5.caption
+msgctxt "tromainform.misetbookmark5.caption"
+msgid "Bookmark 5"
+msgstr ""
+
+#: tromainform.misetbookmark6.caption
+msgctxt "tromainform.misetbookmark6.caption"
+msgid "Bookmark 6"
+msgstr ""
+
+#: tromainform.misetbookmark7.caption
+msgctxt "tromainform.misetbookmark7.caption"
+msgid "Bookmark 7"
+msgstr ""
+
+#: tromainform.misetbookmark8.caption
+msgctxt "tromainform.misetbookmark8.caption"
+msgid "Bookmark 8"
+msgstr ""
+
+#: tromainform.misetbookmark9.caption
+msgctxt "tromainform.misetbookmark9.caption"
+msgid "Bookmark 9"
+msgstr ""
+
+#: tromainform.mitabpopupclose.caption
+msgid "&Close Tab"
+msgstr ""
+
+#: tromainform.mitabpopupnew.caption
+msgid "&New Tab"
+msgstr ""
+
+#: tromainform.miwizardcreatequest.caption
+msgid "&Creation Quest"
+msgstr ""
+
+#: tromainform.miwizardnpc.caption
+msgid "&NPC"
+msgstr ""
+
+#: tromainform.miwizardquestdbline.caption
+msgid "Quest_db line"
+msgstr ""
+
+#: tromainform.miwizardshop.caption
+msgid "&Shop"
+msgstr ""
+
+#: tromainform.mnubookmarkgo.caption
+msgid "Go to Bookmark"
+msgstr ""
+
+#: tromainform.mnubookmarkset.caption
+msgid "Set Bookmark"
+msgstr ""
+
+#: tromainform.mnuedit.caption
+msgid "&Edit"
+msgstr ""
+
+#: tromainform.mnufile.caption
+msgid "&File"
+msgstr ""
+
+#: tromainform.mnufileexpert.caption
+msgid "Expert"
+msgstr ""
+
+#: tromainform.mnufilelocal.caption
+msgctxt "tromainform.mnufilelocal.caption"
+msgid "Local"
+msgstr ""
+
+#: tromainform.mnuhelp.caption
+msgid "&Help"
+msgstr ""
+
+#: tromainform.mnuhelpdictionary.caption
+msgid "&Dictionary"
+msgstr ""
+
+#: tromainform.mnuwindows.caption
+msgid "Windows"
+msgstr ""
+
+#: tromainform.mnuwizard.caption
+msgid "&Wizard"
+msgstr ""
+
+#: tromainform.tbeditfind.caption
+msgctxt "tromainform.tbeditfind.caption"
+msgid "&Find"
+msgstr ""
+
+#: tromainform.tbeditreplace.caption
+msgctxt "tromainform.tbeditreplace.caption"
+msgid "&Replace"
+msgstr ""
+
+#: tromainform.tbfilenew.caption
+msgctxt "tromainform.tbfilenew.caption"
+msgid "&New"
+msgstr ""
+
+#: tromainform.tbfileopen.caption
+msgctxt "tromainform.tbfileopen.caption"
+msgid "&Open"
+msgstr ""
+
+#: tromainform.tbfilesave.caption
+msgctxt "tromainform.tbfilesave.caption"
+msgid "&Save"
+msgstr ""
+
+#: tromainform.tbfoldall.caption
+msgctxt "tromainform.tbfoldall.caption"
+msgid "Fold &All"
+msgstr ""
+
+#: tromainform.tbhelpdoc.caption
+msgctxt "tromainform.tbhelpdoc.caption"
+msgid "&Commands"
+msgstr ""
+
+#: tromainform.tbsettings.caption
+msgctxt "tromainform.tbsettings.caption"
+msgid "Settings"
+msgstr ""
+
+#: tromainform.tbunfoldall.caption
+msgctxt "tromainform.tbunfoldall.caption"
+msgid "&Unfold All"
+msgstr ""
+
+#: troresplistform.sgresplist.columns[1].title.caption
+msgctxt "troresplistform.sgresplist.columns[1].title.caption"
+msgid "Amount"
+msgstr ""
+
+#: troresplistform.sgresplist.columns[2].title.caption
+msgid "Resp time, sec"
+msgstr ""
+
+#: trosearchitemform.btnsearch.caption
+msgctxt "trosearchitemform.btnsearch.caption"
+msgid "Search"
+msgstr ""
+
+#: trosearchitemform.cbcostume.caption
+msgid "Costume"
+msgstr ""
+
+#: trosearchitemform.cbdropped.caption
+msgid "Dropped from Monster"
+msgstr ""
+
+#: trosearchitemform.lbleffect.caption
+msgctxt "trosearchitemform.lbleffect.caption"
+msgid "Script"
+msgstr ""
+
+#: trosearchitemform.lblfrom.caption
+msgctxt "trosearchitemform.lblfrom.caption"
+msgid "From"
+msgstr ""
+
+#: trosearchitemform.lblid.caption
+msgctxt "trosearchitemform.lblid.caption"
+msgid "Id"
+msgstr ""
+
+#: trosearchitemform.lblitemname.caption
+msgid "Item Name"
+msgstr ""
+
+#: trosearchitemform.lblitemtype.caption
+msgid "Item type"
+msgstr ""
+
+#: trosearchitemform.lblto.caption
+msgctxt "trosearchitemform.lblto.caption"
+msgid "To"
+msgstr ""
+
+#: trosearchmobform.btnsearch.caption
+msgctxt "trosearchmobform.btnsearch.caption"
+msgid "Search"
+msgstr ""
+
+#: trosearchmobform.lblelement.caption
+msgctxt "trosearchmobform.lblelement.caption"
+msgid "Element"
+msgstr ""
+
+#: trosearchmobform.lblfrom.caption
+msgctxt "trosearchmobform.lblfrom.caption"
+msgid "From"
+msgstr ""
+
+#: trosearchmobform.lblid.caption
+msgctxt "trosearchmobform.lblid.caption"
+msgid "Id"
+msgstr ""
+
+#: trosearchmobform.lblmobname.caption
+msgid "Monster Name"
+msgstr ""
+
+#: trosearchmobform.lblrace.caption
+msgctxt "trosearchmobform.lblrace.caption"
+msgid "Race"
+msgstr ""
+
+#: trosearchmobform.lblsize.caption
+msgctxt "trosearchmobform.lblsize.caption"
+msgid "Size"
+msgstr ""
+
+#: trosearchmobform.lblto.caption
+msgctxt "trosearchmobform.lblto.caption"
+msgid "To"
+msgstr ""
+
+#: trosettingsform.bbapply.caption
+msgid "&Apply"
+msgstr ""
+
+#: trosettingsform.cballowedit.caption
+msgid "Allow edit cards"
+msgstr ""
+
+#: trosettingsform.cbautoaddscheme.caption
+msgid "Auto add loaded schemes"
+msgstr ""
+
+#: trosettingsform.cbautoloadlocal.caption
+msgid "Auto load localization"
+msgstr ""
+
+#: trosettingsform.cbcommenttodel.caption
+msgid "Comment marked delete lines"
+msgstr ""
+
+#: trosettingsform.cbfullcard.caption
+msgid "Show Full item/monster card"
+msgstr ""
+
+#: trosettingsform.cbloadcommented.caption
+msgid "Load commented Items/Monsters"
+msgstr ""
+
+#: trosettingsform.cbwincpfiles.caption
+msgid "Assume files are CP_ACP"
+msgstr ""
+
+#: trosettingsform.ebdatadir.buttoncaption
+msgctxt "trosettingsform.ebdatadir.buttoncaption"
+msgid "..."
+msgstr ""
+
+#: trosettingsform.lbldatadir.caption
+msgid "Choose RAthena directory (empty for default)"
+msgstr ""
+
+#: trosettingsform.lblscheme.caption
+msgid "Highlighter scheme"
+msgstr ""
+

@@ -1,0 +1,10 @@
+{"version":1,"strings":[
+{"hash":317789,"name":"trosearchmobform.lblfrom.caption","sourcebytes":[70,114,111,109],"value":"From"},
+{"hash":1455,"name":"trosearchmobform.lblto.caption","sourcebytes":[84,111],"value":"To"},
+{"hash":362389,"name":"trosearchmobform.lblrace.caption","sourcebytes":[82,97,99,101],"value":"Race"},
+{"hash":204225556,"name":"trosearchmobform.lblelement.caption","sourcebytes":[69,108,101,109,101,110,116],"value":"Element"},
+{"hash":368901,"name":"trosearchmobform.lblsize.caption","sourcebytes":[83,105,122,101],"value":"Size"},
+{"hash":94079128,"name":"trosearchmobform.btnsearch.caption","sourcebytes":[83,101,97,114,99,104],"value":"Search"},
+{"hash":151199381,"name":"trosearchmobform.lblmobname.caption","sourcebytes":[77,111,110,115,116,101,114,32,78,97,109,101],"value":"Monster Name"},
+{"hash":1268,"name":"trosearchmobform.lblid.caption","sourcebytes":[73,100],"value":"Id"}
+]}

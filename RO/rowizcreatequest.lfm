@@ -1,0 +1,214 @@
+object NPCCreateForm: TNPCCreateForm
+  Left = 674
+  Height = 220
+  Top = 193
+  Width = 570
+  ClientHeight = 220
+  ClientWidth = 570
+  Constraints.MinHeight = 220
+  Constraints.MinWidth = 570
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnResize = FormResize
+  LCLVersion = '1.9.0.0'
+  object cbResultItem: TComboBox
+    AnchorSideRight.Control = lbResult
+    AnchorSideRight.Side = asrBottom
+    Left = 6
+    Height = 23
+    Top = 23
+    Width = 264
+    Anchors = [akLeft, akRight, akBottom]
+    ItemHeight = 15
+    OnChange = cbResultItemChange
+    Sorted = True
+    TabOrder = 0
+  end
+  object lResultItem: TLabel
+    AnchorSideRight.Control = lbResult
+    AnchorSideRight.Side = asrBottom
+    Left = 6
+    Height = 15
+    Top = 7
+    Width = 264
+    Alignment = taCenter
+    Anchors = [akLeft, akRight, akBottom]
+    AutoSize = False
+    Caption = 'Result Item ID'
+    ParentColor = False
+  end
+  object lIngredient: TLabel
+    AnchorSideLeft.Control = lvItemList
+    Left = 302
+    Height = 15
+    Top = 7
+    Width = 264
+    Alignment = taCenter
+    Anchors = [akLeft, akRight, akBottom]
+    AutoSize = False
+    Caption = 'Ingredient ID'
+    ParentColor = False
+  end
+  object cbItemName: TComboBox
+    AnchorSideLeft.Control = lvItemList
+    Left = 302
+    Height = 23
+    Top = 23
+    Width = 264
+    Anchors = [akLeft, akRight, akBottom]
+    ItemHeight = 15
+    OnChange = cbItemNameChange
+    Sorted = True
+    TabOrder = 4
+  end
+  object btnAddResult: TButton
+    Left = 6
+    Height = 25
+    Top = 75
+    Width = 112
+    Anchors = [akLeft, akBottom]
+    Caption = 'Add Item'
+    OnClick = btnAddResultClick
+    TabOrder = 1
+  end
+  object btnAddIngredient: TButton
+    AnchorSideLeft.Control = lvItemList
+    Left = 302
+    Height = 25
+    Top = 75
+    Width = 112
+    Anchors = [akLeft, akBottom]
+    Caption = 'Add'
+    Enabled = False
+    OnClick = btnAddIngredientClick
+    TabOrder = 6
+  end
+  object lbResult: TListBox
+    Left = 6
+    Height = 114
+    Top = 103
+    Width = 264
+    Anchors = [akLeft, akBottom]
+    ItemHeight = 0
+    OnSelectionChange = lbResultSelectionChange
+    TabOrder = 2
+  end
+  object btnDeleteResult: TButton
+    AnchorSideRight.Control = lbResult
+    AnchorSideRight.Side = asrBottom
+    Left = 158
+    Height = 25
+    Top = 75
+    Width = 112
+    Anchors = [akRight, akBottom]
+    Caption = 'Delete Item'
+    Enabled = False
+    OnClick = btnDeleteResultClick
+    TabOrder = 3
+  end
+  object btnDeleteIngredient: TButton
+    Left = 454
+    Height = 25
+    Top = 75
+    Width = 112
+    Anchors = [akRight, akBottom]
+    Caption = 'Delete'
+    Enabled = False
+    OnClick = btnDeleteIngredientClick
+    TabOrder = 8
+  end
+  object arResultUp: TArrow
+    AnchorSideLeft.Control = lbResult
+    AnchorSideLeft.Side = asrBottom
+    Left = 271
+    Height = 20
+    Top = 103
+    Width = 20
+    Anchors = [akLeft, akBottom]
+    ArrowType = atUp
+    BorderSpacing.Left = 1
+    Constraints.MinHeight = 8
+    Constraints.MinWidth = 8
+    OnClick = arResultUpClick
+  end
+  object arResultDown: TArrow
+    AnchorSideLeft.Control = lbResult
+    AnchorSideLeft.Side = asrBottom
+    Left = 271
+    Height = 20
+    Top = 197
+    Width = 20
+    Anchors = [akLeft, akBottom]
+    ArrowType = atDown
+    BorderSpacing.Left = 1
+    Constraints.MinHeight = 8
+    Constraints.MinWidth = 8
+    OnClick = arResultDownClick
+  end
+  object lvItemList: TListView
+    Left = 302
+    Height = 114
+    Top = 103
+    Width = 264
+    Anchors = [akRight, akBottom]
+    AutoWidthLastColumn = True
+    Columns = <    
+      item
+        Caption = 'Quantity'
+        MinWidth = 60
+        Width = 60
+      end    
+      item
+        Caption = 'Name'
+        Width = 200
+      end>
+    GridLines = True
+    HideSelection = False
+    RowSelect = True
+    TabOrder = 7
+    ViewStyle = vsReport
+  end
+  object lQuantity: TLabel
+    AnchorSideLeft.Control = lvItemList
+    Left = 302
+    Height = 15
+    Top = 54
+    Width = 180
+    Alignment = taRightJustify
+    Anchors = [akLeft, akRight, akBottom]
+    AutoSize = False
+    Caption = 'Quantity'
+    ParentColor = False
+  end
+  object edQuantity: TEdit
+    Left = 486
+    Height = 23
+    Top = 50
+    Width = 80
+    Anchors = [akRight, akBottom]
+    TabOrder = 5
+  end
+  object btnInsert: TButton
+    Left = 6
+    Height = 25
+    Top = 49
+    Width = 112
+    Anchors = [akLeft, akBottom]
+    Caption = 'Insert code'
+    Enabled = False
+    OnClick = btnInsertClick
+    TabOrder = 10
+  end
+  object cbUseNames: TCheckBox
+    AnchorSideRight.Control = lbResult
+    AnchorSideRight.Side = asrBottom
+    Left = 124
+    Height = 19
+    Top = 52
+    Width = 146
+    Anchors = [akLeft, akRight, akBottom]
+    AutoSize = False
+    Caption = 'Use Names'
+    TabOrder = 9
+  end
+end

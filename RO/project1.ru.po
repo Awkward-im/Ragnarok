@@ -1,0 +1,2709 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"X-Generator: Poedit 1.8.9\n"
+
+#: mainform.scardlabelatcmd
+msgid "AT Commands"
+msgstr "AT-команды"
+
+#: mainform.scardlabelcommand
+msgid "Commands / Keywords"
+msgstr "Команды/ключевые слова"
+
+#: mainform.scardlabelmapflag
+msgctxt "mainform.scardlabelmapflag"
+msgid "Map flags"
+msgstr "Настройки карт"
+
+#: mainform.sdataorderchanged
+#, fuzzy
+#| msgid ""
+#| "Settings related to load Item and monster data was changed.\n"
+#| "Reload Item and Monster data right now?\n"
+msgid ""
+"Settings related to load Item and monster data was changed.\n"
+"Reload Item and Monster data right now?"
+msgstr ""
+"Настройки, относящиеся к загрузке данных о предметах и монстрах изменены.\n"
+"Перезагрузить данные о предметах и монстрах прямо сейчас?\n"
+
+#: mainform.sfoundsaved
+msgid "Found and saved records - "
+msgstr "Найдено и сохранено записей - "
+
+#: mainform.sfoundunsaved
+msgid "Found but not saved records - "
+msgstr "Найдено, но не сохранено записей - "
+
+#: mainform.sinsertmode
+msgid "INS"
+msgstr ""
+
+#: mainform.sitemsaving
+msgid "Saving Item info"
+msgstr "Сохранение данных о предметах"
+
+#: mainform.sitemtradesaving
+msgid "Saving Item trade info"
+msgstr "Сохранение данных о торге предметами"
+
+#: mainform.smobsaving
+msgid "Saving Monster info"
+msgstr "Сохранение данных о монстрах"
+
+#: mainform.smodified
+msgid "Modified"
+msgstr "Изменено"
+
+#: mainform.snewfile
+msgid "New file"
+msgstr "Новый файл"
+
+#: mainform.snotfoundsaved
+msgid "Nothing found to save"
+msgstr "Ничто не найдено для сохранения"
+
+#: mainform.sopenscheme
+msgid "Open editor settings"
+msgstr "Открыть настройки редактора"
+
+#: mainform.sopenscript
+msgid "Open script file"
+msgstr "Открыть файл скрипта"
+
+#: mainform.soverwritemode
+msgid "OVR"
+msgstr ""
+
+#: mainform.squesthelpsaving
+msgid "Saving Quest help info"
+msgstr "Сохранение подсказок по квестам"
+
+#: mainform.squestsaving
+msgid "Saving Quest info"
+msgstr "Сохранение данных по квестам"
+
+#: mainform.ssaveonclose
+msgid "Modified file not saved. Save?"
+msgstr "Изменённый файл не сохранён. Сохранить?"
+
+#: mainform.ssavescript
+msgid "Save Script file as"
+msgstr "Сохранить скрипт как"
+
+#: rodata.saccess
+msgid "Accessory"
+msgstr "Аксессуары"
+
+#: rodata.sammoarrows
+msgid "Arrows"
+msgstr "Стрелы"
+
+#: rodata.sammobullets
+msgid "Bullets"
+msgstr "Пули"
+
+#: rodata.sammocannonballs
+msgid "Cannonballs"
+msgstr "Ядра"
+
+#: rodata.sammogrenades
+msgid "Grenades"
+msgstr "Гранаты"
+
+#: rodata.sammokunai
+msgid "Kunai"
+msgstr "Кунаи"
+
+#: rodata.sammoshells
+msgid "Shells"
+msgstr ""
+
+#: rodata.sammoshurikens
+msgid "Shuriken"
+msgstr "Сюрикены"
+
+#: rodata.sammothrowabledagers
+msgid "Throwable daggers"
+msgstr "Метательные ножи"
+
+#: rodata.sammothrowableitems
+msgid "Throwable Items"
+msgstr "Бросаемые вещи"
+
+#: rodata.sangel
+msgid "Angel"
+msgstr "Ангел"
+
+#: rodata.sboth
+msgid "Both"
+msgstr "Оба"
+
+#: rodata.sbrute
+msgid "Brute"
+msgstr "Животные"
+
+#: rodata.sclassbaby
+msgid "Baby"
+msgstr "Ребёнок"
+
+#: rodata.sclassnormal
+msgid "Normal"
+msgstr "Нормальный"
+
+#: rodata.sclassthird
+msgid "Third"
+msgstr "Третий"
+
+#: rodata.sclassthirdbaby
+msgid "Third-Baby"
+msgstr "Третий-Ребёнок"
+
+#: rodata.sclasstrans
+msgid "Transcedent"
+msgstr "Продвинутый"
+
+#: rodata.sclasstransthird
+msgid "Transcedent-Third"
+msgstr "Продвинутый-Третий"
+
+#: rodata.sdemihuman
+msgid "Demi-Human"
+msgstr "Получеловек"
+
+#: rodata.sdemon
+msgid "Demon"
+msgstr "Демон"
+
+#: rodata.sdragon
+msgid "Dragon"
+msgstr "Дракон"
+
+#: rodata.searth
+msgid "Earth"
+msgstr "Земля"
+
+#: rodata.sfemale
+msgid "Female"
+msgstr "Женский"
+
+#: rodata.sfire
+msgid "Fire"
+msgstr "Огонь"
+
+#: rodata.sfish
+msgid "Fish"
+msgstr "Рыба"
+
+#: rodata.sformless
+msgid "Formless"
+msgstr "Бесформенный"
+
+#: rodata.sghost
+msgid "Ghost"
+msgstr "Призрак"
+
+#: rodata.sheadgear
+msgid "Headgear"
+msgstr "Головной убор"
+
+#: rodata.sholy
+msgid "Holy"
+msgstr "Святость"
+
+#: rodata.sinsect
+msgid "Insect"
+msgstr "Насекомое"
+
+#: rodata.sitemammo
+msgctxt "rodata.sitemammo"
+msgid "Ammo"
+msgstr "Боеприпасы"
+
+#: rodata.sitemcard
+msgid "Card"
+msgstr "Карта"
+
+#: rodata.sitemdelayed
+msgid "Delayed"
+msgstr "С задержкой"
+
+#: rodata.sitemequipment
+msgid "Equipment"
+msgstr "Доспехи"
+
+#: rodata.sitemetc
+msgid "Misc"
+msgstr "Прочее"
+
+#: rodata.sitemhealing
+msgid "Healing"
+msgstr "Лечащее"
+
+#: rodata.sitempetegg
+msgid "Pet egg"
+msgstr "Яйцо питомца"
+
+#: rodata.sitempetequip
+msgid "Pet equipment"
+msgstr "Доспех питомца"
+
+#: rodata.sitemshadowequip
+msgid "Shadow equipment"
+msgstr "Теневой доспех"
+
+#: rodata.sitemskillitem
+msgid "Skill item"
+msgstr "Для умений"
+
+#: rodata.sitemusable
+msgid "Usable"
+msgstr "Используемый"
+
+#: rodata.sitemweapon
+msgctxt "rodata.sitemweapon"
+msgid "Weapon"
+msgstr "Оружие"
+
+#: rodata.sjobacolyte
+msgid "Acolyte"
+msgstr ""
+
+#: rodata.sjobalchemist
+msgid "Alchemist"
+msgstr ""
+
+#: rodata.sjobarcher
+msgid "Archer"
+msgstr ""
+
+#: rodata.sjobassassin
+msgid "Assassin"
+msgstr ""
+
+#: rodata.sjobbarddancer
+msgid "Bard/Dancer"
+msgstr ""
+
+#: rodata.sjobblacksmith
+msgid "Blacksmith"
+msgstr ""
+
+#: rodata.sjobcrusader
+msgid "Crusader"
+msgstr ""
+
+#: rodata.sjobdarkcollector
+msgid "Dark Collector"
+msgstr ""
+
+#: rodata.sjobdeathknight
+msgid "Death Knight"
+msgstr ""
+
+#: rodata.sjobgangsi
+msgid "Gangsi"
+msgstr ""
+
+#: rodata.sjobgunslinger
+msgid "Gunslinger"
+msgstr ""
+
+#: rodata.sjobhunter
+msgid "Hunter"
+msgstr ""
+
+#: rodata.sjobkagerouoboro
+msgid "Kagerou/Oboro"
+msgstr ""
+
+#: rodata.sjobknight
+msgid "Knight"
+msgstr ""
+
+#: rodata.sjobmagician
+msgid "Magician"
+msgstr ""
+
+#: rodata.sjobmerchant
+msgid "Merchant"
+msgstr ""
+
+#: rodata.sjobmonk
+msgid "Monk"
+msgstr ""
+
+#: rodata.sjobninja
+msgid "Ninja"
+msgstr ""
+
+#: rodata.sjobnovice
+msgid "(S.) Novice"
+msgstr ""
+
+#: rodata.sjobpriest
+msgid "Priest"
+msgstr ""
+
+#: rodata.sjobrebellion
+msgid "Rebellion"
+msgstr ""
+
+#: rodata.sjobrogue
+msgid "Rogue"
+msgstr ""
+
+#: rodata.sjobsage
+msgid "Sage"
+msgstr ""
+
+#: rodata.sjobsoullinker
+msgid "Soul Linker"
+msgstr ""
+
+#: rodata.sjobstargladiator
+msgid "Star Gladiator"
+msgstr ""
+
+#: rodata.sjobsummoner
+msgid "Summoner"
+msgstr ""
+
+#: rodata.sjobswordman
+msgid "Swordman"
+msgstr ""
+
+#: rodata.sjobtaekwon
+msgid "Taekwon"
+msgstr ""
+
+#: rodata.sjobthief
+msgid "Thief"
+msgstr ""
+
+#: rodata.sjobwizard
+msgid "Wizard"
+msgstr ""
+
+#: rodata.slarge
+msgid "Large"
+msgstr "Большой"
+
+#: rodata.slocaccessleft
+msgid "Accessory Left"
+msgstr "Украшение левое"
+
+#: rodata.slocaccessright
+msgid "Accessory Right"
+msgstr "Украшение правое"
+
+#: rodata.slocammo
+msgctxt "rodata.slocammo"
+msgid "Ammo"
+msgstr "Боеприпасы"
+
+#: rodata.slocarmor
+msgid "Armor"
+msgstr "Доспех"
+
+#: rodata.sloccostumegarment
+msgid "Costume Garment/Robe"
+msgstr "Костюм накидка"
+
+#: rodata.sloccostumelow
+msgid "Costume Low Headgear"
+msgstr "Костюм низ головы"
+
+#: rodata.sloccostumemid
+msgid "Costume Mid Headgear"
+msgstr "Костюм на ушах"
+
+#: rodata.sloccostumetop
+msgid "Costume Top Headgear"
+msgstr "Костюм верх головы"
+
+#: rodata.slocfootgear
+msgid "Footgear"
+msgstr "Обувь"
+
+#: rodata.slocgarment
+msgid "Garment"
+msgstr "Накидка"
+
+#: rodata.sloclower
+msgid "Lower Headgear"
+msgstr "Низ головы"
+
+#: rodata.slocmiddle
+msgid "Middle Headgear"
+msgstr "Середина головы"
+
+#: rodata.slocshadowaccleft
+msgid "Shadow Acc.Left (Pendant)"
+msgstr "Тень украш. левое"
+
+#: rodata.slocshadowaccright
+msgid "Shadow Acc.Right (Earring)"
+msgstr "Тень украш. правое"
+
+#: rodata.slocshadowarmor
+msgid "Shadow Armor"
+msgstr "Теневой доспех"
+
+#: rodata.slocshadowshield
+msgid "Shadow Shield"
+msgstr "Теневой щит"
+
+#: rodata.slocshadowshoes
+msgid "Shadow Shoes"
+msgstr "Теневая обувь"
+
+#: rodata.slocshadowweapon
+msgid "Shadow Weapon"
+msgstr "Теневое оружие"
+
+#: rodata.slocshield
+msgid "Shield"
+msgstr "Щит"
+
+#: rodata.slocupper
+msgid "Upper Headgear"
+msgstr "Верх головы"
+
+#: rodata.slocweapon
+msgctxt "rodata.slocweapon"
+msgid "Weapon"
+msgstr "Оружие"
+
+#: rodata.slower
+msgid "Lower"
+msgstr "Нижний"
+
+#: rodata.smale
+msgid "Male"
+msgstr "Мужской"
+
+#: rodata.smedium
+msgid "Medium"
+msgstr "Средний"
+
+#: rodata.smelee
+msgid "(melee)"
+msgstr "(контакт)"
+
+#: rodata.smiddle
+msgid "Middle"
+msgstr "Средний"
+
+#: rodata.smmagressive
+msgctxt "rodata.smmagressive"
+msgid "Agressive"
+msgstr "Агрессивный"
+
+#: rodata.smmagressivehint
+msgctxt "rodata.smmagressivehint"
+msgid "Normal aggressive mob, will look for a close-by player to attack."
+msgstr "Обычный агрессивный монстр, выбирающий ближайшего игрока  для атаки."
+
+#: rodata.smmangry
+msgctxt "rodata.smmangry"
+msgid "Angry"
+msgstr "Злой"
+
+#: rodata.smmangryhint
+#, fuzzy
+#| msgid ""
+#| "These mobs are \"hyper-active\". Apart from \"chase\"/\"attack\", they have\n"
+#| "the states \"follow\"/\"angry\". Once hit, they stop using these states and use\n"
+#| "the normal ones. The new states are used to determine a different skill-set\n"
+#| "for their \"before attacked\" and \"after attacked\" states. Also, when\n"
+#| "\"following\", they automatically switch to whoever character is closest.\n"
+msgctxt "rodata.smmangryhint"
+msgid ""
+"These mobs are \"hyper-active\". Apart from \"chase\"/\"attack\", they have\n"
+"the states \"follow\"/\"angry\". Once hit, they stop using these states and use\n"
+"the normal ones. The new states are used to determine a different skill-set\n"
+"for their \"before attacked\" and \"after attacked\" states. Also, when\n"
+"\"following\", they automatically switch to whoever character is closest."
+msgstr ""
+"Эти монстры \"гиперактивные\".  В отличие от \"погоня\"/\"атака\", они\n"
+"переключаются на \"преследование\"/\"гнев\". Ударив, они переходят в\n"
+"обычный режим. Новые состояния использованы для определения\n"
+"разных режимов для \"до атаки\" и \"после атаки\". Также, когда\n"
+"\"преследуют\", они автоматически переключаются на ближайшего игрока.\n"
+
+#: rodata.smmassist
+msgctxt "rodata.smmassist"
+msgid "Assist"
+msgstr "Ассист"
+
+#: rodata.smmassisthint
+msgctxt "rodata.smmassisthint"
+msgid "When a nearby mob of the same class attacks, assist types will join them."
+msgstr "Когда ближайшего монстра того же класса атакуют, присоединяться к нему."
+
+#: rodata.smmcanattack
+msgctxt "rodata.smmcanattack"
+msgid "Can attack"
+msgstr "Атакует"
+
+#: rodata.smmcanattackhint
+#, fuzzy
+#| msgid ""
+#| "Enables the mob to attack/retaliate when you are within attack\n"
+#| "range. Note that this only enables them to use normal attacks, skills are\n"
+#| "always allowed.\n"
+msgid ""
+"Enables the mob to attack/retaliate when you are within attack\n"
+"range. Note that this only enables them to use normal attacks, skills are\n"
+"always allowed."
+msgstr ""
+"Позволяет монстру атаковать когда Вы в пределах атаки.\n"
+"Заметим, что это относится только к нормальным атакам, скилы\n"
+"доступны всегда.\n"
+
+#: rodata.smmcanmove
+msgctxt "rodata.smmcanmove"
+msgid "Can move"
+msgstr "Движется"
+
+#: rodata.smmcanmovehint
+msgctxt "rodata.smmcanmovehint"
+msgid "Enables the mob to move/chase characters."
+msgstr "Позволить монстру перемещаться/преследовать персонажа."
+
+#: rodata.smmcastsensorchase
+msgctxt "rodata.smmcastsensorchase"
+msgid "Castsensor chase"
+msgstr "Определитель в погоне"
+
+#: rodata.smmcastsensorchasehint
+#, fuzzy
+#| msgid ""
+#| "Will go after characters who start casting on them if idle\n"
+#| "or chasing other players (they switch chase targets)\n"
+msgctxt "rodata.smmcastsensorchasehint"
+msgid ""
+"Will go after characters who start casting on them if idle\n"
+"or chasing other players (they switch chase targets)"
+msgstr ""
+"Пойдёт за персонажем, кто начинает кастовать, когда в покое\n"
+"или преследует другого игрока (меняет цель погони)\n"
+
+#: rodata.smmcastsensoridle
+msgctxt "rodata.smmcastsensoridle"
+msgid "Castsensor idle"
+msgstr "Определитель в покое"
+
+#: rodata.smmcastsensoridlehint
+#, fuzzy
+#| msgid ""
+#| "Will go after characters who start casting on them if idle\n"
+#| "or walking (without a target)\n"
+msgctxt "rodata.smmcastsensoridlehint"
+msgid ""
+"Will go after characters who start casting on them if idle\n"
+"or walking (without a target)"
+msgstr ""
+"Пойдёт за персонажем, кто начинает кастовать, когда в покое\n"
+"или гуляет (без активной цели)\n"
+
+#: rodata.smmchangechase
+msgctxt "rodata.smmchangechase"
+msgid "Change chase"
+msgstr "Менять преследование"
+
+#: rodata.smmchangechasehint
+#, fuzzy
+#| msgid ""
+#| "Allows chasing mobs to switch targets if another player happens\n"
+#| "to be within attack range (handy on ranged attackers, for example)\n"
+msgctxt "rodata.smmchangechasehint"
+msgid ""
+"Allows chasing mobs to switch targets if another player happens\n"
+"to be within attack range (handy on ranged attackers, for example)"
+msgstr ""
+"Позволяет преследующему монстру переключиться на другую цель\n"
+"если другой игрок в пределах атаки\n"
+"(в пределах дистанционных атак, например)\n"
+
+#: rodata.smmchangetargetchase
+msgctxt "rodata.smmchangetargetchase"
+msgid "Change target chase"
+msgstr "Менять цель погони"
+
+#: rodata.smmchangetargetchasehint
+#, fuzzy
+#| msgid ""
+#| "Enables a mob to switch targets when hit by any attack\n"
+#| "while chasing another character.\n"
+msgctxt "rodata.smmchangetargetchasehint"
+msgid ""
+"Enables a mob to switch targets when hit by any attack\n"
+"while chasing another character."
+msgstr ""
+"Позволяет монстру переключиться на другую цель когда\n"
+"получает удар пока преследует кого-то.\n"
+
+#: rodata.smmchangetargetmelee
+msgctxt "rodata.smmchangetargetmelee"
+msgid "Change target melee"
+msgstr "Менять цель атаки"
+
+#: rodata.smmchangetargetmeleehint
+#, fuzzy
+#| msgid ""
+#| "Enables a mob to switch targets when hit by a normal attack\n"
+#| "while attacking someone else.\n"
+msgctxt "rodata.smmchangetargetmeleehint"
+msgid ""
+"Enables a mob to switch targets when hit by a normal attack\n"
+"while attacking someone else."
+msgstr ""
+"Позволяет монстру переключиться на другую цель при\n"
+"нормальной атаке, когда атакует кто-то другой.\n"
+
+#: rodata.smmdetector
+msgctxt "rodata.smmdetector"
+msgid "Detector"
+msgstr "Детектор"
+
+#: rodata.smmdetectorhint
+msgctxt "rodata.smmdetectorhint"
+msgid "Enables mob to detect and attack characters who are in hiding/cloak."
+msgstr "Позволяет монстру определять атаки скрытых/невидимых персонажей."
+
+#: rodata.smmfixeditemdrop
+msgctxt "rodata.smmfixeditemdrop"
+msgid "Fixed item drop"
+msgstr "Фиксированный дроп"
+
+#: rodata.smmfixeditemdrophint
+msgctxt "rodata.smmfixeditemdrophint"
+msgid "The mob's drops are not affected by item drop modifiers."
+msgstr "Шанс выпадания предметов не зависит от модификаторов."
+
+#: rodata.smmignoremagic
+msgctxt "rodata.smmignoremagic"
+msgid "Ignore magic"
+msgstr "Игнор магии"
+
+#: rodata.smmignoremagichint
+msgctxt "rodata.smmignoremagichint"
+msgid "The mob will take 1 HP damage from magic attacks."
+msgstr "Монстр получает повреждение в 1 HP при магических атаках."
+
+#: rodata.smmignoremelee
+msgctxt "rodata.smmignoremelee"
+msgid "Ignore melee"
+msgstr "Игнор контакта"
+
+#: rodata.smmignoremeleehint
+msgctxt "rodata.smmignoremeleehint"
+msgid "The mob will take 1 HP damage from physical attacks."
+msgstr "Монстр получает повреждение в 1 HP при физических атаках."
+
+#: rodata.smmignoremisc
+msgctxt "rodata.smmignoremisc"
+msgid "Ignore misc"
+msgstr "Игнор разного"
+
+#: rodata.smmignoremischint
+msgctxt "rodata.smmignoremischint"
+msgid "The mob will take 1 HP damage from \"none\" attack type."
+msgstr "Монстр получает повреждение в 1 HP при  \"никаких\" атаках."
+
+#: rodata.smmignoreranged
+msgctxt "rodata.smmignoreranged"
+msgid "Ignore ranged"
+msgstr "Игнор выстрелов"
+
+#: rodata.smmignorerangedhint
+msgctxt "rodata.smmignorerangedhint"
+msgid "The mob will take 1 HP damage from ranged attacks."
+msgstr "Монстр получает повреждение в 1 HP при дистанционных атаках."
+
+#: rodata.smmknockbackimmune
+msgctxt "rodata.smmknockbackimmune"
+msgid "Knockback immune"
+msgstr "Не отбрасывается"
+
+#: rodata.smmknockbackimmunehint
+msgctxt "rodata.smmknockbackimmunehint"
+msgid "The mob will be unable to be knocked back."
+msgstr "Монстр не отбрасывается назад."
+
+#: rodata.smmlooter
+msgctxt "rodata.smmlooter"
+msgid "Looter"
+msgstr "Лутер"
+
+#: rodata.smmlooterhint
+msgctxt "rodata.smmlooterhint"
+msgid "The mob will loot up nearby items on the ground when it's on idle state."
+msgstr "В состоянии покоя монстр будет подбирать ближайшие предметы на земле."
+
+#: rodata.smmmvp
+msgctxt "rodata.smmmvp"
+msgid "MVP"
+msgstr ""
+
+#: rodata.smmmvphint
+#, fuzzy
+#| msgid ""
+#| "Flagged as MVP which makes mobs resistant to Coma. Also displays the\n"
+#| "MVP sign and gives players MVP EXP or MVP items.\n"
+msgid ""
+"Flagged as MVP which makes mobs resistant to Coma. Also displays the\n"
+"MVP sign and gives players MVP EXP or MVP items."
+msgstr ""
+"Помеченный как MVP сопротивляется Коме. Также отображает\n"
+"MVP знак и даёт игроку MVP опыт или MVP предметы.\n"
+
+#: rodata.smmnocastskill
+msgctxt "rodata.smmnocastskill"
+msgid "No cast skill"
+msgstr "Без скилов"
+
+#: rodata.smmnocastskillhint
+msgctxt "rodata.smmnocastskillhint"
+msgid "The mob will be unable to cast skills."
+msgstr "Монстр не использует умения"
+
+#: rodata.smmnorandomwalk
+msgctxt "rodata.smmnorandomwalk"
+msgid "No random walk"
+msgstr "Не бродит"
+
+#: rodata.smmnorandomwalkhint
+msgctxt "rodata.smmnorandomwalkhint"
+msgid "The mob will not randomly walk around while in the idle state."
+msgstr "Моб не гуляет пока бездельничает"
+
+#: rodata.smmrandomtarget
+msgctxt "rodata.smmrandomtarget"
+msgid "Random target"
+msgstr "Случайная цель"
+
+#: rodata.smmrandomtargethint
+msgctxt "rodata.smmrandomtargethint"
+msgid "Picks a new random target in range on each attack / skill."
+msgstr "Выбирает новую случайную цель в диапазоне при каждых атаке/скиле"
+
+#: rodata.smmskillimmune
+msgctxt "rodata.smmskillimmune"
+msgid "Skill immune"
+msgstr "Иммун к скилам"
+
+#: rodata.smmskillimmunehint
+msgctxt "rodata.smmskillimmunehint"
+msgid "Immune to being affected by skills."
+msgstr "Иммунитет к скилам"
+
+#: rodata.smmstatusimmune
+msgctxt "rodata.smmstatusimmune"
+msgid "Status immune"
+msgstr "Иммун к статусам"
+
+#: rodata.smmstatusimmunehint
+msgctxt "rodata.smmstatusimmunehint"
+msgid "Immune to being affected by statuses."
+msgstr "Иммунитет к статусам"
+
+#: rodata.smmtargetweak
+msgctxt "rodata.smmtargetweak"
+msgid "Target weak"
+msgstr "На слабых"
+
+#: rodata.smmtargetweakhint
+#, fuzzy
+#| msgid ""
+#| "Allows aggressive monsters to only be aggressive against \n"
+#| "characters that are five levels below it's own level.\n"
+#| "For example, a monster of level 104 will not pick fights with a level 99.\n"
+msgid ""
+"Allows aggressive monsters to only be aggressive against \n"
+"characters that are five levels below it's own level.\n"
+"For example, a monster of level 104 will not pick fights with a level 99."
+msgstr ""
+"Позволяет агрессивным монстрам быть агрессивными против\n"
+"персонажам, кто на 5 уровней младше их уровня.\n"
+"Например, монстр 104 уровня не трогает тех, кто старше 99 уровня.\n"
+
+#: rodata.smmteleportblock
+msgctxt "rodata.smmteleportblock"
+msgid "Teleport block"
+msgstr "Блок телепорта"
+
+#: rodata.smmteleportblockhint
+msgctxt "rodata.smmteleportblockhint"
+msgid "Not implemented yet."
+msgstr "Ещё не реализовано"
+
+#: rodata.sneutral
+msgid "Neutral"
+msgstr "Нейтральный"
+
+#: rodata.splant
+msgid "Plant"
+msgstr "Растение"
+
+#: rodata.splayer
+msgid "Player"
+msgstr "Игрок"
+
+#: rodata.spoison
+msgid "Poison"
+msgstr "Яд"
+
+#: rodata.sranged
+msgid "(ranged)"
+msgstr "(дистанция)"
+
+#: rodata.sshadow
+msgid "Shadow"
+msgstr "Тень"
+
+#: rodata.ssmall
+msgid "Small"
+msgstr "Маленький"
+
+#: rodata.stradenoauction
+msgid "No Auction"
+msgstr "Нет аукциона"
+
+#: rodata.stradenocart
+msgid "No Cart"
+msgstr "Нет телеги"
+
+#: rodata.stradenodrop
+msgid "No drop"
+msgstr "Нет выброса"
+
+#: rodata.stradenoguild
+msgid "No Guild Storage"
+msgstr "Нет склада гильдии"
+
+#: rodata.stradenomail
+msgid "No Mail"
+msgstr "Нет почты"
+
+#: rodata.stradenosold
+msgid "No NPC Sold"
+msgstr "Нет продажи NPC"
+
+#: rodata.stradenostorage
+msgid "No Storage"
+msgstr "Нет хранилища"
+
+#: rodata.stradenovend
+msgid "No vending"
+msgstr "Нет торговли"
+
+#: rodata.stradewedding
+msgid "Wedding trade"
+msgstr "Передача супругу"
+
+#: rodata.sundead
+msgid "Undead"
+msgstr "Бессмертный"
+
+#: rodata.sunknown
+msgid "Unknown"
+msgstr "Неизвестный"
+
+#: rodata.sunused
+msgid "Unused"
+msgstr "Неиспользуемый"
+
+#: rodata.supper
+msgid "Upper"
+msgstr "Верхний"
+
+#: rodata.swater
+msgid "Water"
+msgstr "Вода"
+
+#: rodata.sweaponbarefist
+msgid "bare fist"
+msgstr "Голые руки"
+
+#: rodata.sweaponbooks
+msgid "Books"
+msgstr "Книги"
+
+#: rodata.sweaponbows
+msgid "Bows"
+msgstr "Луки"
+
+#: rodata.sweapondaggeraxe
+msgid "Dagger + Axe"
+msgstr "Нож+Топор"
+
+#: rodata.sweapondaggers
+msgid "Daggers"
+msgstr "Ножи"
+
+#: rodata.sweapondaggersword
+msgid "Dagger + sword"
+msgstr "Нож+меч"
+
+#: rodata.sweapondualwieldaxes
+msgid "Dual-wield Axes"
+msgstr ""
+
+#: rodata.sweapondualwielddaggers
+msgid "Dual-wield Daggers"
+msgstr ""
+
+#: rodata.sweapondualwieldswords
+msgid "Dual-wield swords"
+msgstr ""
+
+#: rodata.sweaponfuumashurikens
+msgid "Fuuma shurikens"
+msgstr ""
+
+#: rodata.sweapongatlingguns
+msgid "Gatling guns"
+msgstr "Пулемёты"
+
+#: rodata.sweapongrenadelaunchers
+msgid "Grenade launchers"
+msgstr "Гранатомёты"
+
+#: rodata.sweaponinstruments
+msgid "Musical Instruments"
+msgstr "Музык.Инструменты"
+
+#: rodata.sweaponkatars
+msgid "Katars"
+msgstr "Катары"
+
+#: rodata.sweaponknuckles
+msgid "Knuckles"
+msgstr "Кастеты"
+
+#: rodata.sweaponmaces
+msgid "Maces"
+msgstr "Дубины"
+
+#: rodata.sweaponmaxtype
+msgid "Max Type"
+msgstr "Макс. Тип"
+
+#: rodata.sweapononehandedaxes
+msgid "One-handed axes"
+msgstr "Одноручные топоры"
+
+#: rodata.sweapononehandedspears
+msgid "One-handed spears"
+msgstr "Одноручные копья"
+
+#: rodata.sweapononehandedswords
+msgid "One-handed swords"
+msgstr "Одноручные мечи"
+
+#: rodata.sweaponrevolvers
+msgid "Revolvers"
+msgstr "Револьверы"
+
+#: rodata.sweaponrifles
+msgid "Rifles"
+msgstr "Винтовки"
+
+#: rodata.sweaponshotguns
+msgid "Shotguns"
+msgstr "Дробовики"
+
+#: rodata.sweaponstaves
+msgid "Staves"
+msgstr "Посохи"
+
+#: rodata.sweaponswordaxe
+msgid "Sword + Axe"
+msgstr "Меч+Топор"
+
+#: rodata.sweapontwohandedaxes
+msgid "Two-handed axes"
+msgstr "Двуручные топоры"
+
+#: rodata.sweapontwohandedspears
+msgid "Two-handed spears"
+msgstr "Двуручные копья"
+
+#: rodata.sweapontwohandedstaves
+msgid "Two-handed staves"
+msgstr "Двуручные посохи"
+
+#: rodata.sweapontwohandedswords
+msgid "Two-handed swords"
+msgstr "Двуручные мечи"
+
+#: rodata.sweaponwhips
+msgid "Whips"
+msgstr "Плети"
+
+#: rodata.swind
+msgid "Wind"
+msgstr "Ветер"
+
+#: rodatatypes.saename
+msgctxt "rodatatypes.saename"
+msgid "AE name"
+msgstr "Имя AE"
+
+#: rodatatypes.sall
+msgctxt "rodatatypes.sall"
+msgid "All"
+msgstr "Все"
+
+#: rodatatypes.sboss
+msgid "Boss"
+msgstr "Босс"
+
+#: rodatatypes.sdescr
+msgctxt "rodatatypes.sdescr"
+msgid "Description"
+msgstr "Описание"
+
+#: rodatatypes.seffect
+msgid "Effects"
+msgstr "Эффекты"
+
+#: rodatatypes.selement
+msgctxt "rodatatypes.selement"
+msgid "Element"
+msgstr "Элемент"
+
+#: rodatatypes.sitem
+msgctxt "rodatatypes.sitem"
+msgid "Items"
+msgstr "Предметы"
+
+#: rodatatypes.slocal
+msgctxt "rodatatypes.slocal"
+msgid "Local"
+msgstr "Локализация"
+
+#: rodatatypes.smap
+msgctxt "rodatatypes.smap"
+msgid "Maps"
+msgstr "Карты"
+
+#: rodatatypes.smonster
+msgctxt "rodatatypes.smonster"
+msgid "Monsters"
+msgstr "Монстры"
+
+#: rodatatypes.sname
+msgctxt "rodatatypes.sname"
+msgid "Name"
+msgstr "Имя"
+
+#: rodatatypes.snumber
+msgid "Number"
+msgstr "Номер"
+
+#: rodatatypes.squest
+msgid "Quest"
+msgstr "Квест"
+
+#: rodatatypes.srace
+msgctxt "rodatatypes.srace"
+msgid "Race"
+msgstr "Раса"
+
+#: rodatatypes.ssize
+msgctxt "rodatatypes.ssize"
+msgid "Size"
+msgstr "Размер"
+
+#: rodatatypes.sskill
+msgid "Skills"
+msgstr "Умения"
+
+#: rodatatypes.stabsprites
+msgid "Sprites: "
+msgstr "Спрайты: "
+
+#: rodatatypes.stabtable
+msgid "Table: "
+msgstr "Таблица: "
+
+#: rofullcarditem.sclass
+msgid "Classes"
+msgstr "Классы"
+
+#: rofullcarditem.sjob
+msgid "Jobs"
+msgstr "Профессии"
+
+#: rofullcarditem.slocation
+msgid "Equipment location"
+msgstr "Положение экипировки"
+
+#: rofullcarditem.strade
+msgid "Trade mode"
+msgstr "Режимы передачи предметов"
+
+#: rofullcardmob.smobmode
+msgid "Monster mode"
+msgstr "Режимы монстра"
+
+#: roresplist.smapresp
+msgid "Monsters on map"
+msgstr "Монстры на карте"
+
+#: roresplist.smobresp
+msgid "Maps with monster"
+msgstr "Карты с монстром"
+
+#: rosearchitem.sall
+msgctxt "rosearchitem.sall"
+msgid "All"
+msgstr "Все"
+
+#: rosearchitem.sallitemtypes
+msgctxt "rosearchitem.sallitemtypes"
+msgid "All Item types"
+msgstr "Все типы предметов"
+
+#: rosearchitem.satk
+msgctxt "rosearchitem.satk"
+msgid "Atk"
+msgstr ""
+
+#: rosearchitem.sbuyprice
+msgctxt "rosearchitem.sbuyprice"
+msgid "Buy Price"
+msgstr "Покупка у NPC"
+
+#: rosearchitem.sdef
+msgctxt "rosearchitem.sdef"
+msgid "Def"
+msgstr ""
+
+#: rosearchitem.sfound
+msgctxt "rosearchitem.sfound"
+msgid "Search: found items = "
+msgstr "Поиск: найдено предметов = "
+
+#: rosearchitem.slevel
+msgctxt "rosearchitem.slevel"
+msgid "Level"
+msgstr "Уровень"
+
+#: rosearchitem.smatk
+msgctxt "rosearchitem.smatk"
+msgid "MAtk"
+msgstr ""
+
+#: rosearchitem.smdef
+msgctxt "rosearchitem.smdef"
+msgid "MDef"
+msgstr ""
+
+#: rosearchitem.ssellprice
+msgctxt "rosearchitem.ssellprice"
+msgid "Sell Price"
+msgstr "Продажа NPC"
+
+#: rosearchitem.sseparate
+msgctxt "rosearchitem.sseparate"
+msgid "Separate"
+msgstr "Раздельно"
+
+#: rosearchitem.sslots
+msgctxt "rosearchitem.sslots"
+msgid "Slots"
+msgstr "Слоты"
+
+#: rosearchitem.ssome
+msgctxt "rosearchitem.ssome"
+msgid "Some"
+msgstr "Некоторые"
+
+#: rosearchitem.stitle
+msgctxt "rosearchitem.stitle"
+msgid "Title"
+msgstr "Название"
+
+#: rosearchitem.sweaponlevel
+msgctxt "rosearchitem.sweaponlevel"
+msgid "Weapon Level"
+msgstr "Уровень оружия"
+
+#: rosearchitem.sweight
+msgctxt "rosearchitem.sweight"
+msgid "Weight"
+msgstr "Вес"
+
+#: rosearchmob.satk
+msgctxt "rosearchmob.satk"
+msgid "Atk"
+msgstr ""
+
+#: rosearchmob.sdef
+msgctxt "rosearchmob.sdef"
+msgid "Def"
+msgstr ""
+
+#: rosearchmob.sexp
+msgctxt "rosearchmob.sexp"
+msgid "Exp"
+msgstr ""
+
+#: rosearchmob.sfound
+msgid "Search: found monsters = "
+msgstr "Поиск: найдено монстров = "
+
+#: rosearchmob.shp
+msgctxt "rosearchmob.shp"
+msgid "HP"
+msgstr ""
+
+#: rosearchmob.sjexp
+msgid "JExp"
+msgstr ""
+
+#: rosearchmob.slevel
+msgctxt "rosearchmob.slevel"
+msgid "Level"
+msgstr "Уровень"
+
+#: rosearchmob.smdef
+msgctxt "rosearchmob.smdef"
+msgid "MDef"
+msgstr ""
+
+#: rosearchmob.stitle
+msgctxt "rosearchmob.stitle"
+msgid "Title"
+msgstr "Название"
+
+#: rowizshop.sdiscount
+msgid "Discount"
+msgstr "Скидка"
+
+#: rowizshop.squantity
+msgctxt "rowizshop.squantity"
+msgid "Quantity"
+msgstr "Количество"
+
+#: tnpcbase.btninsert.caption
+msgctxt "tnpcbase.btninsert.caption"
+msgid "Insert"
+msgstr "Вставить"
+
+#: tnpcbase.cbnpcnames.caption
+msgctxt "tnpcbase.cbnpcnames.caption"
+msgid "Use Names"
+msgstr "Брать название"
+
+#: tnpcbase.gbnpccoord.caption
+msgid "NPC Coordinates"
+msgstr "Координаты NPC"
+
+#: tnpcbase.groupbox1.caption
+msgid "NPC facing"
+msgstr "Направление NPC"
+
+#: tnpcbase.lnpcmap.caption
+msgid "Map  - NPC placement"
+msgstr "Локация, местоположение NPC"
+
+#: tnpcbase.lnpcname.caption
+msgid "NPC Name"
+msgstr "Имя NPC"
+
+#: tnpcbase.lnpcsprite.caption
+msgid "NPC Sprite"
+msgstr "Спрайт NPC"
+
+#: tnpcbase.lrb0.caption
+msgid "0"
+msgstr ""
+
+#: tnpcbase.lrb4.caption
+msgid "4"
+msgstr ""
+
+#: tnpcbase.lxpos.caption
+msgid "X Pos"
+msgstr "Координата X"
+
+#: tnpcbase.lypos.caption
+msgid "Y Pos"
+msgstr "Координата Y"
+
+#: tnpcbase.rb1.caption
+msgctxt "tnpcbase.rb1.caption"
+msgid "1"
+msgstr ""
+
+#: tnpcbase.rb2.caption
+msgctxt "tnpcbase.rb2.caption"
+msgid "2"
+msgstr ""
+
+#: tnpcbase.rb3.caption
+msgctxt "tnpcbase.rb3.caption"
+msgid "3"
+msgstr ""
+
+#: tnpcbase.rb5.caption
+msgid "5"
+msgstr ""
+
+#: tnpcbase.rb6.caption
+msgid "6"
+msgstr ""
+
+#: tnpcbase.rb7.caption
+msgid "7"
+msgstr ""
+
+#: tnpccreateform.btnaddingredient.caption
+msgctxt "tnpccreateform.btnaddingredient.caption"
+msgid "Add"
+msgstr "Добавить"
+
+#: tnpccreateform.btnaddresult.caption
+msgctxt "tnpccreateform.btnaddresult.caption"
+msgid "Add Item"
+msgstr "Добавить предмет"
+
+#: tnpccreateform.btndeleteingredient.caption
+msgctxt "tnpccreateform.btndeleteingredient.caption"
+msgid "Delete"
+msgstr "Удалить"
+
+#: tnpccreateform.btndeleteresult.caption
+msgctxt "tnpccreateform.btndeleteresult.caption"
+msgid "Delete Item"
+msgstr "Убрать предмет"
+
+#: tnpccreateform.btninsert.caption
+msgid "Insert code"
+msgstr "Вставить код"
+
+#: tnpccreateform.cbusenames.caption
+msgctxt "tnpccreateform.cbusenames.caption"
+msgid "Use Names"
+msgstr "Брать название"
+
+#: tnpccreateform.lingredient.caption
+msgid "Ingredient ID"
+msgstr "ID Ингредиента"
+
+#: tnpccreateform.lquantity.caption
+msgctxt "tnpccreateform.lquantity.caption"
+msgid "Quantity"
+msgstr "Количество"
+
+#: tnpccreateform.lresultitem.caption
+msgid "Result Item ID"
+msgstr "ID результата"
+
+#: tnpccreateform.lvitemlist.columns[0].caption
+msgctxt "tnpccreateform.lvitemlist.columns[0].caption"
+msgid "Quantity"
+msgstr "Количество"
+
+#: tnpccreateform.lvitemlist.columns[1].caption
+msgctxt "tnpccreateform.lvitemlist.columns[1].caption"
+msgid "Name"
+msgstr "Имя"
+
+#: tnpcshopform.btnadd.caption
+msgctxt "tnpcshopform.btnadd.caption"
+msgid "Add"
+msgstr "Добавить"
+
+#: tnpcshopform.btndelete.caption
+msgctxt "tnpcshopform.btndelete.caption"
+msgid "Delete"
+msgstr "Удалить"
+
+#: tnpcshopform.btninsert.caption
+msgctxt "tnpcshopform.btninsert.caption"
+msgid "Insert"
+msgstr "Вставить"
+
+#: tnpcshopform.litemid.caption
+msgctxt "tnpcshopform.litemid.caption"
+msgid "Item ID"
+msgstr "ID предмета"
+
+#: tnpcshopform.lquantity.caption
+msgctxt "tnpcshopform.lquantity.caption"
+msgid "Quantity"
+msgstr "Количество"
+
+#: tnpcshopform.lshopprice.caption
+msgctxt "tnpcshopform.lshopprice.caption"
+msgid "Price"
+msgstr "Цена"
+
+#: tnpcshopform.lshoptype.caption
+msgid "Shop type"
+msgstr "Тип магазина"
+
+#: tnpcshopform.lvshopitemlist.columns[0].caption
+msgid "Item"
+msgstr "Предмет"
+
+#: tnpcshopform.lvshopitemlist.columns[1].caption
+msgctxt "tnpcshopform.lvshopitemlist.columns[1].caption"
+msgid "Price"
+msgstr "Цена"
+
+#: tnpcshopform.lvshopitemlist.columns[2].caption
+msgctxt "tnpcshopform.lvshopitemlist.columns[2].caption"
+msgid "Quantity"
+msgstr "Количество"
+
+#: tquestdblineform.btngetcode.caption
+msgid "Get code"
+msgstr "Получить код"
+
+#: tquestdblineform.btnhelp.caption
+msgid "?"
+msgstr ""
+
+#: tquestdblineform.btnsave.caption
+msgid "Save"
+msgstr "Сохр."
+
+#: tquestdblineform.gbtarget.caption
+msgid "Targets"
+msgstr "Цели"
+
+#: tquestdblineform.groupbox1.caption
+msgctxt "tquestdblineform.groupbox1.caption"
+msgid "Items"
+msgstr "Предметы"
+
+#: tquestdblineform.lmobid1.caption
+msgid "Mob ID"
+msgstr "ID моба"
+
+#: tquestdblineform.lmobid2.caption
+msgctxt "tquestdblineform.lmobid2.caption"
+msgid "Item ID"
+msgstr "ID предмета"
+
+#: tquestdblineform.lmobid3.caption
+msgctxt "tquestdblineform.lmobid3.caption"
+msgid "Rate"
+msgstr "Частота"
+
+#: tquestdblineform.lquestid.caption
+msgid "Quest ID"
+msgstr "ID квеста"
+
+#: tquestdblineform.lquesttitle.caption
+msgid "Quest title"
+msgstr "Название квеста"
+
+#: tquestdblineform.ltarget1.caption
+msgid "Target"
+msgstr "Цель"
+
+#: tquestdblineform.ltarget2.caption
+msgctxt "tquestdblineform.ltarget2.caption"
+msgid "Amount"
+msgstr "Количество"
+
+#: tquestdblineform.ltimelimit.caption
+msgid "Time Limit"
+msgstr "Предел времени"
+
+#: trodictconstform.caption
+msgid "Constants list"
+msgstr "Список констант"
+
+#: trodictconstform.lblconstlist.caption
+msgid "Constant list"
+msgstr "Список констант"
+
+#: trodictconstform.lblconstpart.caption
+msgid "Constant Part"
+msgstr "Раздел констант"
+
+#: trofullcarditemform.bbclose.caption
+msgctxt "trofullcarditemform.bbclose.caption"
+msgid "&Close"
+msgstr "Закрыть"
+
+#: trofullcarditemform.bbok.caption
+msgctxt "trofullcarditemform.bbok.caption"
+msgid "&Save"
+msgstr "Сохранить"
+
+#: trofullcarditemform.btnclassmode.caption
+msgctxt "trofullcarditemform.btnclassmode.caption"
+msgid "..."
+msgstr ""
+
+#: trofullcarditemform.btnjobmode.caption
+msgctxt "trofullcarditemform.btnjobmode.caption"
+msgid "..."
+msgstr ""
+
+#: trofullcarditemform.btnlocmode.caption
+msgctxt "trofullcarditemform.btnlocmode.caption"
+msgid "..."
+msgstr ""
+
+#: trofullcarditemform.btntrademode.caption
+msgctxt "trofullcarditemform.btntrademode.caption"
+msgid "..."
+msgstr ""
+
+#: trofullcarditemform.cbrefineable.caption
+msgctxt "trofullcarditemform.cbrefineable.caption"
+msgid "Refineable"
+msgstr "Точится"
+
+#: trofullcarditemform.edname.text
+msgctxt "trofullcarditemform.edname.text"
+msgid "Item not found"
+msgstr "Предмет не найден"
+
+#: trofullcarditemform.gblevel.caption
+msgctxt "trofullcarditemform.gblevel.caption"
+msgid "Level"
+msgstr "Уровень"
+
+#: trofullcarditemform.gbprice.caption
+msgctxt "trofullcarditemform.gbprice.caption"
+msgid "Price"
+msgstr "Цена"
+
+#: trofullcarditemform.gbweapon.caption
+msgctxt "trofullcarditemform.gbweapon.caption"
+msgid "Weapon"
+msgstr "Оружие"
+
+#: trofullcarditemform.lblaename.caption
+msgctxt "trofullcarditemform.lblaename.caption"
+msgid "AE Name"
+msgstr "Имя AE"
+
+#: trofullcarditemform.lblatk.caption
+msgid "ATK"
+msgstr ""
+
+#: trofullcarditemform.lblbuy.caption
+msgid "Buy"
+msgstr "Покупка"
+
+#: trofullcarditemform.lbldef.caption
+msgid "DEF"
+msgstr ""
+
+#: trofullcarditemform.lbldroppedby.caption
+msgid "Dropped by"
+msgstr "Падает из"
+
+#: trofullcarditemform.lblelevel.caption
+msgid "Min"
+msgstr ""
+
+#: trofullcarditemform.lblgender.caption
+msgid "Gender"
+msgstr "Пол"
+
+#: trofullcarditemform.lblid.caption
+msgctxt "trofullcarditemform.lblid.caption"
+msgid "ID"
+msgstr ""
+
+#: trofullcarditemform.lbljob.caption
+msgctxt "trofullcarditemform.lbljob.caption"
+msgid "Job"
+msgstr "Профессия"
+
+#: trofullcarditemform.lbllocation.caption
+msgid "Location"
+msgstr "Положение"
+
+#: trofullcarditemform.lblmatk.caption
+msgid "MATK"
+msgstr ""
+
+#: trofullcarditemform.lblmaxlevel.caption
+msgid "Max"
+msgstr ""
+
+#: trofullcarditemform.lblname.caption
+msgctxt "trofullcarditemform.lblname.caption"
+msgid "Name"
+msgstr "Имя"
+
+#: trofullcarditemform.lblrange.caption
+msgctxt "trofullcarditemform.lblrange.caption"
+msgid "Range"
+msgstr "Диапазон"
+
+#: trofullcarditemform.lblscript.caption
+msgctxt "trofullcarditemform.lblscript.caption"
+msgid "Script"
+msgstr "Сценарий"
+
+#: trofullcarditemform.lblscriptequip.caption
+msgid "Equip"
+msgstr "Надеть"
+
+#: trofullcarditemform.lblscriptunequip.caption
+msgid "Unequip"
+msgstr "Снять"
+
+#: trofullcarditemform.lblsell.caption
+msgid "Sell"
+msgstr "Продажа"
+
+#: trofullcarditemform.lblslots.caption
+msgctxt "trofullcarditemform.lblslots.caption"
+msgid "Slots"
+msgstr "Слоты"
+
+#: trofullcarditemform.lbltrade.caption
+msgctxt "trofullcarditemform.lbltrade.caption"
+msgid "Trade"
+msgstr "Торг"
+
+#: trofullcarditemform.lbltype.caption
+msgid "Type"
+msgstr "Тип"
+
+#: trofullcarditemform.lblupper.caption
+msgid "Class"
+msgstr "Класс"
+
+#: trofullcarditemform.lblview.caption
+msgid "View"
+msgstr "Вид"
+
+#: trofullcarditemform.lblweight.caption
+msgctxt "trofullcarditemform.lblweight.caption"
+msgid "Weight"
+msgstr "Вес"
+
+#: trofullcarditemform.lblwlevel.caption
+msgid "wLevel"
+msgstr ""
+
+#: trofullcarditemform.sgdrop.columns[0].title.caption
+msgctxt "trofullcarditemform.sgdrop.columns[0].title.caption"
+msgid "ID"
+msgstr ""
+
+#: trofullcarditemform.sgdrop.columns[1].title.caption
+msgctxt "trofullcarditemform.sgdrop.columns[1].title.caption"
+msgid "Name"
+msgstr "Имя"
+
+#: trofullcarditemform.sgdrop.columns[2].title.caption
+msgctxt "trofullcarditemform.sgdrop.columns[2].title.caption"
+msgid "Rate"
+msgstr "Частота"
+
+#: trofullcarditemform.tboff.caption
+msgctxt "trofullcarditemform.tboff.caption"
+msgid "OFF"
+msgstr ""
+
+#: trofullcarditemform.tbreadonly.caption
+msgctxt "trofullcarditemform.tbreadonly.caption"
+msgid "Read Only"
+msgstr "Чтение"
+
+#: trofullcardmobform.bbclose.caption
+msgctxt "trofullcardmobform.bbclose.caption"
+msgid "&Close"
+msgstr "Закрыть"
+
+#: trofullcardmobform.bbok.caption
+msgctxt "trofullcardmobform.bbok.caption"
+msgid "&Save"
+msgstr "Сохранить"
+
+#: trofullcardmobform.btnjobmode.caption
+msgctxt "trofullcardmobform.btnjobmode.caption"
+msgid "..."
+msgstr ""
+
+#: trofullcardmobform.btnmap.caption
+msgctxt "trofullcardmobform.btnmap.caption"
+msgid "Map"
+msgstr "Карта"
+
+#: trofullcardmobform.edadelay.hint
+#, fuzzy
+#| msgid ""
+#| "Attack Delay of the monster, also known as ASPD.\n"
+#| "Low value means faster attack speed, but don't make it too low or\n"
+#| "it will lag when a player got mobbed by several of these mobs.\n"
+msgid ""
+"Attack Delay of the monster, also known as ASPD.\n"
+"Low value means faster attack speed, but don't make it too low or\n"
+"it will lag when a player got mobbed by several of these mobs."
+msgstr ""
+"Задержка атаки монстра, известная как ASPD\n"
+"Малое значение означает более быструю атаку, но нельзя делать слишком малой,\n"
+"а то это породит лаги при атаке игрока несколькими монстрами.\n"
+
+#: trofullcardmobform.edamotion.hint
+#, fuzzy
+#| msgid ""
+#| "Attack animation motion.\n"
+#| "Low value means monster's attack will be displayed in higher fps\n"
+#| "(making it shorter, too)\n"
+msgid ""
+"Attack animation motion.\n"
+"Low value means monster's attack will be displayed in higher fps\n"
+"(making it shorter, too)"
+msgstr ""
+"Анимация атаки\n"
+"Меньшее значение озачает показ атаки монстра с большим FPS\n"
+"(заодно, делая её короче)\n"
+
+#: trofullcardmobform.eddmotion.hint
+#, fuzzy
+#| msgid ""
+#| "Damage animation motion,\n"
+#| "same as aMotion but used to display the \"I am hit\" animation.\n"
+#| "Coincidentally, this same value is used to determine how long\n"
+#| "it is before the monster/player can move again.\n"
+#| "Endure is dMotion = 0, obviously.\n"
+msgid ""
+"Damage animation motion,\n"
+"same as aMotion but used to display the \"I am hit\" animation.\n"
+"Coincidentally, this same value is used to determine how long\n"
+"it is before the monster/player can move again.\n"
+"Endure is dMotion = 0, obviously."
+msgstr ""
+"Анимация повреждений\n"
+"аналогично aMotion, но используется для отображения \"I am hit\".\n"
+"Собственно, значение  испольхуется для определения, как долго\n"
+"ждать, прежде чем монстр/игрок снова сможет двигаться.\n"
+"Таким образом, Endure соответствует dMotion=0.\n"
+
+#: trofullcardmobform.edironame.text
+msgctxt "trofullcardmobform.edironame.text"
+msgid "Monster not found"
+msgstr "Монстр не найден"
+
+#: trofullcardmobform.edkroname.text
+msgctxt "trofullcardmobform.edkroname.text"
+msgid "Monster not found"
+msgstr "Монстр не найден"
+
+#: trofullcardmobform.edrange1.hint
+#, fuzzy
+#| msgid ""
+#| "Range of the monster attack. If set to 1 or 2, it will be set to melee attack.\n"
+#| "If set to 3 or more, it will be set to ranged attack.\n"
+msgid ""
+"Range of the monster attack. If set to 1 or 2, it will be set to melee attack.\n"
+"If set to 3 or more, it will be set to ranged attack."
+msgstr ""
+"Дистанция атаки монстра. Значение 1 или2 соответствует контактной атаке.\n"
+"Если установлено в 3 или выше, это соответствует дистанционной атаке.\n"
+
+#: trofullcardmobform.edrange2.hint
+msgid "Maximum Skill Range."
+msgstr "Максимальное растояние для умений."
+
+#: trofullcardmobform.edrange3.hint
+#, fuzzy
+#| msgid ""
+#| "Sight limit of the monster. If set to 1000 or beyond,\n"
+#| "the monster will follow you all over the map.\n"
+msgid ""
+"Sight limit of the monster. If set to 1000 or beyond,\n"
+"the monster will follow you all over the map."
+msgstr ""
+"Дистанция поля зрения монстра. Если установлено в 1000 и выше,\n"
+"монстр будет следовать в пределах всей локации.\n"
+
+#: trofullcardmobform.edspeed.hint
+#, fuzzy
+#| msgid ""
+#| "Walk speed of the monster\n"
+#| "1 = Fastest\n"
+#| "100 = Normal\n"
+#| "1000 = Slowest\n"
+msgid ""
+"Walk speed of the monster\n"
+"1 = Fastest\n"
+"100 = Normal\n"
+"1000 = Slowest"
+msgstr ""
+"Скорость перемещения монстра.\n"
+"1 = Самое быстрое\n"
+"100 = Нормальное\n"
+"1000 = Самое медленное\n"
+
+#: trofullcardmobform.gbrange.caption
+msgctxt "trofullcardmobform.gbrange.caption"
+msgid "Range"
+msgstr "Диапазон"
+
+#: trofullcardmobform.lbladelay.caption
+msgid "aDelay"
+msgstr ""
+
+#: trofullcardmobform.lblagi.caption
+msgctxt "trofullcardmobform.lblagi.caption"
+msgid "AGI"
+msgstr ""
+
+#: trofullcardmobform.lblamotion.caption
+msgid "aMotion"
+msgstr ""
+
+#: trofullcardmobform.lblatk1.caption
+msgctxt "trofullcardmobform.lblatk1.caption"
+msgid "Min Atk"
+msgstr ""
+
+#: trofullcardmobform.lblatk2.caption
+msgctxt "trofullcardmobform.lblatk2.caption"
+msgid "Max Atk"
+msgstr ""
+
+#: trofullcardmobform.lblbaseexp.caption
+msgctxt "trofullcardmobform.lblbaseexp.caption"
+msgid "Base Exp"
+msgstr "Базовый опыт"
+
+#: trofullcardmobform.lblbasejexp.caption
+msgctxt "trofullcardmobform.lblbasejexp.caption"
+msgid "Job Exp"
+msgstr "Проф. опыт"
+
+#: trofullcardmobform.lbldef.caption
+msgctxt "trofullcardmobform.lbldef.caption"
+msgid "Def"
+msgstr ""
+
+#: trofullcardmobform.lbldex.caption
+msgctxt "trofullcardmobform.lbldex.caption"
+msgid "DEX"
+msgstr ""
+
+#: trofullcardmobform.lbldmotion.caption
+msgid "dMotion"
+msgstr ""
+
+#: trofullcardmobform.lblelement.caption
+msgctxt "trofullcardmobform.lblelement.caption"
+msgid "Element"
+msgstr "Элемент"
+
+#: trofullcardmobform.lblhp.caption
+msgctxt "trofullcardmobform.lblhp.caption"
+msgid "HP"
+msgstr ""
+
+#: trofullcardmobform.lblid.caption
+msgctxt "trofullcardmobform.lblid.caption"
+msgid "ID"
+msgstr ""
+
+#: trofullcardmobform.lblint.caption
+msgctxt "trofullcardmobform.lblint.caption"
+msgid "INT"
+msgstr ""
+
+#: trofullcardmobform.lblironame.caption
+msgid "iRO Name"
+msgstr "Имя iRO"
+
+#: trofullcardmobform.lblkroname.caption
+msgid "kRO Name"
+msgstr "Имя kRO"
+
+#: trofullcardmobform.lblkroname1.caption
+msgctxt "trofullcardmobform.lblkroname1.caption"
+msgid "AE Name"
+msgstr "Имя AE"
+
+#: trofullcardmobform.lbllevel.caption
+msgctxt "trofullcardmobform.lbllevel.caption"
+msgid "Level"
+msgstr "Уровень"
+
+#: trofullcardmobform.lblluk.caption
+msgctxt "trofullcardmobform.lblluk.caption"
+msgid "LUK"
+msgstr ""
+
+#: trofullcardmobform.lblmdef.caption
+msgctxt "trofullcardmobform.lblmdef.caption"
+msgid "MDef"
+msgstr ""
+
+#: trofullcardmobform.lblmode.caption
+msgid "Mode"
+msgstr "Режим"
+
+#: trofullcardmobform.lblrace.caption
+msgctxt "trofullcardmobform.lblrace.caption"
+msgid "Race"
+msgstr "Раса"
+
+#: trofullcardmobform.lblrange1.caption
+msgctxt "trofullcardmobform.lblrange1.caption"
+msgid "1"
+msgstr ""
+
+#: trofullcardmobform.lblrange2.caption
+msgctxt "trofullcardmobform.lblrange2.caption"
+msgid "2"
+msgstr ""
+
+#: trofullcardmobform.lblrange3.caption
+msgctxt "trofullcardmobform.lblrange3.caption"
+msgid "3"
+msgstr ""
+
+#: trofullcardmobform.lblscale.caption
+msgctxt "trofullcardmobform.lblscale.caption"
+msgid "Size"
+msgstr "Размер"
+
+#: trofullcardmobform.lblsp.caption
+msgctxt "trofullcardmobform.lblsp.caption"
+msgid "SP"
+msgstr ""
+
+#: trofullcardmobform.lblspeed.caption
+msgid "Speed"
+msgstr "Скорость"
+
+#: trofullcardmobform.lblstr.caption
+msgctxt "trofullcardmobform.lblstr.caption"
+msgid "STR"
+msgstr ""
+
+#: trofullcardmobform.lblvit.caption
+msgctxt "trofullcardmobform.lblvit.caption"
+msgid "VIT"
+msgstr ""
+
+#: trofullcardmobform.lvlmvpexp.caption
+msgid "MVP Exp"
+msgstr "Опыт с MVP"
+
+#: trofullcardmobform.sgdrop.columns[0].title.caption
+msgctxt "trofullcardmobform.sgdrop.columns[0].title.caption"
+msgid "ID"
+msgstr ""
+
+#: trofullcardmobform.sgdrop.columns[1].title.caption
+msgctxt "trofullcardmobform.sgdrop.columns[1].title.caption"
+msgid "Name"
+msgstr "Имя"
+
+#: trofullcardmobform.sgdrop.columns[2].title.caption
+msgctxt "trofullcardmobform.sgdrop.columns[2].title.caption"
+msgid "Rate"
+msgstr "Частота"
+
+#: trofullcardmobform.tboff.caption
+msgctxt "trofullcardmobform.tboff.caption"
+msgid "OFF"
+msgstr ""
+
+#: trofullcardmobform.tbreadonly.caption
+msgctxt "trofullcardmobform.tbreadonly.caption"
+msgid "Read Only"
+msgstr "Чтение"
+
+#: trohelpcardmobform.btnfullinfo.caption
+msgid "Full Info"
+msgstr "Полностью"
+
+#: trohelpcardmobform.btnmap.caption
+msgctxt "trohelpcardmobform.btnmap.caption"
+msgid "Map"
+msgstr "Карта"
+
+#: trohelpcardmobform.cbstretch.caption
+msgid "Stretch Sprite"
+msgstr "Растянуть спрайт"
+
+#: trohelpcardmobform.edname.text
+msgctxt "trohelpcardmobform.edname.text"
+msgid "Monster not found"
+msgstr "Монстр не найден"
+
+#: trohelpcardmobform.lblagi.caption
+msgctxt "trohelpcardmobform.lblagi.caption"
+msgid "AGI"
+msgstr ""
+
+#: trohelpcardmobform.lblatk1.caption
+msgctxt "trohelpcardmobform.lblatk1.caption"
+msgid "Min Atk"
+msgstr ""
+
+#: trohelpcardmobform.lblatk2.caption
+msgctxt "trohelpcardmobform.lblatk2.caption"
+msgid "Max Atk"
+msgstr ""
+
+#: trohelpcardmobform.lblbaseexp.caption
+msgctxt "trohelpcardmobform.lblbaseexp.caption"
+msgid "Base Exp"
+msgstr "Базовый опыт"
+
+#: trohelpcardmobform.lblbasejexp.caption
+msgctxt "trohelpcardmobform.lblbasejexp.caption"
+msgid "Job Exp"
+msgstr "Проф. опыт"
+
+#: trohelpcardmobform.lbldef.caption
+msgctxt "trohelpcardmobform.lbldef.caption"
+msgid "Def"
+msgstr ""
+
+#: trohelpcardmobform.lbldex.caption
+msgctxt "trohelpcardmobform.lbldex.caption"
+msgid "DEX"
+msgstr ""
+
+#: trohelpcardmobform.lblelement.caption
+msgctxt "trohelpcardmobform.lblelement.caption"
+msgid "Element"
+msgstr "Элемент"
+
+#: trohelpcardmobform.lblhp.caption
+msgctxt "trohelpcardmobform.lblhp.caption"
+msgid "HP"
+msgstr ""
+
+#: trohelpcardmobform.lblint.caption
+msgctxt "trohelpcardmobform.lblint.caption"
+msgid "INT"
+msgstr ""
+
+#: trohelpcardmobform.lbllevel.caption
+msgctxt "trohelpcardmobform.lbllevel.caption"
+msgid "Level"
+msgstr "Уровень"
+
+#: trohelpcardmobform.lblluk.caption
+msgctxt "trohelpcardmobform.lblluk.caption"
+msgid "LUK"
+msgstr ""
+
+#: trohelpcardmobform.lblmdef.caption
+msgctxt "trohelpcardmobform.lblmdef.caption"
+msgid "MDef"
+msgstr ""
+
+#: trohelpcardmobform.lblname.caption
+msgctxt "trohelpcardmobform.lblname.caption"
+msgid "Name"
+msgstr "Имя"
+
+#: trohelpcardmobform.lblrace.caption
+msgctxt "trohelpcardmobform.lblrace.caption"
+msgid "Race"
+msgstr "Раса"
+
+#: trohelpcardmobform.lblscale.caption
+msgctxt "trohelpcardmobform.lblscale.caption"
+msgid "Size"
+msgstr "Размер"
+
+#: trohelpcardmobform.lblsp.caption
+msgctxt "trohelpcardmobform.lblsp.caption"
+msgid "SP"
+msgstr ""
+
+#: trohelpcardmobform.lblstr.caption
+msgctxt "trohelpcardmobform.lblstr.caption"
+msgid "STR"
+msgstr ""
+
+#: trohelpcardmobform.lblvit.caption
+msgctxt "trohelpcardmobform.lblvit.caption"
+msgid "VIT"
+msgstr ""
+
+#: trohelpcardmobform.tboff.caption
+msgctxt "trohelpcardmobform.tboff.caption"
+msgid "OFF"
+msgstr ""
+
+#: trohelpdocform.lpart.caption
+msgctxt "trohelpdocform.lpart.caption"
+msgid "Part"
+msgstr "Раздел"
+
+#: trohelpspritesform.cbshownames.caption
+msgctxt "trohelpspritesform.cbshownames.caption"
+msgid "Show names"
+msgstr "Показать имена"
+
+#: trohelpspritesform.cbstretch.caption
+msgctxt "trohelpspritesform.cbstretch.caption"
+msgid "Stretch sprites"
+msgstr "Растянуть прайты"
+
+#: tromainform.mieditfind.caption
+msgctxt "tromainform.mieditfind.caption"
+msgid "&Find"
+msgstr "Найти"
+
+#: tromainform.mieditfindnext.caption
+msgid "Find &Next"
+msgstr "Найти далее"
+
+#: tromainform.mieditfoldall.caption
+msgctxt "tromainform.mieditfoldall.caption"
+msgid "Fold &All"
+msgstr "Свернуть все блоки"
+
+#: tromainform.mieditreplace.caption
+msgctxt "tromainform.mieditreplace.caption"
+msgid "&Replace"
+msgstr "Заменить"
+
+#: tromainform.mieditunfoldall.caption
+msgctxt "tromainform.mieditunfoldall.caption"
+msgid "&Unfold All"
+msgstr "Развернуть все блоки"
+
+#: tromainform.mifileclose.caption
+msgid "&Close window"
+msgstr "Закрыть окно"
+
+#: tromainform.mifilecloseall.caption
+msgid "Close All"
+msgstr "Закрыть всё"
+
+#: tromainform.mifileexit.caption
+msgid "E&xit"
+msgstr "Выйти"
+
+#: tromainform.mifileexpertsaveitems.caption
+msgid "Save Items"
+msgstr "Сохранить предметы"
+
+#: tromainform.mifileexpertsavemobs.caption
+msgid "Save Monsters"
+msgstr "Сохранить монстров"
+
+#: tromainform.mifileexpertsavequest.caption
+msgid "Save Quests"
+msgstr "Сохранить квесты"
+
+#: tromainform.mifilelocalitem.caption
+msgid "Item Localization"
+msgstr "Локализация предметов"
+
+#: tromainform.mifilelocalmap.caption
+msgid "Map Localization"
+msgstr "Локализация карт"
+
+#: tromainform.mifilelocalmob.caption
+msgid "Mob Localization"
+msgstr "Локализация монстров"
+
+#: tromainform.mifilenew.caption
+msgctxt "tromainform.mifilenew.caption"
+msgid "&New"
+msgstr "Новый"
+
+#: tromainform.mifileopen.caption
+msgctxt "tromainform.mifileopen.caption"
+msgid "&Open"
+msgstr "Открыть"
+
+#: tromainform.mifilereloadcolor.caption
+msgid "Load Color scheme"
+msgstr "Загрузить цветовую схему"
+
+#: tromainform.mifilesave.caption
+msgctxt "tromainform.mifilesave.caption"
+msgid "&Save"
+msgstr "Сохранить"
+
+#: tromainform.mifilesaveall.caption
+msgid "Save A&ll"
+msgstr "Сохранить всё"
+
+#: tromainform.mifilesaveas.caption
+msgid "Save &as ..."
+msgstr "Сохранить как ..."
+
+#: tromainform.mifilesettings.caption
+msgctxt "tromainform.mifilesettings.caption"
+msgid "Settings"
+msgstr "Настройки"
+
+#: tromainform.migobookmark0.caption
+msgctxt "tromainform.migobookmark0.caption"
+msgid "Bookmark 0"
+msgstr "Закладка 0"
+
+#: tromainform.migobookmark1.caption
+msgctxt "tromainform.migobookmark1.caption"
+msgid "Bookmark 1"
+msgstr "Закладка 1"
+
+#: tromainform.migobookmark2.caption
+msgctxt "tromainform.migobookmark2.caption"
+msgid "Bookmark 2"
+msgstr "Закладка 2"
+
+#: tromainform.migobookmark3.caption
+msgctxt "tromainform.migobookmark3.caption"
+msgid "Bookmark 3"
+msgstr "Закладка 3"
+
+#: tromainform.migobookmark4.caption
+msgctxt "tromainform.migobookmark4.caption"
+msgid "Bookmark 4"
+msgstr "Закладка 4"
+
+#: tromainform.migobookmark5.caption
+msgctxt "tromainform.migobookmark5.caption"
+msgid "Bookmark 5"
+msgstr "Закладка 5"
+
+#: tromainform.migobookmark6.caption
+msgctxt "tromainform.migobookmark6.caption"
+msgid "Bookmark 6"
+msgstr "Закладка 6"
+
+#: tromainform.migobookmark7.caption
+msgctxt "tromainform.migobookmark7.caption"
+msgid "Bookmark 7"
+msgstr "Закладка 7"
+
+#: tromainform.migobookmark8.caption
+msgctxt "tromainform.migobookmark8.caption"
+msgid "Bookmark 8"
+msgstr "Закладка 8"
+
+#: tromainform.migobookmark9.caption
+msgctxt "tromainform.migobookmark9.caption"
+msgid "Bookmark 9"
+msgstr "Закладка 9"
+
+#: tromainform.mihelpabout.caption
+msgid "&About"
+msgstr "О программе"
+
+#: tromainform.mihelpatcommands.caption
+msgid "AT @ commands"
+msgstr "AT @ Команды"
+
+#: tromainform.mihelpcommands.caption
+msgctxt "tromainform.mihelpcommands.caption"
+msgid "&Commands"
+msgstr "Команды"
+
+#: tromainform.mihelpconstant.caption
+msgctxt "tromainform.mihelpconstant.caption"
+msgid "Constants"
+msgstr "Константы"
+
+#: tromainform.mihelpdictitemsprites.caption
+msgid "Item Sprites"
+msgstr "Спрайты предметов"
+
+#: tromainform.mihelpdictitemtable.caption
+msgctxt "tromainform.mihelpdictitemtable.caption"
+msgid "Item Table"
+msgstr "Таблица предметов"
+
+#: tromainform.mihelpdictmapsprites.caption
+msgctxt "tromainform.mihelpdictmapsprites.caption"
+msgid "Map Sprites"
+msgstr "Спрайты карт"
+
+#: tromainform.mihelpdictmaptable.caption
+msgctxt "tromainform.mihelpdictmaptable.caption"
+msgid "Map Table"
+msgstr "Таблица карт"
+
+#: tromainform.mihelpdictmobsprites.caption
+msgid "Monster sprites"
+msgstr "Спрайты монстров"
+
+#: tromainform.mihelpdictmobtable.caption
+msgctxt "tromainform.mihelpdictmobtable.caption"
+msgid "Monster Table"
+msgstr "Таблица монстров"
+
+#: tromainform.mihelpdictnpcsprites.caption
+msgctxt "tromainform.mihelpdictnpcsprites.caption"
+msgid "NPC Sprites"
+msgstr "Спрайты NPC"
+
+#: tromainform.mihelpdictquest.caption
+msgid "&Quest list"
+msgstr "Список квестов"
+
+#: tromainform.mihelpeffects.caption
+msgid "Effect list"
+msgstr "Список эффектов"
+
+#: tromainform.mihelpitemsearch.caption
+msgid "Item Search"
+msgstr "Поиск предметов"
+
+#: tromainform.mihelpmapflags.caption
+msgctxt "tromainform.mihelpmapflags.caption"
+msgid "Map flags"
+msgstr "Настройки карт"
+
+#: tromainform.mihelpmobsearch.caption
+msgid "Monster Search"
+msgstr "Поиск монстров"
+
+#: tromainform.mihelpskills.caption
+msgctxt "tromainform.mihelpskills.caption"
+msgid "Skill constants"
+msgstr "Константы умений"
+
+#: tromainform.mipopupquestdb.caption
+msgid "Quest DB line"
+msgstr "Строка quest_db"
+
+#: tromainform.mipopupshowitemcard.caption
+msgid "Show Item card"
+msgstr "Показать карточку предмета"
+
+#: tromainform.mipopupshowmapsprite.caption
+msgid "Show Map Sprite"
+msgstr "Показать локацию"
+
+#: tromainform.mipopupshowmobcard.caption
+msgid "Show Monster card"
+msgstr "Показать карточку монстра"
+
+#: tromainform.mipopupshownpcsprite.caption
+msgid "Show NPC Sprite"
+msgstr "Показать спрайт NPC"
+
+#: tromainform.mipopupwordhelp.caption
+msgid "Word help"
+msgstr "Подсказка по слову"
+
+#: tromainform.misetbookmark0.caption
+msgctxt "tromainform.misetbookmark0.caption"
+msgid "Bookmark 0"
+msgstr "Закладка 0"
+
+#: tromainform.misetbookmark1.caption
+msgctxt "tromainform.misetbookmark1.caption"
+msgid "Bookmark 1"
+msgstr "Закладка 1"
+
+#: tromainform.misetbookmark2.caption
+msgctxt "tromainform.misetbookmark2.caption"
+msgid "Bookmark 2"
+msgstr "Закладка 2"
+
+#: tromainform.misetbookmark3.caption
+msgctxt "tromainform.misetbookmark3.caption"
+msgid "Bookmark 3"
+msgstr "Закладка 3"
+
+#: tromainform.misetbookmark4.caption
+msgctxt "tromainform.misetbookmark4.caption"
+msgid "Bookmark 4"
+msgstr "Закладка 4"
+
+#: tromainform.misetbookmark5.caption
+msgctxt "tromainform.misetbookmark5.caption"
+msgid "Bookmark 5"
+msgstr "Закладка 5"
+
+#: tromainform.misetbookmark6.caption
+msgctxt "tromainform.misetbookmark6.caption"
+msgid "Bookmark 6"
+msgstr "Закладка 6"
+
+#: tromainform.misetbookmark7.caption
+msgctxt "tromainform.misetbookmark7.caption"
+msgid "Bookmark 7"
+msgstr "Закладка 7"
+
+#: tromainform.misetbookmark8.caption
+msgctxt "tromainform.misetbookmark8.caption"
+msgid "Bookmark 8"
+msgstr "Закладка 8"
+
+#: tromainform.misetbookmark9.caption
+msgctxt "tromainform.misetbookmark9.caption"
+msgid "Bookmark 9"
+msgstr "Закладка 9"
+
+#: tromainform.mitabpopupclose.caption
+msgid "&Close Tab"
+msgstr "Закрыть вкладку"
+
+#: tromainform.mitabpopupnew.caption
+msgid "&New Tab"
+msgstr "Новая вкладка"
+
+#: tromainform.miwizardcreatequest.caption
+msgid "&Creation Quest"
+msgstr "Квест на создание"
+
+#: tromainform.miwizardnpc.caption
+msgid "&NPC"
+msgstr ""
+
+#: tromainform.miwizardquestdbline.caption
+msgid "Quest_db line"
+msgstr "Строка в quest_db"
+
+#: tromainform.miwizardshop.caption
+msgid "&Shop"
+msgstr "Магазин"
+
+#: tromainform.mnubookmarkgo.caption
+msgctxt "tromainform.mnubookmarkgo.caption"
+msgid "Go to Bookmark"
+msgstr "Перейти на закладку"
+
+#: tromainform.mnubookmarkset.caption
+msgid "Set Bookmark"
+msgstr "Поставить закладку"
+
+#: tromainform.mnuedit.caption
+msgid "&Edit"
+msgstr "Редактировать"
+
+#: tromainform.mnufile.caption
+msgid "&File"
+msgstr "Файл"
+
+#: tromainform.mnufileexpert.caption
+msgid "Expert"
+msgstr "Эксперт"
+
+#: tromainform.mnufilelocal.caption
+msgctxt "tromainform.mnufilelocal.caption"
+msgid "Local"
+msgstr "Локализация"
+
+#: tromainform.mnuhelp.caption
+msgid "&Help"
+msgstr "Помощь"
+
+#: tromainform.mnuhelpdictionary.caption
+msgctxt "tromainform.mnuhelpdictionary.caption"
+msgid "&Dictionary"
+msgstr "Словарь"
+
+#: tromainform.mnuwindows.caption
+msgid "Windows"
+msgstr "Окна"
+
+#: tromainform.mnuwizard.caption
+msgid "&Wizard"
+msgstr "Шаблоны"
+
+#: tromainform.tbeditfind.caption
+msgctxt "tromainform.tbeditfind.caption"
+msgid "&Find"
+msgstr "Найти"
+
+#: tromainform.tbeditreplace.caption
+msgctxt "tromainform.tbeditreplace.caption"
+msgid "&Replace"
+msgstr "Заменить"
+
+#: tromainform.tbfilenew.caption
+msgctxt "tromainform.tbfilenew.caption"
+msgid "&New"
+msgstr "Новый"
+
+#: tromainform.tbfileopen.caption
+msgctxt "tromainform.tbfileopen.caption"
+msgid "&Open"
+msgstr "Открыть"
+
+#: tromainform.tbfilesave.caption
+msgctxt "tromainform.tbfilesave.caption"
+msgid "&Save"
+msgstr "Сохранить"
+
+#: tromainform.tbfoldall.caption
+msgctxt "tromainform.tbfoldall.caption"
+msgid "Fold &All"
+msgstr "Свернуть все блоки"
+
+#: tromainform.tbhelpdoc.caption
+msgctxt "tromainform.tbhelpdoc.caption"
+msgid "&Commands"
+msgstr "Команды"
+
+#: tromainform.tbsettings.caption
+msgctxt "tromainform.tbsettings.caption"
+msgid "Settings"
+msgstr "Настройки"
+
+#: tromainform.tbunfoldall.caption
+msgctxt "tromainform.tbunfoldall.caption"
+msgid "&Unfold All"
+msgstr "Развернуть все блоки"
+
+#: troresplistform.sgresplist.columns[1].title.caption
+msgctxt "troresplistform.sgresplist.columns[1].title.caption"
+msgid "Amount"
+msgstr "Количество"
+
+#: troresplistform.sgresplist.columns[2].title.caption
+msgid "Resp time, sec"
+msgstr "Время респа, сек"
+
+#: trosearchitemform.btnsearch.caption
+msgctxt "trosearchitemform.btnsearch.caption"
+msgid "Search"
+msgstr "Поиск"
+
+#: trosearchitemform.cbcostume.caption
+msgid "Costume"
+msgstr "Костюм"
+
+#: trosearchitemform.cbdropped.caption
+msgid "Dropped from Monster"
+msgstr "Выпадает с монстров"
+
+#: trosearchitemform.lbleffect.caption
+msgctxt "trosearchitemform.lbleffect.caption"
+msgid "Script"
+msgstr "Скрипт"
+
+#: trosearchitemform.lblfrom.caption
+msgctxt "trosearchitemform.lblfrom.caption"
+msgid "From"
+msgstr "От"
+
+#: trosearchitemform.lblid.caption
+msgctxt "trosearchitemform.lblid.caption"
+msgid "Id"
+msgstr ""
+
+#: trosearchitemform.lblitemname.caption
+msgid "Item Name"
+msgstr "Название предмета"
+
+#: trosearchitemform.lblitemtype.caption
+msgid "Item type"
+msgstr "Тип предмета"
+
+#: trosearchitemform.lblto.caption
+msgctxt "trosearchitemform.lblto.caption"
+msgid "To"
+msgstr "До"
+
+#: trosearchmobform.btnsearch.caption
+msgctxt "trosearchmobform.btnsearch.caption"
+msgid "Search"
+msgstr "Поиск"
+
+#: trosearchmobform.lblelement.caption
+msgctxt "trosearchmobform.lblelement.caption"
+msgid "Element"
+msgstr "Элемент"
+
+#: trosearchmobform.lblfrom.caption
+msgctxt "trosearchmobform.lblfrom.caption"
+msgid "From"
+msgstr "От"
+
+#: trosearchmobform.lblid.caption
+msgctxt "trosearchmobform.lblid.caption"
+msgid "Id"
+msgstr ""
+
+#: trosearchmobform.lblmobname.caption
+msgid "Monster Name"
+msgstr "Имя монстра"
+
+#: trosearchmobform.lblrace.caption
+msgctxt "trosearchmobform.lblrace.caption"
+msgid "Race"
+msgstr "Раса"
+
+#: trosearchmobform.lblsize.caption
+msgctxt "trosearchmobform.lblsize.caption"
+msgid "Size"
+msgstr "Размер"
+
+#: trosearchmobform.lblto.caption
+msgctxt "trosearchmobform.lblto.caption"
+msgid "To"
+msgstr "До"
+
+#: trosettingsform.bbapply.caption
+msgid "&Apply"
+msgstr "Прим."
+
+#: trosettingsform.cballowedit.caption
+msgid "Allow edit cards"
+msgstr "Разрешить редактировать карточки"
+
+#: trosettingsform.cbautoaddscheme.caption
+msgid "Auto add loaded schemes"
+msgstr "Добавлять загруженные схемы"
+
+#: trosettingsform.cbautoloadlocal.caption
+msgid "Auto load localization"
+msgstr "Автоматически подгружать локализацию"
+
+#: trosettingsform.cbcommenttodel.caption
+msgid "Comment marked delete lines"
+msgstr "Комментировать строки для удаления"
+
+#: trosettingsform.cbfullcard.caption
+msgid "Show Full item/monster card"
+msgstr "Показать полную карточку предмета/монстра"
+
+#: trosettingsform.cbloadcommented.caption
+msgid "Load commented Items/Monsters"
+msgstr "Загружать закомментированные данные о предметах и монстрах"
+
+#: trosettingsform.cbwincpfiles.caption
+msgid "Assume files are CP_ACP"
+msgstr "Файлы в кодировке CP_ACP"
+
+#: trosettingsform.ebdatadir.buttoncaption
+msgctxt "trosettingsform.ebdatadir.buttoncaption"
+msgid "..."
+msgstr ""
+
+#: trosettingsform.lbldatadir.caption
+msgctxt "trosettingsform.lbldatadir.caption"
+msgid "Choose RAthena directory (empty for default)"
+msgstr "Выберите каталог RAthena (пустое значение для умолчания)"
+
+#: trosettingsform.lblscheme.caption
+msgid "Highlighter scheme"
+msgstr "Схема подсветки"
+

@@ -1,0 +1,52 @@
+object RODictConstForm: TRODictConstForm
+  Left = 559
+  Height = 399
+  Top = 184
+  Width = 455
+  Caption = 'Constants list'
+  ClientHeight = 399
+  ClientWidth = 455
+  OnCreate = FormCreate
+  LCLVersion = '1.9.0.0'
+  object lbConstPart: TListBox
+    Left = 8
+    Height = 364
+    Top = 28
+    Width = 216
+    Anchors = [akTop, akLeft, akBottom]
+    ItemHeight = 0
+    OnSelectionChange = lbConstPartSelectionChange
+    TabOrder = 0
+  end
+  object lblConstPart: TLabel
+    Left = 8
+    Height = 15
+    Top = 8
+    Width = 216
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Constant Part'
+    ParentColor = False
+  end
+  object lblConstList: TLabel
+    Left = 232
+    Height = 15
+    Top = 8
+    Width = 216
+    Alignment = taCenter
+    Anchors = [akTop, akLeft, akRight]
+    AutoSize = False
+    Caption = 'Constant list'
+    ParentColor = False
+  end
+  object lbConstList: TListBox
+    Left = 232
+    Height = 364
+    Top = 28
+    Width = 216
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ItemHeight = 0
+    Sorted = True
+    TabOrder = 1
+  end
+end

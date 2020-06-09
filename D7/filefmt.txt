@@ -1,0 +1,17 @@
+SPR:
+ID:word='SP'
+Un1:word=$0201 ?
+Un2:long=frames?;
+width,height:word; ?
+PalOfs:word;? on static {wo Hdr=$0E}
+{$E}
+Un3:word=$1B00;
+
+PAL:
+palette: 1024 byte RGBA
+
+FNA:
+firstnamelen:long
+name:PChar
+secondnamelen:long
+secondName:Pchar

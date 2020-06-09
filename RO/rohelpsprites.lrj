@@ -1,0 +1,8 @@
+{"version":1,"strings":[
+{"hash":4294967295,"name":"trohelpspritesform.dgspritegrid.columns[0].title.caption","sourcebytes":[],"value":""},
+{"hash":4294967295,"name":"trohelpspritesform.dgspritegrid.columns[1].title.caption","sourcebytes":[],"value":""},
+{"hash":4294967295,"name":"trohelpspritesform.dgspritegrid.columns[2].title.caption","sourcebytes":[],"value":""},
+{"hash":4294967295,"name":"trohelpspritesform.dgspritegrid.columns[3].title.caption","sourcebytes":[],"value":""},
+{"hash":45337091,"name":"trohelpspritesform.cbstretch.caption","sourcebytes":[83,116,114,101,116,99,104,32,115,112,114,105,116,101,115],"value":"Stretch sprites"},
+{"hash":158465187,"name":"trohelpspritesform.cbshownames.caption","sourcebytes":[83,104,111,119,32,110,97,109,101,115],"value":"Show names"}
+]}

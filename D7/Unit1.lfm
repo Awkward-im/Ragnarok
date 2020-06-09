@@ -1,0 +1,214 @@
+object Form1: TForm1
+  Left = 328
+  Height = 480
+  Top = 146
+  Width = 724
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 724
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.9.0.0'
+  object Label1: TLabel
+    Left = 122
+    Height = 13
+    Top = 8
+    Width = 71
+    Caption = 'Total 0 records'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 640
+    Height = 1
+    Top = 8
+    Width = 1
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 13
+    Top = 360
+    Width = 54
+    Caption = 'Pack Level'
+    ParentColor = False
+  end
+  object btOpen: TButton
+    Left = 24
+    Height = 25
+    Top = 32
+    Width = 75
+    Caption = '&Open'
+    OnClick = cmOpen
+    TabOrder = 0
+  end
+  object btSaveDir: TButton
+    Left = 24
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = '&Save Dir'
+    Enabled = False
+    OnClick = cmSavedir
+    TabOrder = 1
+  end
+  object btExit: TButton
+    Left = 24
+    Height = 25
+    Top = 416
+    Width = 75
+    Caption = 'E&xit'
+    OnClick = cmExit
+    TabOrder = 10
+  end
+  object btExtract: TButton
+    Left = 24
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = '&Extract'
+    Enabled = False
+    OnClick = cmUnpack
+    TabOrder = 2
+  end
+  object btSortMode: TButton
+    Tag = 3
+    Left = 24
+    Height = 25
+    Top = 152
+    Width = 75
+    Caption = 'Sort &By Text'
+    OnClick = cmSortMode
+    TabOrder = 3
+  end
+  object StringGrid1: TStringGrid
+    Left = 120
+    Height = 417
+    Top = 32
+    Width = 585
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    AutoAdvance = aaNone
+    AutoEdit = False
+    AutoFillColumns = True
+    ColumnClickSorts = True
+    Columns = <    
+      item
+        ReadOnly = True
+        SizePriority = 0
+        Title.Caption = 'Offset'
+        Width = 64
+      end    
+      item
+        ReadOnly = True
+        SizePriority = 0
+        Title.Caption = 'Packed'
+        Width = 64
+      end    
+      item
+        ReadOnly = True
+        SizePriority = 0
+        Title.Caption = 'Unpacked'
+        Width = 64
+      end    
+      item
+        ReadOnly = True
+        Title.Caption = 'File name'
+        Width = 389
+      end    
+      item
+        Title.Caption = ''
+        Width = 0
+        Visible = False
+      end>
+    DefaultRowHeight = 16
+    FixedCols = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing, goRowSelect, goThumbTracking, goSmoothScroll]
+    RowCount = 2
+    TabOrder = 9
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'MS Sans Serif'
+    OnCompareCells = StringGrid1CompareCells
+    OnHeaderClick = cmHeaderClick
+    ColWidths = (
+      64
+      64
+      64
+      389
+      0
+    )
+  end
+  object btUpdate: TButton
+    Left = 24
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = '&Update Base'
+    Enabled = False
+    OnClick = cmPack
+    TabOrder = 4
+  end
+  object cbDumpDir: TCheckBox
+    Left = 24
+    Height = 19
+    Top = 256
+    Width = 67
+    Caption = ' &Dump Dir'
+    TabOrder = 6
+  end
+  object btSearchNext: TButton
+    Left = 24
+    Height = 25
+    Top = 320
+    Width = 75
+    Caption = 'Search Next'
+    Enabled = False
+    OnClick = smSearchNext
+    TabOrder = 7
+  end
+  object trkPack: TTrackBar
+    Left = 8
+    Height = 25
+    Top = 376
+    Width = 105
+    Max = 9
+    Position = 6
+    TabOrder = 8
+  end
+  object btUpdateDir: TButton
+    Left = 24
+    Height = 25
+    Top = 224
+    Width = 75
+    Caption = 'Disk Scan'
+    OnClick = cmUpdDir
+    TabOrder = 5
+  end
+  object edSearch: TLabeledEdit
+    Left = 8
+    Height = 21
+    Top = 296
+    Width = 105
+    EditLabel.AnchorSideLeft.Control = edSearch
+    EditLabel.AnchorSideRight.Control = edSearch
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = edSearch
+    EditLabel.Left = 8
+    EditLabel.Height = 13
+    EditLabel.Top = 280
+    EditLabel.Width = 105
+    EditLabel.Caption = 'Sear&ch'
+    EditLabel.ParentColor = False
+    Enabled = False
+    TabOrder = 11
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = '.*.grf'
+    FileName = 'sdata'
+    Filter = '*.grf|*.grf'
+    Options = [ofPathMustExist, ofFileMustExist, ofEnableSizing]
+  end
+end

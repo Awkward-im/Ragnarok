@@ -1,0 +1,68 @@
+object RORespListForm: TRORespListForm
+  Left = 539
+  Height = 256
+  Top = 304
+  Width = 680
+  ClientHeight = 256
+  ClientWidth = 680
+  OnClose = FormClose
+  LCLVersion = '1.9.0.0'
+  object imgSprite: TImage
+    Left = 424
+    Height = 256
+    Top = 0
+    Width = 256
+    Anchors = [akTop, akRight]
+    Center = True
+    Proportional = True
+  end
+  object sgRespList: TStringGrid
+    Left = 0
+    Height = 256
+    Top = 0
+    Width = 424
+    Anchors = [akTop, akLeft, akRight]
+    AutoEdit = False
+    AutoFillColumns = True
+    ColCount = 4
+    Columns = <    
+      item
+        ReadOnly = True
+        Title.PrefixOption = poHeaderClick
+        Title.Caption = ''
+        Width = 216
+      end    
+      item
+        Alignment = taCenter
+        ReadOnly = True
+        SizePriority = 0
+        Title.PrefixOption = poHeaderClick
+        Title.Caption = 'Amount'
+        Width = 64
+      end    
+      item
+        ReadOnly = True
+        SizePriority = 0
+        Title.PrefixOption = poHeaderClick
+        Title.Caption = 'Resp time, sec'
+        Width = 140
+      end    
+      item
+        Title.Caption = ''
+        Width = 0
+        Visible = False
+      end>
+    FixedCols = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing, goRowSelect, goThumbTracking, goDblClickAutoSize, goSmoothScroll]
+    RowCount = 1
+    TabOrder = 0
+    OnDblClick = sgRespListDblClick
+    OnSelection = sgRespListSelection
+    ColWidths = (
+      216
+      64
+      140
+      0
+    )
+  end
+end

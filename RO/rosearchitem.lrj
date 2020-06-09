@@ -1,0 +1,11 @@
+{"version":1,"strings":[
+{"hash":200798405,"name":"trosearchitemform.lblitemtype.caption","sourcebytes":[73,116,101,109,32,116,121,112,101],"value":"Item type"},
+{"hash":317789,"name":"trosearchitemform.lblfrom.caption","sourcebytes":[70,114,111,109],"value":"From"},
+{"hash":1455,"name":"trosearchitemform.lblto.caption","sourcebytes":[84,111],"value":"To"},
+{"hash":200611989,"name":"trosearchitemform.lblitemname.caption","sourcebytes":[73,116,101,109,32,78,97,109,101],"value":"Item Name"},
+{"hash":94015604,"name":"trosearchitemform.lbleffect.caption","sourcebytes":[83,99,114,105,112,116],"value":"Script"},
+{"hash":94079128,"name":"trosearchitemform.btnsearch.caption","sourcebytes":[83,101,97,114,99,104],"value":"Search"},
+{"hash":228956770,"name":"trosearchitemform.cbdropped.caption","sourcebytes":[68,114,111,112,112,101,100,32,102,114,111,109,32,77,111,110,115,116,101,114],"value":"Dropped from Monster"},
+{"hash":174767221,"name":"trosearchitemform.cbcostume.caption","sourcebytes":[67,111,115,116,117,109,101],"value":"Costume"},
+{"hash":1268,"name":"trosearchitemform.lblid.caption","sourcebytes":[73,100],"value":"Id"}
+]}

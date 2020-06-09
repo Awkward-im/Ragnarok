@@ -1,0 +1,7 @@
++1. Extract & unpack directory
++2. List directory
++3. Extract needed file
+*4. change file
+*5. pack & insert file (see if packedsize not changed)
+*6. change directory
+*7. save new archive

@@ -1,0 +1,8 @@
+ID:array [0..15] of byte='Master of Magic';
+Un1:array [0..13] of byte; {10 - reserve}
+DirOffset:longword;   {1E - dir offset w/o header size}
+Un3:longword;         {22 - usually 0}
+DirEntries:longword;  {26 - dir entries (+7)}
+fType:longword;       {2A - version}
+
+[26]-7=dir entries !!!!!!!!

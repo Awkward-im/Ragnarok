@@ -1,0 +1,175 @@
+для StringGrid как вариант, хранить idx не строкой в невидимом столбце, а
+Rows[aRow].Objects[0] или Objects[0,aRow];
+
+
+
+[skillnametable.txt]
+[cardprefixnametable.txt]
+resnametable.txt               defROMapSpriteFileName  ReadMapSprites
+mapnametable.txt               defROMapsFileName       ReadMaps
+num2cardillustnametable.txt    defROCardSpriteFileName ReadCardSprites
+idnum2itemresnametable.txt     defROItemSpriteFileName ReadItemSprites
+idnum2itemdisplaynametable.txt defLocalItemFileName    LoadItemLocal
+=========
+idnum2itemdesctable.txt
+skilldesctable.txt
+
+read skill names from (GRF) skillnametable.txt
+skill description (GRF) skilldesctable.txt
+id, name, hash - used
+descr - not used
+sprite - not necessary
+
+
+{
+open container/file
+read file
+close all
+}
+
+add highliter choosing: RO or Lua
+
+weight and drop rate: integer to real?
+
+(createspriteform)
+text index for item: popup menu, getlistindex(wiz)
+text index for mobs: popup menu, const sprites, getlistindex(wiz)
+MAP - sorted
+mobbase(descr,kro)
+itembase(descr) - worst case (60 times on load)
+mapindex(name)
+mobindex(descr,kro,local)
+itemindex(descr,local)
+
+rodatalocal: (map) comparestr -> StrCmp
+
+kro,local(item,mobs) -> cache?
+
+readscript: String -> PAnsiChar (copy,copy,setlength) -> (make)
+
+ronames: name - not used, data - sprite name (used), if same as name - not needed?
+
+hash - getmobbase, getmobsprite(?),
+       npcindex,skillindex,questindex,mobindex,itemindex
+
+type	name	ID	hash	descr	sprite	local	
+item	*	*	*	*	*	*	descr=local?
+monster	*	*	*	*	*	*	descr=kro, iro=local?
+npc	*	*	*		*		
+map	*		?	*	*	*	
+effect		*		*			
+skill	*	*	*	?	?		descr=skill name, note=description?
+quest		*	?	*	?	?	
+
+--------------
+
+LUB -> LUA converter needs
+Case sensitive for grfio??
+
+cards prefix: 4019#Мучинечиский#
+
+replace Self as anOwner to Application? or mainform (FormCloseQuery)
+
+kro data:
+  items      - 5160,   4.51 /   8.27 Mb
+  collection - 4153,  27.1  /  82.3  Mb
+  map        -  732,  48.8  / 187    Mb
+  cardbmp    -  719,  43.4  /  85.9
+  -------------------------------------
+              10764, 123.81 / 363.47
+
+  items      - 10263,  4.95 /   7.41
+
+  monsters   -  2142, 75.7  / 385
+  npc        -  2110, 19.0  /  92.5
+  ----------------------------------
+                4252, 94.7  / 477.5
+
+13005 - (Angelic Wing Dagger) apple
+1308 (B1DDB5B5B3A2.jpg) golden *** - apple - 1323, 1394, 28104
+
+sprite with text - WizNPCBase (map+npc)
+
+read grf for text files
+but sprites... npc and mobs = Act+SPR
+SPR: npc, 
+bmp: map, item, collection, cardbmp
+
+2337,2343,2536,2537,2539,3038 (invis) - pink
+	
+	JT_4_F_DANGDANG = 10286,
+	JT_4_M_DANGDANG,
+	JT_4_F_DANGDANG1,
+	JT_4_LEAFCAT,
+
+skill table = add skill names (read + field)
+
+add card prefix (+search)
+add item descr (like script window/quest help)
+
+2240 large - absent
+
+TROHelpTable, keep sprite index in invisible column?
+will need to keep array like in tROHelpSprites
+atm - item only, subimages
+
+
+ MyHintWindow:=THintWindow.Create; // Create's the HintWindow
+    MyHintWindow.Brush.Bitmap := MyImage
+    //Assgin the MyImage Pointer to the Bruh Bitmap Prorerty
+    MyHintWindow.ActiveHint(Rect(X,Y,X+MyImage.Width,
+                                 Y+MyImage.Height-2{offset for better Look})) 
+
+move help forms and popup menu to global scope (to call from ANY script window)
+popup menu -> bookmarks -> imagelist
+
+place for local name at item card?
+
+shield = by category:
+0-?
+1-guard
+2-buckler
+3-shield
+4-heavy shield
+5-book
+
+OFF to ON - check sibling (on save)
+if item changing OFF state, check 'trade' too off=disabled -> trade going to comment
+
+add/delete for items and mobs (right now - item trade only)
+
+
+//    OpenDialog.InitialDir:=ExtractFilePath(AnUnitInfo.Filename);
+
+-----
+make menus with templates?
+<tmplname>
+<tmpltext>
+in INI with settings? or separate text file?
+
+------------------
+  object ROPopupMenu: TPopupMenu
+    Left = 104
+    Top = 48
+    object miPopupWordHelp: TMenuItem
+      Caption = 'Word help'
+      ShortCut = 16496
+      OnClick = miPopupWordHelpClick
+    end
+    object miPopupShowNPCSprite: TMenuItem
+      Caption = 'Show NPC Sprite'
+      OnClick = miPopupShowNPCSpriteClick
+    end
+    object miPopupShowMapSprite: TMenuItem
+      Caption = 'Show Map Sprite'
+      OnClick = miPopupShowMapSpriteClick
+    end
+    object miPopupShowItemCard: TMenuItem
+      Caption = 'Show Item card'
+      OnClick = miPopupShowItemCardClick
+    end
+    object miPopupShowMobCard: TMenuItem
+      Caption = 'Show Monster card'
+      OnClick = miPopupShowMobCardClick
+    end
+  end

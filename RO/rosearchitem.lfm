@@ -1,0 +1,199 @@
+object ROSearchItemForm: TROSearchItemForm
+  Left = 466
+  Height = 631
+  Top = 144
+  Width = 831
+  ClientHeight = 631
+  ClientWidth = 831
+  OnCreate = FormCreate
+  LCLVersion = '2.1.0.0'
+  object cbItemType: TComboBox
+    Left = 8
+    Height = 23
+    Top = 20
+    Width = 192
+    ItemHeight = 15
+    OnChange = cbItemTypeChange
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object lblItemType: TLabel
+    Left = 64
+    Height = 15
+    Top = 4
+    Width = 50
+    Caption = 'Item type'
+    ParentColor = False
+  end
+  object lblFrom: TLabel
+    Left = 636
+    Height = 15
+    Top = 4
+    Width = 28
+    Anchors = [akTop, akRight]
+    Caption = 'From'
+    ParentColor = False
+  end
+  object lblTo: TLabel
+    Left = 764
+    Height = 15
+    Top = 4
+    Width = 14
+    Anchors = [akTop, akRight]
+    Caption = 'To'
+    ParentColor = False
+  end
+  object cbItemName: TComboBox
+    Left = 216
+    Height = 23
+    Top = 20
+    Width = 272
+    ItemHeight = 15
+    Sorted = True
+    TabOrder = 1
+  end
+  object lblItemName: TLabel
+    Left = 272
+    Height = 15
+    Top = 4
+    Width = 59
+    Caption = 'Item Name'
+    ParentColor = False
+  end
+  object edEffect: TEdit
+    Left = 216
+    Height = 23
+    Top = 80
+    Width = 198
+    TabOrder = 2
+  end
+  object lblEffect: TLabel
+    Left = 216
+    Height = 15
+    Top = 64
+    Width = 30
+    Caption = 'Script'
+    ParentColor = False
+  end
+  object clbJob: TCheckListBox
+    Left = 8
+    Height = 266
+    Top = 152
+    Width = 198
+    ItemHeight = 0
+    TabOrder = 3
+  end
+  object clbWeaponType: TCheckListBox
+    Left = 216
+    Height = 266
+    Top = 152
+    Width = 198
+    ItemHeight = 0
+    OnClickCheck = clbWeaponClickCheck
+    TabOrder = 5
+  end
+  object btnSearch: TButton
+    Left = 125
+    Height = 25
+    Top = 118
+    Width = 75
+    Caption = 'Search'
+    Default = True
+    OnClick = btnSearchClick
+    TabOrder = 10
+  end
+  object sgSearchResult: TStringGrid
+    Left = 8
+    Height = 186
+    Top = 440
+    Width = 813
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    AutoEdit = False
+    AutoFillColumns = True
+    ColCount = 1
+    ColumnClickSorts = True
+    FixedCols = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing, goRowSelect, goThumbTracking, goDblClickAutoSize, goSmoothScroll]
+    RowCount = 1
+    TabOrder = 11
+    OnCompareCells = sgSearchResultCompareCells
+    OnDblClick = sgSearchResultDblClick
+    OnDrawCell = sgSearchResultDrawCell
+    ColWidths = (
+      809
+    )
+  end
+  object lblFound: TLabel
+    Left = 8
+    Height = 1
+    Top = 424
+    Width = 1
+    ParentColor = False
+  end
+  object cbDropped: TCheckBox
+    Left = 216
+    Height = 19
+    Top = 124
+    Width = 142
+    AllowGrayed = True
+    Caption = 'Dropped from Monster'
+    TabOrder = 4
+  end
+  object clbEquipType: TCheckListBox
+    Left = 422
+    Height = 124
+    Top = 294
+    Width = 198
+    ItemHeight = 0
+    OnClickCheck = clbClickCheck
+    TabOrder = 6
+  end
+  object clbHeadgear: TCheckListBox
+    Left = 628
+    Height = 58
+    Top = 360
+    Width = 120
+    ItemHeight = 0
+    OnClickCheck = clbClickCheck
+    TabOrder = 9
+  end
+  object cbHeadgear: TCheckBox
+    Left = 628
+    Height = 19
+    Top = 340
+    Width = 20
+    AllowGrayed = True
+    OnClick = cbHeadgearClick
+    State = cbGrayed
+    TabOrder = 8
+  end
+  object cbCostume: TCheckBox
+    Left = 628
+    Height = 19
+    Top = 310
+    Width = 68
+    AllowGrayed = True
+    Caption = 'Costume'
+    OnClick = clbClickCheck
+    State = cbGrayed
+    TabOrder = 7
+  end
+  object edId: TEdit
+    Left = 120
+    Height = 23
+    Top = 80
+    Width = 80
+    NumbersOnly = True
+    TabOrder = 12
+  end
+  object lblId: TLabel
+    Left = 120
+    Height = 15
+    Top = 64
+    Width = 80
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Id'
+    ParentColor = False
+  end
+end

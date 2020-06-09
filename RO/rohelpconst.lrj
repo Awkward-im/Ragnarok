@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":218993748,"name":"trodictconstform.caption","sourcebytes":[67,111,110,115,116,97,110,116,115,32,108,105,115,116],"value":"Constants list"},
+{"hash":251708116,"name":"trodictconstform.lblconstpart.caption","sourcebytes":[67,111,110,115,116,97,110,116,32,80,97,114,116],"value":"Constant Part"},
+{"hash":251960036,"name":"trodictconstform.lblconstlist.caption","sourcebytes":[67,111,110,115,116,97,110,116,32,108,105,115,116],"value":"Constant list"}
+]}

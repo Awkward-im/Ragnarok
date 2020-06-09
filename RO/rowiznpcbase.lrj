@@ -1,0 +1,19 @@
+{"version":1,"strings":[
+{"hash":72696581,"name":"tnpcbase.lnpcname.caption","sourcebytes":[78,80,67,32,78,97,109,101],"value":"NPC Name"},
+{"hash":217933812,"name":"tnpcbase.lnpcmap.caption","sourcebytes":[77,97,112,32,32,45,32,78,80,67,32,112,108,97,99,101,109,101,110,116],"value":"Map  - NPC placement"},
+{"hash":265199363,"name":"tnpcbase.gbnpccoord.caption","sourcebytes":[78,80,67,32,67,111,111,114,100,105,110,97,116,101,115],"value":"NPC Coordinates"},
+{"hash":5920611,"name":"tnpcbase.lxpos.caption","sourcebytes":[88,32,80,111,115],"value":"X Pos"},
+{"hash":5986147,"name":"tnpcbase.lypos.caption","sourcebytes":[89,32,80,111,115],"value":"Y Pos"},
+{"hash":94553333,"name":"tnpcbase.lnpcsprite.caption","sourcebytes":[78,80,67,32,83,112,114,105,116,101],"value":"NPC Sprite"},
+{"hash":113421335,"name":"tnpcbase.groupbox1.caption","sourcebytes":[78,80,67,32,102,97,99,105,110,103],"value":"NPC facing"},
+{"hash":48,"name":"tnpcbase.lrb0.caption","sourcebytes":[48],"value":"0"},
+{"hash":49,"name":"tnpcbase.rb1.caption","sourcebytes":[49],"value":"1"},
+{"hash":50,"name":"tnpcbase.rb2.caption","sourcebytes":[50],"value":"2"},
+{"hash":51,"name":"tnpcbase.rb3.caption","sourcebytes":[51],"value":"3"},
+{"hash":52,"name":"tnpcbase.lrb4.caption","sourcebytes":[52],"value":"4"},
+{"hash":53,"name":"tnpcbase.rb5.caption","sourcebytes":[53],"value":"5"},
+{"hash":54,"name":"tnpcbase.rb6.caption","sourcebytes":[54],"value":"6"},
+{"hash":55,"name":"tnpcbase.rb7.caption","sourcebytes":[55],"value":"7"},
+{"hash":84253844,"name":"tnpcbase.btninsert.caption","sourcebytes":[73,110,115,101,114,116],"value":"Insert"},
+{"hash":122961747,"name":"tnpcbase.cbnpcnames.caption","sourcebytes":[85,115,101,32,78,97,109,101,115],"value":"Use Names"}
+]}

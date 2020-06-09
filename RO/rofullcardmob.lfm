@@ -1,0 +1,833 @@
+object ROFullCardMobForm: TROFullCardMobForm
+  Left = 499
+  Height = 510
+  Top = 203
+  Width = 724
+  ClientHeight = 510
+  ClientWidth = 724
+  Constraints.MinHeight = 510
+  Constraints.MinWidth = 724
+  OnClose = FormClose
+  LCLVersion = '1.9.0.0'
+  object ImgMobSprite: TImage
+    Left = 8
+    Height = 128
+    Top = 8
+    Width = 128
+    Center = True
+    Proportional = True
+    Stretch = True
+  end
+  object lblIROName: TLabel
+    AnchorSideRight.Control = edIROName
+    Left = 155
+    Height = 15
+    Top = 12
+    Width = 54
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 5
+    Caption = 'iRO Name'
+    ParentColor = False
+  end
+  object edIROName: TEdit
+    Left = 214
+    Height = 23
+    Top = 8
+    Width = 350
+    OnChange = SomethingChanged
+    ReadOnly = True
+    TabOrder = 0
+    Text = 'Monster not found'
+  end
+  object edLevel: TEdit
+    Left = 624
+    Height = 23
+    Top = 8
+    Width = 96
+    Alignment = taCenter
+    Anchors = [akTop, akRight]
+    Enabled = False
+    NumbersOnly = True
+    OnChange = SomethingChanged
+    TabOrder = 4
+  end
+  object lblLevel: TLabel
+    AnchorSideRight.Control = edLevel
+    Left = 592
+    Height = 15
+    Top = 12
+    Width = 27
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 5
+    Caption = 'Level'
+    ParentColor = False
+  end
+  object edBaseEXP: TEdit
+    Left = 214
+    Height = 23
+    Top = 96
+    Width = 96
+    Alignment = taCenter
+    Enabled = False
+    NumbersOnly = True
+    OnChange = SomethingChanged
+    TabOrder = 7
+  end
+  object lblBaseEXP: TLabel
+    AnchorSideRight.Control = edBaseEXP
+    Left = 164
+    Height = 15
+    Top = 100
+    Width = 45
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 5
+    Caption = 'Base Exp'
+    ParentColor = False
+  end
+  object edBaseJEXP: TEdit
+    Left = 214
+    Height = 23
+    Top = 126
+    Width = 96
+    Alignment = taCenter
+    Enabled = False
+    NumbersOnly = True
+    OnChange = SomethingChanged
+    TabOrder = 8
+  end
+  object lblBaseJEXP: TLabel
+    AnchorSideRight.Control = edBaseJEXP
+    Left = 170
+    Height = 15
+    Top = 130
+    Width = 39
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 5
+    Caption = 'Job Exp'
+    ParentColor = False
+  end
+  object lblScale: TLabel
+    AnchorSideRight.Control = cbScale
+    Left = 599
+    Height = 15
+    Top = 40
+    Width = 20
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 5
+    Caption = 'Size'
+    ParentColor = False
+  end
+  object lblRace: TLabel
+    AnchorSideRight.Control = cbRace
+    Left = 534
+    Height = 15
+    Top = 100
+    Width = 25
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 5
+    Caption = 'Race'
+    ParentColor = False
+  end
+  object lblElement: TLabel
+    AnchorSideRight.Control = cbElement
+    Left = 516
+    Height = 15
+    Top = 130
+    Width = 43
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 5
+    Caption = 'Element'
+    ParentColor = False
+  end
+  object gbStats: TGroupBox
+    Left = 8
+    Height = 112
+    Top = 192
+    Width = 200
+    ClientHeight = 92
+    ClientWidth = 196
+    TabOrder = 17
+    object edSTR: TEdit
+      Left = 40
+      Height = 23
+      Top = 0
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 0
+    end
+    object lblSTR: TLabel
+      Left = 8
+      Height = 15
+      Top = 4
+      Width = 20
+      Caption = 'STR'
+      ParentColor = False
+    end
+    object edAGI: TEdit
+      Left = 40
+      Height = 23
+      Top = 32
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 1
+    end
+    object lblAGI: TLabel
+      Left = 9
+      Height = 15
+      Top = 36
+      Width = 19
+      Caption = 'AGI'
+      ParentColor = False
+    end
+    object edVIT: TEdit
+      Left = 40
+      Height = 23
+      Top = 64
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 2
+    end
+    object lblVIT: TLabel
+      Left = 11
+      Height = 15
+      Top = 68
+      Width = 17
+      Caption = 'VIT'
+      ParentColor = False
+    end
+    object edINT: TEdit
+      Left = 136
+      Height = 23
+      Top = 0
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 3
+    end
+    object lblINT: TLabel
+      Left = 106
+      Height = 15
+      Top = 4
+      Width = 19
+      Caption = 'INT'
+      ParentColor = False
+    end
+    object edDEX: TEdit
+      Left = 136
+      Height = 23
+      Top = 32
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 4
+    end
+    object lblDEX: TLabel
+      Left = 104
+      Height = 15
+      Top = 36
+      Width = 21
+      Caption = 'DEX'
+      ParentColor = False
+    end
+    object edLUK: TEdit
+      Left = 136
+      Height = 23
+      Top = 64
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 5
+    end
+    object lblLUK: TLabel
+      Left = 104
+      Height = 15
+      Top = 68
+      Width = 21
+      Caption = 'LUK'
+      ParentColor = False
+    end
+  end
+  object gbDEFATK: TGroupBox
+    Left = 8
+    Height = 88
+    Top = 304
+    Width = 200
+    ClientHeight = 68
+    ClientWidth = 196
+    TabOrder = 18
+    object edATK1: TEdit
+      Left = 56
+      Height = 23
+      Top = 4
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 0
+    end
+    object lblATK1: TLabel
+      Left = 8
+      Height = 15
+      Top = 8
+      Width = 42
+      Caption = 'Min Atk'
+      ParentColor = False
+    end
+    object edATK2: TEdit
+      Left = 56
+      Height = 23
+      Top = 36
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 1
+    end
+    object lblATK2: TLabel
+      Left = 7
+      Height = 15
+      Top = 40
+      Width = 43
+      Caption = 'Max Atk'
+      ParentColor = False
+    end
+    object edDEF: TEdit
+      Left = 144
+      Height = 23
+      Top = 4
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 2
+    end
+    object lblDEF: TLabel
+      Left = 123
+      Height = 15
+      Top = 8
+      Width = 18
+      Caption = 'Def'
+      ParentColor = False
+    end
+    object edMDEF: TEdit
+      Left = 144
+      Height = 23
+      Top = 36
+      Width = 48
+      Alignment = taCenter
+      Enabled = False
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      TabOrder = 3
+    end
+    object lblMDEF: TLabel
+      Left = 112
+      Height = 15
+      Top = 40
+      Width = 29
+      Caption = 'MDef'
+      ParentColor = False
+    end
+  end
+  object lblHP: TLabel
+    Left = 336
+    Height = 15
+    Top = 100
+    Width = 16
+    Alignment = taRightJustify
+    Caption = 'HP'
+    ParentColor = False
+  end
+  object edHP: TEdit
+    Left = 358
+    Height = 23
+    Top = 96
+    Width = 96
+    Alignment = taCenter
+    Enabled = False
+    NumbersOnly = True
+    OnChange = SomethingChanged
+    TabOrder = 9
+  end
+  object lblSP: TLabel
+    Left = 339
+    Height = 15
+    Top = 130
+    Width = 13
+    Alignment = taRightJustify
+    Caption = 'SP'
+    ParentColor = False
+  end
+  object edSP: TEdit
+    Left = 358
+    Height = 23
+    Top = 126
+    Width = 96
+    Alignment = taCenter
+    Enabled = False
+    NumbersOnly = True
+    OnChange = SomethingChanged
+    TabOrder = 10
+  end
+  object lblKROName: TLabel
+    AnchorSideRight.Control = edKROName
+    Left = 152
+    Height = 15
+    Top = 40
+    Width = 57
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 5
+    Caption = 'kRO Name'
+    ParentColor = False
+  end
+  object edKROName: TEdit
+    Left = 214
+    Height = 23
+    Top = 36
+    Width = 350
+    OnChange = SomethingChanged
+    ReadOnly = True
+    TabOrder = 1
+    Text = 'Monster not found'
+  end
+  object edAEName: TEdit
+    Left = 358
+    Height = 23
+    Top = 64
+    Width = 206
+    OnChange = SomethingChanged
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object lblKROName1: TLabel
+    AnchorSideRight.Control = edAEName
+    Left = 304
+    Height = 15
+    Top = 68
+    Width = 49
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 5
+    Caption = 'AE Name'
+    ParentColor = False
+  end
+  object edID: TEdit
+    Left = 214
+    Height = 23
+    Top = 64
+    Width = 71
+    NumbersOnly = True
+    OnChange = SomethingChanged
+    TabOrder = 2
+  end
+  object lblID: TLabel
+    Left = 198
+    Height = 15
+    Top = 68
+    Width = 11
+    Caption = 'ID'
+    ParentColor = False
+  end
+  object cbScale: TComboBox
+    Left = 624
+    Height = 23
+    Top = 36
+    Width = 96
+    Anchors = [akTop, akRight]
+    ItemHeight = 15
+    OnChange = SomethingChanged
+    Style = csDropDownList
+    TabOrder = 5
+  end
+  object cbElement: TComboBox
+    Left = 564
+    Height = 23
+    Top = 126
+    Width = 118
+    Anchors = [akTop, akRight]
+    ItemHeight = 15
+    OnChange = SomethingChanged
+    Style = csDropDownList
+    TabOrder = 12
+  end
+  object cbRace: TComboBox
+    Left = 564
+    Height = 23
+    Top = 96
+    Width = 156
+    Anchors = [akTop, akRight]
+    ItemHeight = 15
+    OnChange = SomethingChanged
+    Style = csDropDownList
+    TabOrder = 11
+  end
+  object cbElementLevel: TComboBox
+    Left = 686
+    Height = 23
+    Top = 126
+    Width = 34
+    Anchors = [akTop, akRight]
+    ItemHeight = 15
+    OnChange = SomethingChanged
+    Style = csDropDownList
+    TabOrder = 13
+  end
+  object edMVPEXP: TEdit
+    Left = 214
+    Height = 23
+    Top = 158
+    Width = 96
+    Alignment = taCenter
+    Enabled = False
+    NumbersOnly = True
+    OnChange = SomethingChanged
+    TabOrder = 16
+  end
+  object lvlMVPEXP: TLabel
+    AnchorSideRight.Control = edMVPEXP
+    Left = 163
+    Height = 15
+    Top = 162
+    Width = 46
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 5
+    Caption = 'MVP Exp'
+    ParentColor = False
+  end
+  object edSpeed: TEdit
+    Left = 230
+    Height = 23
+    Hint = 'Walk speed of the monster'#13#10'1 = Fastest'#13#10'100 = Normal'#13#10'1000 = Slowest'
+    Top = 358
+    Width = 96
+    Alignment = taCenter
+    Enabled = False
+    NumbersOnly = True
+    OnChange = SomethingChanged
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 20
+  end
+  object lblSpeed: TLabel
+    Left = 230
+    Height = 15
+    Top = 342
+    Width = 96
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Speed'
+    ParentColor = False
+  end
+  object edaDelay: TEdit
+    Left = 8
+    Height = 23
+    Hint = 'Attack Delay of the monster, also known as ASPD.'#13#10'Low value means faster attack speed, but don''t make it too low or'#13#10'it will lag when a player got mobbed by several of these mobs.'
+    Top = 412
+    Width = 96
+    Alignment = taCenter
+    Enabled = False
+    NumbersOnly = True
+    OnChange = SomethingChanged
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 21
+  end
+  object lblaDelay: TLabel
+    Left = 8
+    Height = 15
+    Top = 396
+    Width = 96
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'aDelay'
+    ParentColor = False
+  end
+  object edaMotion: TEdit
+    Left = 112
+    Height = 23
+    Hint = 'Attack animation motion.'#13#10'Low value means monster''s attack will be displayed in higher fps'#13#10'(making it shorter, too)'
+    Top = 412
+    Width = 96
+    Alignment = taCenter
+    Enabled = False
+    NumbersOnly = True
+    OnChange = SomethingChanged
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 22
+  end
+  object lblaMotion: TLabel
+    Left = 112
+    Height = 15
+    Top = 396
+    Width = 96
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'aMotion'
+    ParentColor = False
+  end
+  object eddMotion: TEdit
+    Left = 230
+    Height = 23
+    Hint = 'Damage animation motion,'#13#10'same as aMotion but used to display the "I am hit" animation.'#13#10'Coincidentally, this same value is used to determine how long'#13#10'it is before the monster/player can move again.'#13#10'Endure is dMotion = 0, obviously.'
+    Top = 412
+    Width = 96
+    Alignment = taCenter
+    Enabled = False
+    NumbersOnly = True
+    OnChange = SomethingChanged
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 23
+  end
+  object lbldMotion: TLabel
+    Left = 230
+    Height = 15
+    Top = 396
+    Width = 96
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'dMotion'
+    ParentColor = False
+  end
+  object edMode: TEdit
+    Left = 6
+    Height = 23
+    Top = 158
+    Width = 112
+    Alignment = taCenter
+    Enabled = False
+    NumbersOnly = True
+    OnChange = edModeChange
+    TabOrder = 14
+  end
+  object lblMode: TLabel
+    Left = 8
+    Height = 15
+    Top = 142
+    Width = 128
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Mode'
+    ParentColor = False
+  end
+  object sgDrop: TStringGrid
+    Left = 339
+    Height = 345
+    Top = 158
+    Width = 381
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    AutoAdvance = aaNone
+    AutoFillColumns = True
+    ColCount = 4
+    Columns = <    
+      item
+        Alignment = taCenter
+        SizePriority = 0
+        Title.Alignment = taCenter
+        Title.Caption = 'ID'
+        Width = 64
+      end    
+      item
+        Alignment = taCenter
+        ReadOnly = True
+        Title.Alignment = taCenter
+        Title.Caption = 'Name'
+        Width = 219
+      end    
+      item
+        Alignment = taCenter
+        SizePriority = 0
+        Title.Alignment = taCenter
+        Title.Caption = 'Rate'
+        Width = 48
+      end>
+    DefaultColWidth = 46
+    ExtendedSelect = False
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll, goFixedColSizing]
+    RowCount = 14
+    TabOrder = 24
+    OnDblClick = sgDropDblClick
+    OnDrawCell = sgDropDrawCell
+    OnEditingDone = sgDropEditingDone
+    ColWidths = (
+      46
+      64
+      219
+      48
+    )
+  end
+  object gbRange: TGroupBox
+    Left = 214
+    Height = 128
+    Top = 192
+    Width = 122
+    Caption = 'Range'
+    ClientHeight = 108
+    ClientWidth = 118
+    TabOrder = 19
+    object edRange1: TEdit
+      Left = 14
+      Height = 23
+      Hint = 'Range of the monster attack. If set to 1 or 2, it will be set to melee attack.'#13#10'If set to 3 or more, it will be set to ranged attack.'
+      Top = 0
+      Width = 96
+      Alignment = taCenter
+      Enabled = False
+      NumbersOnly = True
+      OnChange = edRange1Change
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 0
+    end
+    object edRange2: TEdit
+      Left = 14
+      Height = 23
+      Hint = 'Maximum Skill Range.'
+      Top = 48
+      Width = 96
+      Alignment = taCenter
+      Enabled = False
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 1
+    end
+    object edRange3: TEdit
+      Left = 14
+      Height = 23
+      Hint = 'Sight limit of the monster. If set to 1000 or beyond,'#13#10'the monster will follow you all over the map.'
+      Top = 80
+      Width = 96
+      Alignment = taCenter
+      Enabled = False
+      NumbersOnly = True
+      OnChange = SomethingChanged
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 2
+    end
+    object lblRange3: TLabel
+      Left = 4
+      Height = 15
+      Top = 84
+      Width = 6
+      Caption = '3'
+      ParentColor = False
+    end
+    object lblRange2: TLabel
+      Left = 4
+      Height = 15
+      Top = 52
+      Width = 6
+      Caption = '2'
+      ParentColor = False
+    end
+    object lblRange1: TLabel
+      Left = 4
+      Height = 15
+      Top = 4
+      Width = 6
+      Caption = '1'
+      ParentColor = False
+    end
+    object lblRange: TLabel
+      Left = 14
+      Height = 15
+      Top = 24
+      Width = 96
+      Alignment = taCenter
+      AutoSize = False
+      ParentColor = False
+    end
+  end
+  object bbOK: TBitBtn
+    Left = 8
+    Height = 30
+    Top = 473
+    Width = 96
+    Anchors = [akLeft, akBottom]
+    Caption = '&Save'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = bbOKClick
+    TabOrder = 25
+  end
+  object bbClose: TBitBtn
+    Left = 112
+    Height = 30
+    Top = 473
+    Width = 96
+    Anchors = [akLeft, akBottom]
+    Caption = '&Close'
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 26
+  end
+  object tbReadOnly: TToggleBox
+    Left = 230
+    Height = 30
+    Top = 473
+    Width = 96
+    Anchors = [akLeft, akBottom]
+    Caption = 'Read Only'
+    OnClick = tbReadOnlyClick
+    TabOrder = 27
+  end
+  object btnJobMode: TButton
+    AnchorSideLeft.Side = asrBottom
+    Left = 120
+    Height = 23
+    Top = 158
+    Width = 18
+    BorderSpacing.Left = 2
+    Caption = '...'
+    OnClick = bbModeClick
+    TabOrder = 15
+  end
+  object tbOFF: TToggleBox
+    Left = 672
+    Height = 25
+    Top = 64
+    Width = 48
+    Anchors = [akTop, akRight]
+    Caption = 'OFF'
+    TabOrder = 28
+  end
+  object btnMap: TButton
+    Left = 624
+    Height = 25
+    Top = 64
+    Width = 48
+    Caption = 'Map'
+    OnClick = btnMapClick
+    TabOrder = 6
+  end
+end

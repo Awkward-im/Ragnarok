@@ -1,0 +1,15 @@
+{"version":1,"strings":[
+{"hash":123163700,"name":"tquestdblineform.ltimelimit.caption","sourcebytes":[84,105,109,101,32,76,105,109,105,116],"value":"Time Limit"},
+{"hash":176741603,"name":"tquestdblineform.gbtarget.caption","sourcebytes":[84,97,114,103,101,116,115],"value":"Targets"},
+{"hash":94932420,"name":"tquestdblineform.ltarget1.caption","sourcebytes":[84,97,114,103,101,116],"value":"Target"},
+{"hash":75787348,"name":"tquestdblineform.ltarget2.caption","sourcebytes":[65,109,111,117,110,116],"value":"Amount"},
+{"hash":5286979,"name":"tquestdblineform.groupbox1.caption","sourcebytes":[73,116,101,109,115],"value":"Items"},
+{"hash":88425684,"name":"tquestdblineform.lmobid1.caption","sourcebytes":[77,111,98,32,73,68],"value":"Mob ID"},
+{"hash":11269252,"name":"tquestdblineform.lmobid2.caption","sourcebytes":[73,116,101,109,32,73,68],"value":"Item ID"},
+{"hash":362661,"name":"tquestdblineform.lmobid3.caption","sourcebytes":[82,97,116,101],"value":"Rate"},
+{"hash":103004037,"name":"tquestdblineform.lquesttitle.caption","sourcebytes":[81,117,101,115,116,32,116,105,116,108,101],"value":"Quest title"},
+{"hash":208052597,"name":"tquestdblineform.btngetcode.caption","sourcebytes":[71,101,116,32,99,111,100,101],"value":"Get code"},
+{"hash":197812564,"name":"tquestdblineform.lquestid.caption","sourcebytes":[81,117,101,115,116,32,73,68],"value":"Quest ID"},
+{"hash":366789,"name":"tquestdblineform.btnsave.caption","sourcebytes":[83,97,118,101],"value":"Save"},
+{"hash":63,"name":"tquestdblineform.btnhelp.caption","sourcebytes":[63],"value":"?"}
+]}

@@ -1,0 +1,148 @@
+object ROSearchMobForm: TROSearchMobForm
+  Left = 490
+  Height = 653
+  Top = 161
+  Width = 884
+  ClientHeight = 653
+  ClientWidth = 884
+  OnCreate = FormCreate
+  LCLVersion = '2.1.0.0'
+  object sgSearchResult: TStringGrid
+    Left = 8
+    Height = 288
+    Top = 360
+    Width = 866
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    AutoEdit = False
+    AutoFillColumns = True
+    ColCount = 1
+    ColumnClickSorts = True
+    FixedCols = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing, goRowSelect, goThumbTracking, goDblClickAutoSize, goSmoothScroll]
+    RowCount = 1
+    TabOrder = 5
+    OnCompareCells = sgSearchResultCompareCells
+    OnDblClick = sgSearchResultDblClick
+    ColWidths = (
+      862
+    )
+  end
+  object lblFrom: TLabel
+    Left = 650
+    Height = 15
+    Top = 8
+    Width = 28
+    Anchors = [akTop, akRight]
+    Caption = 'From'
+    ParentColor = False
+  end
+  object lblTo: TLabel
+    Left = 770
+    Height = 15
+    Top = 8
+    Width = 14
+    Anchors = [akTop, akRight]
+    Caption = 'To'
+    ParentColor = False
+  end
+  object lblRace: TLabel
+    Left = 73
+    Height = 15
+    Top = 68
+    Width = 25
+    Caption = 'Race'
+    ParentColor = False
+  end
+  object lblElement: TLabel
+    Left = 225
+    Height = 15
+    Top = 68
+    Width = 43
+    Caption = 'Element'
+    ParentColor = False
+  end
+  object lblSize: TLabel
+    Left = 361
+    Height = 15
+    Top = 68
+    Width = 20
+    Caption = 'Size'
+    ParentColor = False
+  end
+  object btnSearch: TButton
+    Left = 17
+    Height = 25
+    Top = 304
+    Width = 75
+    Caption = 'Search'
+    Default = True
+    OnClick = btnSearchClick
+    TabOrder = 4
+  end
+  object lblFound: TLabel
+    Left = 13
+    Height = 1
+    Top = 340
+    Width = 1
+    ParentColor = False
+  end
+  object cbMobName: TComboBox
+    Left = 16
+    Height = 23
+    Top = 32
+    Width = 361
+    ItemHeight = 15
+    Sorted = True
+    TabOrder = 0
+  end
+  object lblMobName: TLabel
+    Left = 17
+    Height = 15
+    Top = 9
+    Width = 79
+    Caption = 'Monster Name'
+    ParentColor = False
+  end
+  object clbRace: TCheckListBox
+    Left = 17
+    Height = 196
+    Top = 88
+    Width = 144
+    ItemHeight = 0
+    TabOrder = 1
+  end
+  object clbElement: TCheckListBox
+    Left = 176
+    Height = 196
+    Top = 88
+    Width = 131
+    ItemHeight = 0
+    TabOrder = 2
+  end
+  object clbSize: TCheckListBox
+    Left = 320
+    Height = 72
+    Top = 88
+    Width = 109
+    ItemHeight = 0
+    TabOrder = 3
+  end
+  object lblId: TLabel
+    Left = 384
+    Height = 15
+    Top = 9
+    Width = 80
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Id'
+    ParentColor = False
+  end
+  object edId: TEdit
+    Left = 384
+    Height = 23
+    Top = 32
+    Width = 80
+    NumbersOnly = True
+    TabOrder = 6
+  end
+end

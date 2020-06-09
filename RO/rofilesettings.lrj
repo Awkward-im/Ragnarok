@@ -1,0 +1,13 @@
+{"version":1,"strings":[
+{"hash":61568105,"name":"trosettingsform.lbldatadir.caption","sourcebytes":[67,104,111,111,115,101,32,82,65,116,104,101,110,97,32,100,105,114,101,99,116,111,114,121,32,40,101,109,112,116,121,32,102,111,114,32,100,101,102,97,117,108,116,41],"value":"Choose RAthena directory (empty for default)"},
+{"hash":44595001,"name":"trosettingsform.bbapply.caption","sourcebytes":[38,65,112,112,108,121],"value":"&Apply"},
+{"hash":12558,"name":"trosettingsform.ebdatadir.buttoncaption","sourcebytes":[46,46,46],"value":"..."},
+{"hash":17099284,"name":"trosettingsform.cbfullcard.caption","sourcebytes":[83,104,111,119,32,70,117,108,108,32,105,116,101,109,47,109,111,110,115,116,101,114,32,99,97,114,100],"value":"Show Full item/monster card"},
+{"hash":16495235,"name":"trosettingsform.cballowedit.caption","sourcebytes":[65,108,108,111,119,32,101,100,105,116,32,99,97,114,100,115],"value":"Allow edit cards"},
+{"hash":157999710,"name":"trosettingsform.cbautoloadlocal.caption","sourcebytes":[65,117,116,111,32,108,111,97,100,32,108,111,99,97,108,105,122,97,116,105,111,110],"value":"Auto load localization"},
+{"hash":200203024,"name":"trosettingsform.cbwincpfiles.caption","sourcebytes":[65,115,115,117,109,101,32,102,105,108,101,115,32,97,114,101,32,67,80,95,65,67,80],"value":"Assume files are CP_ACP"},
+{"hash":109965075,"name":"trosettingsform.cbcommenttodel.caption","sourcebytes":[67,111,109,109,101,110,116,32,109,97,114,107,101,100,32,100,101,108,101,116,101,32,108,105,110,101,115],"value":"Comment marked delete lines"},
+{"hash":226688883,"name":"trosettingsform.cbloadcommented.caption","sourcebytes":[76,111,97,100,32,99,111,109,109,101,110,116,101,100,32,73,116,101,109,115,47,77,111,110,115,116,101,114,115],"value":"Load commented Items/Monsters"},
+{"hash":212441429,"name":"trosettingsform.lblscheme.caption","sourcebytes":[72,105,103,104,108,105,103,104,116,101,114,32,115,99,104,101,109,101],"value":"Highlighter scheme"},
+{"hash":181844979,"name":"trosettingsform.cbautoaddscheme.caption","sourcebytes":[65,117,116,111,32,97,100,100,32,108,111,97,100,101,100,32,115,99,104,101,109,101,115],"value":"Auto add loaded schemes"}
+]}

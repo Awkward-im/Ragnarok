@@ -1,0 +1,20 @@
+{"version":1,"strings":[
+{"hash":5073153,"name":"tform1.caption","sourcebytes":[70,111,114,109,49],"value":"Form1"},
+{"hash":46662051,"name":"tform1.label1.caption","sourcebytes":[84,111,116,97,108,32,48,32,114,101,99,111,114,100,115],"value":"Total 0 records"},
+{"hash":223849260,"name":"tform1.label4.caption","sourcebytes":[80,97,99,107,32,76,101,118,101,108],"value":"Pack Level"},
+{"hash":2844350,"name":"tform1.btopen.caption","sourcebytes":[38,79,112,101,110],"value":"&Open"},
+{"hash":147284626,"name":"tform1.btsavedir.caption","sourcebytes":[38,83,97,118,101,32,68,105,114],"value":"&Save Dir"},
+{"hash":4710148,"name":"tform1.btexit.caption","sourcebytes":[69,38,120,105,116],"value":"E&xit"},
+{"hash":217810180,"name":"tform1.btextract.caption","sourcebytes":[38,69,120,116,114,97,99,116],"value":"&Extract"},
+{"hash":64802308,"name":"tform1.btsortmode.caption","sourcebytes":[83,111,114,116,32,38,66,121,32,84,101,120,116],"value":"Sort &By Text"},
+{"hash":89971140,"name":"tform1.stringgrid1.columns[0].title.caption","sourcebytes":[79,102,102,115,101,116],"value":"Offset"},
+{"hash":90677684,"name":"tform1.stringgrid1.columns[1].title.caption","sourcebytes":[80,97,99,107,101,100],"value":"Packed"},
+{"hash":90678388,"name":"tform1.stringgrid1.columns[2].title.caption","sourcebytes":[85,110,112,97,99,107,101,100],"value":"Unpacked"},
+{"hash":41356085,"name":"tform1.stringgrid1.columns[3].title.caption","sourcebytes":[70,105,108,101,32,110,97,109,101],"value":"File name"},
+{"hash":4294967295,"name":"tform1.stringgrid1.columns[4].title.caption","sourcebytes":[],"value":""},
+{"hash":147382805,"name":"tform1.btupdate.caption","sourcebytes":[38,85,112,100,97,116,101,32,66,97,115,101],"value":"&Update Base"},
+{"hash":205545906,"name":"tform1.cbdumpdir.caption","sourcebytes":[32,38,68,117,109,112,32,68,105,114],"value":" &Dump Dir"},
+{"hash":167703668,"name":"tform1.btsearchnext.caption","sourcebytes":[83,101,97,114,99,104,32,78,101,120,116],"value":"Search Next"},
+{"hash":165007998,"name":"tform1.btupdatedir.caption","sourcebytes":[68,105,115,107,32,83,99,97,110],"value":"Disk Scan"},
+{"hash":163073224,"name":"tform1.edsearch.editlabel.caption","sourcebytes":[83,101,97,114,38,99,104],"value":"Sear&ch"}
+]}

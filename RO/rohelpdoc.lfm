@@ -1,0 +1,67 @@
+object ROHelpDocForm: TROHelpDocForm
+  Left = 414
+  Height = 541
+  Top = 131
+  Width = 642
+  ClientHeight = 541
+  ClientWidth = 642
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.9.0.0'
+  object cbROPart: TComboBox
+    Left = 8
+    Height = 23
+    Top = 24
+    Width = 288
+    ItemHeight = 15
+    OnChange = cbROPartChange
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object cbROCard: TComboBox
+    AnchorSideLeft.Control = cbROPart
+    AnchorSideLeft.Side = asrBottom
+    Left = 308
+    Height = 23
+    Top = 24
+    Width = 324
+    BorderSpacing.Left = 12
+    ItemHeight = 15
+    OnChange = cbROCardChange
+    Sorted = True
+    Style = csDropDownList
+    TabOrder = 1
+  end
+  object memCard: TMemo
+    Left = 8
+    Height = 474
+    Top = 58
+    Width = 624
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 2
+  end
+  object lPart: TLabel
+    Left = 8
+    Height = 15
+    Top = 8
+    Width = 288
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Part'
+    ParentColor = False
+  end
+  object lblValue: TLabel
+    AnchorSideLeft.Control = lPart
+    AnchorSideLeft.Side = asrBottom
+    Left = 308
+    Height = 15
+    Top = 8
+    Width = 324
+    Alignment = taCenter
+    AutoSize = False
+    BorderSpacing.Left = 12
+    ParentColor = False
+  end
+end

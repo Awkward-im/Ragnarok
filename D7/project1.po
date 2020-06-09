@@ -1,0 +1,76 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tform1.btexit.caption
+msgid "E&xit"
+msgstr ""
+
+#: tform1.btextract.caption
+msgid "&Extract"
+msgstr ""
+
+#: tform1.btopen.caption
+msgid "&Open"
+msgstr ""
+
+#: tform1.btsavedir.caption
+msgid "&Save Dir"
+msgstr ""
+
+#: tform1.btsearchnext.caption
+msgid "Search Next"
+msgstr ""
+
+#: tform1.btsortmode.caption
+msgid "Sort &By Text"
+msgstr ""
+
+#: tform1.btupdate.caption
+msgid "&Update Base"
+msgstr ""
+
+#: tform1.btupdatedir.caption
+msgid "Disk Scan"
+msgstr ""
+
+#: tform1.caption
+msgid "Form1"
+msgstr ""
+
+#: tform1.cbdumpdir.caption
+msgid " &Dump Dir"
+msgstr ""
+
+#: tform1.edsearch.editlabel.caption
+msgctxt "tform1.edsearch.editlabel.caption"
+msgid "Sear&ch"
+msgstr ""
+
+#: tform1.label1.caption
+msgid "Total 0 records"
+msgstr ""
+
+#: tform1.label4.caption
+msgid "Pack Level"
+msgstr ""
+
+#: tform1.stringgrid1.columns[0].title.caption
+msgctxt "tform1.stringgrid1.columns[0].title.caption"
+msgid "Offset"
+msgstr ""
+
+#: tform1.stringgrid1.columns[1].title.caption
+msgctxt "tform1.stringgrid1.columns[1].title.caption"
+msgid "Packed"
+msgstr ""
+
+#: tform1.stringgrid1.columns[2].title.caption
+msgctxt "tform1.stringgrid1.columns[2].title.caption"
+msgid "Unpacked"
+msgstr ""
+
+#: tform1.stringgrid1.columns[3].title.caption
+msgctxt "tform1.stringgrid1.columns[3].title.caption"
+msgid "File name"
+msgstr ""
+
